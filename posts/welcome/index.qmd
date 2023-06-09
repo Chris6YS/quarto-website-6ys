@@ -1,0 +1,11 @@
+---
+title: "Coming Soon"
+author: "Christina"
+date: "2022-11-18"
+categories: [misc]
+image: /images/soccer2.png
+title-block-banner: soccer2.png
+title-block-banner-color: "white"
+---
+
+Welcome to my blog. Hopefully you'll see some content soon.

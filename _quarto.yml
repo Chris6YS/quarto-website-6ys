@@ -1,0 +1,41 @@
+project:
+  type: website
+
+website:
+  title: "6YS"
+  favicon: "images/soccer2.png"
+  page-footer: 
+    center: |
+      [Contact Christina](mailto:6ysblog@gmail.com)
+    left: |
+      Made with [Quarto](https://quarto.org)
+    background: "black"
+  search: 
+    location: navbar
+    type: overlay
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Projects
+        href: projects.qmd 
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com/6yardscreamers
+      - icon: mastodon
+        href: https://mastodon.skrimmage.com/@Christina
+      - icon: rss
+        href: https://mastodon.skrimmage.com/@Christina
+format:
+  html:
+    theme:
+      light: lux
+      dark: darkly
+    css: styles.css
+    code-link: true
+
+editor: visual
+

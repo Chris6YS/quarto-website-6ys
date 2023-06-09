@@ -1,0 +1,14 @@
+{
+  "hash": "46ba0aefb3a59fc30e41cff489a371d0",
+  "result": {
+    "markdown": "---\ntitle: \"World Cup National Anthems, Emotions & Audio Features\"\nauthor: \"Christina\"\ndate: \"2022-12-06\"\ncategories: [Data Viz, World Cup, ggplot]\nimage: \"plot_banner.png\"\nbibliography: references.bib\ntitle-block-banner: plot_banner.png\ntitle-block-style: default\n---\n\n\nOutburst of emotions in football are common and can be observed by watching players, managers, supporters, and even referees. The emotions revealed at tournaments such as the FIFA World Cup are visible in many situations. On this international stage, the playing of national anthems prior to kick-off frequently evokes strong expressions of emotions and, for some, may represent a unique affect driven experience.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
