@@ -7,6 +7,7 @@ image: "plot1_final.png"
 bibliography: references.bib
 title-block-banner: plot_banner.png
 title-block-style: default
+title-block-banner-color: "black"
 ---
 
 Outbursts of emotions in football are common and can be observed by watching players, managers, supporters, and even referees. The emotions revealed at tournaments such as the FIFA World Cup are visible in many situations. On this international stage, the playing of national anthems prior to kick-off frequently evokes strong expressions of emotions and, for some, may represent a unique affect driven experience.
@@ -38,7 +39,7 @@ The *circumplex model of emotion* developed by James Russell [@russell1980] is a
 
 [^1]: Please note that there are important limitations and criticisms to this model of emotions that go beyond the scope of this article.
 
-<center>![Figure 1. Russell's 2 dimensional model of emotions. Adapted from Russell (1980)](Russell1980_model_annot1.png){width="500"}</center>
+<center>![Figure 1. Russell\'s 2 dimensional model of emotions. Adapted from Russell (1980)](Russell1980_model_annot1.png){width="500"}</center>
 
 ------------------------------------------------------------------------
 

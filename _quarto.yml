@@ -5,6 +5,7 @@ website:
   title: "6YS"
   site-url: https://6yardscreamersnew.netlify.app
   favicon: "images/soccer2.png"
+  twitter-card: true
   page-footer: 
     center: |
       [Contact Christina](mailto:6ysblog@gmail.com)
