@@ -3,6 +3,7 @@ project:
 
 website:
   title: "6YS"
+  site-url: https://6yardscreamersnew.netlify.app
   favicon: "images/soccer2.png"
   page-footer: 
     center: |
@@ -28,7 +29,7 @@ website:
       - icon: mastodon
         href: https://mastodon.skrimmage.com/@Christina
       - icon: rss
-        href: https://mastodon.skrimmage.com/@Christina
+        href: index.xml
 format:
   html:
     theme:

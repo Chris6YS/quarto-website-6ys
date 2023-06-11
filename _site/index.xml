@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>6YS</title>
+<link>https://6yardscreamersnew.netlify.app/index.html</link>
+<atom:link href="https://6yardscreamersnew.netlify.app/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.2.269</generator>
+<lastBuildDate>Tue, 06 Dec 2022 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>World Cup National Anthems, Emotions &amp; Audio Features</title>
+  <dc:creator>Christina</dc:creator>
+  <link>https://6yardscreamersnew.netlify.app/posts/wc_anthems_emotions/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Outbursts of emotions in football are common and can be observed by watching players, managers, supporters, and even referees. The emotions revealed at tournaments such as the FIFA World Cup are visible in many situations. On this international stage, the playing of national anthems prior to kick-off frequently evokes strong expressions of emotions and, for some, may represent a unique affect driven experience.</p>
+<hr>
+<center>
+<blockquote class="twitter-tweet blockquote">
+<p lang="es" dir="ltr">
+</p><p>LA EMOCIÓN DE ALEXIS VEGA EN SU PRIMER MUNDIAL 🇲🇽 ❤<a href="https://twitter.com/hashtag/Qatar2022?src=hash&amp;ref_src=twsrc%5Etfw">#Qatar2022</a> <a href="https://twitter.com/hashtag/FIFAWorldCup?src=hash&amp;ref_src=twsrc%5Etfw">#FIFAWorldCup</a> <a href="https://t.co/FJh64baa8h">pic.twitter.com/FJh64baa8h</a></p>
+<p></p>
+<p>— ESPN.com.mx (<span class="citation" data-cites="ESPNmx">(<strong>ESPNmx?</strong>)</span>) <a href="https://twitter.com/ESPNmx/status/1595087060574294017?ref_src=twsrc%5Etfw">November 22, 2022</a></p>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+<hr>
+<p>The <em>circumplex model of emotion</em> developed by James Russell <span class="citation" data-cites="russell1980">(Russell 1980)</span> is a commonly cited framework for defining dimensions of affective states <span class="citation" data-cites="remington2000">(Remington, Fabrigar, and Visser 2000)</span>.<sup>1</sup> This model suggests that emotional states are processed and represented along the two dimensions of valence (horizontal axis) and arousal/activity (vertical axis) <span class="citation" data-cites="scott2010">(Scott, Sauter, and McGettigan 2010)</span> (Figure 1).</p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://6yardscreamersnew.netlify.app/posts/wc_anthems_emotions/Russell1980_model_annot1.png" class="img-fluid figure-img" width="500"></p>
+<p></p><figcaption class="figure-caption">Figure 1. Russell’s 2 dimensional model of emotions. Adapted from Russell (1980)</figcaption><p></p>
+</figure>
+</div>
+</center>
+<hr>
+<p>Research investigating the interaction of emotions and music is vast <span class="citation" data-cites="juslin2013">(Juslin 2013)</span>. Many models have been proposed <span class="citation" data-cites="eerola2010">(Eerola and Vuoskoski 2010)</span> and interest in the study of emotions and music recommendation systems is growing <span class="citation" data-cites="schedl2018">(Schedl et al. 2018)</span>. Measures similar to Russell’s dimensions are found in <a href="https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features">Spotify’s track audio features</a> <sup>2</sup>. Spotify defines their valence and energy (a proxy for arousal) measures as:</p>
+<div class="callout-note callout callout-style-default no-icon callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+<strong>Valence:</strong>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><em>“A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g.&nbsp;happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g.&nbsp;sad, depressed, angry).”</em></p>
+</div>
+</div>
+<div class="callout-note callout callout-style-default no-icon callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+<strong>Energy:</strong>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><em>“Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy.”</em></p>
+</div>
+</div>
+<p>Using the <em>Spotifyr</em> package <span class="citation" data-cites="spotifyr-2">(Thompson et al. 2021)</span>, Spotify audio features of valence and energy for the 32 national anthems of the participating countries at the 2022 FIFA Men’s World Cup were plotted via <em>ggplot2</em> <span class="citation" data-cites="ggplot2-2">(Wickham 2016)</span>. This descriptive analysis is not without limitations. For example, results can vary depending on each artists’ interpretation of the song. That being said, the current analysis’ results are shown in Figure 2 below. Does Wales’ anthem strike a miserable nerve? Can we explain England’s bore draw tendencies via their low energy score? Conversely, did Costa Rica concede seven to Spain because their anthem is too energetic? To be clear, I don’t actually believe any of this relates to performance on the pitch, these are just some of my silly thoughts.</p>
+<p>
+</p><div class="column-page">
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://6yardscreamersnew.netlify.app/posts/wc_anthems_emotions/plot1_final.png" class="img-fluid figure-img" width="12000"></p>
+<p></p><figcaption class="figure-caption">Figure 2. National Anthems of The 2022 World Cup: Emotions and Audio Features</figcaption><p></p>
+</figure>
+</div>
+</center>
+</div>
+<p></p>
+<hr>
+<center>
+<blockquote class="twitter-tweet blockquote">
+<p lang="en" dir="ltr">
+</p><p>Can’t stop thinking about this woman during the Welsh National Anthem at the World Cup. Go on luv ! <a href="https://t.co/VpYn1N4n5C">pic.twitter.com/VpYn1N4n5C</a></p>
+<p></p>
+<p>— Cam All Ye Faithful 🎄 (<span class="citation" data-cites="camruined">(<strong>camruined?</strong>)</span>) <a href="https://twitter.com/camruined/status/1594827994106929158?ref_src=twsrc%5Etfw">November 21, 2022</a></p>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+<center>
+<blockquote class="twitter-tweet blockquote">
+<p lang="en" dir="ltr">
+</p><p>Costa Rica’s fans were brilliant and their players belted out the anthem with such passion but it seemed to take all of their intensity out of them. Spain could have won that game wearing slippers <a href="https://twitter.com/hashtag/ESPCRC?src=hash&amp;ref_src=twsrc%5Etfw">#ESPCRC</a> <a href="https://twitter.com/talkSPORT?ref_src=twsrc%5Etfw"><span class="citation" data-cites="talkSPORT">(</span></a><strong>talkSPORT?</strong>) <a href="https://twitter.com/hashtag/TSWorldCup?src=hash&amp;ref_src=twsrc%5Etfw">#TSWorldCup</a> <a href="https://t.co/6AGtiGP7Dj">pic.twitter.com/6AGtiGP7Dj</a></p>
+<p></p>
+<p>— Nigel Adderley (<span class="citation" data-cites="nadderley">(<strong>nadderley?</strong>)</span>) <a href="https://twitter.com/nadderley/status/1595489478428311561?ref_src=twsrc%5Etfw">November 23, 2022</a></p>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+<hr>
+<p></p>
+
+
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-eerola2010" class="csl-entry">
+Eerola, Tuomas, and Jonna K. Vuoskoski. 2010. <span>“A Comparison of the Discrete and Dimensional Models of Emotion in Music.”</span> <em>Psychology of Music</em> 39 (1): 18–49. <a href="https://doi.org/10.1177/0305735610362821">https://doi.org/10.1177/0305735610362821</a>.
+</div>
+<div id="ref-juslin2013" class="csl-entry">
+Juslin, Patrik N. 2013. <span>“What Does Music Express? Basic Emotions and Beyond.”</span> <em>Frontiers in Psychology</em> 4. <a href="https://doi.org/10.3389/fpsyg.2013.00596">https://doi.org/10.3389/fpsyg.2013.00596</a>.
+</div>
+<div id="ref-remington2000" class="csl-entry">
+Remington, Nancy A., Leandre R. Fabrigar, and Penny S. Visser. 2000. <span>“Reexamining the Circumplex Model of Affect.”</span> <em>Journal of Personality and Social Psychology</em> 79 (2): 286–300. <a href="https://doi.org/10.1037/0022-3514.79.2.286">https://doi.org/10.1037/0022-3514.79.2.286</a>.
+</div>
+<div id="ref-russell1980" class="csl-entry">
+Russell, James A. 1980. <span>“A Circumplex Model of Affect.”</span> <em>Journal of Personality and Social Psychology</em> 39 (6): 1161–78. <a href="https://doi.org/10.1037/h0077714">https://doi.org/10.1037/h0077714</a>.
+</div>
+<div id="ref-schedl2018" class="csl-entry">
+Schedl, Markus, Hamed Zamani, Ching-Wei Chen, Yashar Deldjoo, and Mehdi Elahi. 2018. <span>“Current Challenges and Visions in Music Recommender Systems Research.”</span> <em>International Journal of Multimedia Information Retrieval</em> 7 (2): 95–116. <a href="https://doi.org/10.1007/s13735-018-0154-2">https://doi.org/10.1007/s13735-018-0154-2</a>.
+</div>
+<div id="ref-scott2010" class="csl-entry">
+Scott, Sophie K., Disa Sauter, and Carolyn McGettigan. 2010. <span>“Brain Mechanisms for Processing Perceived Emotional Vocalizations in Humans.”</span> In, 187–97. Elsevier. <a href="https://doi.org/10.1016/b978-0-12-374593-4.00019-x">https://doi.org/10.1016/b978-0-12-374593-4.00019-x</a>.
+</div>
+<div id="ref-spotifyr-2" class="csl-entry">
+Thompson, Charlie, Daniel Antal, Josiah Parry, Donal Phipps, and Tom Wolff. 2021. <span>“Spotifyr: R Wrapper for the ’Spotify’ Web API.”</span> <a href="https://CRAN.R-project.org/package=spotifyr">https://CRAN.R-project.org/package=spotifyr</a>.
+</div>
+<div id="ref-ggplot2-2" class="csl-entry">
+Wickham, Hadley. 2016. <span>“Ggplot2: Elegant Graphics for Data Analysis.”</span> <a href="https://ggplot2.tidyverse.org">https://ggplot2.tidyverse.org</a>.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Please note that there are important limitations and criticisms to this model of emotions that go beyond the scope of this article.↩︎</p></li>
+<li id="fn2"><p>The validity and reliability of these metrics merits further investigation therefore they should be interpreted with caution.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>Data Viz</category>
+  <category>World Cup</category>
+  <category>ggplot</category>
+  <guid>https://6yardscreamersnew.netlify.app/posts/wc_anthems_emotions/index.html</guid>
+  <pubDate>Tue, 06 Dec 2022 04:00:00 GMT</pubDate>
+  <media:content url="https://6yardscreamersnew.netlify.app/posts/wc_anthems_emotions/plot1_final.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Coming Soon</title>
+  <dc:creator>Christina</dc:creator>
+  <link>https://6yardscreamersnew.netlify.app/posts/welcome/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Welcome to my blog. Hopefully you’ll see some content soon.</p>
+
+
+
+ ]]></description>
+  <category>misc</category>
+  <guid>https://6yardscreamersnew.netlify.app/posts/welcome/index.html</guid>
+  <pubDate>Fri, 18 Nov 2022 04:00:00 GMT</pubDate>
+  <media:content url="https://6yardscreamersnew.netlify.app/images/soccer2.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+</channel>
+</rss>
