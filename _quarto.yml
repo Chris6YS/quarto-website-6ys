@@ -33,10 +33,15 @@ website:
 format:
   html:
     theme:
-      light: lux
-      dark: darkly
+      light: litera
+      dark: cyborg
     css: styles.css
     code-link: true
 
 editor: visual
+
+comments: 
+  giscus: 
+    repo: Chris6YS/quarto-website-6ys
+    
 
