@@ -215,17 +215,17 @@ background-size: cover;
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 <hr>
-<p>The <em>circumplex model of emotion</em> developed by James Russell <span class="citation" data-cites="russell1980">(<a href="#ref-russell1980" role="doc-biblioref">Russell 1980</a>)</span> is a commonly cited framework for defining dimensions of affective states <span class="citation" data-cites="remington2000">(<a href="#ref-remington2000" role="doc-biblioref">Remington, Fabrigar, and Visser 2000</a>)</span>.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> This model suggests that emotional states are processed and represented along the two dimensions of valence (horizontal axis) and arousal/activity (vertical axis) <span class="citation" data-cites="scott2010">(<a href="#ref-scott2010" role="doc-biblioref">Scott, Sauter, and McGettigan 2010</a>)</span> (Figure 1).</p>
+<p>The <em>circumplex model of emotion</em> developed by James Russell <span class="citation" data-cites="russell1980">(<a href="#ref-russell1980" role="doc-biblioref">Russell, 1980</a>)</span> is a commonly cited framework for defining dimensions of affective states <span class="citation" data-cites="remington2000">(<a href="#ref-remington2000" role="doc-biblioref">Remington et al., 2000</a>)</span>.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> This model suggests that emotional states are processed and represented along the two dimensions of valence (horizontal axis) and arousal/activity (vertical axis) <span class="citation" data-cites="scott2010">(<a href="#ref-scott2010" role="doc-biblioref">Scott et al., 2010</a>)</span> (Figure 1).</p>
 <center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Russell1980_model_annot1.png" class="img-fluid figure-img" width="500"></p>
-<p></p><figcaption class="figure-caption">Figure 1. Russell's 2 dimensional model of emotions. Adapted from Russell (1980)</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure 1. Russell’s 2 dimensional model of emotions. Adapted from Russell (1980)</figcaption><p></p>
 </figure>
 </div>
 </center>
 <hr>
-<p>Research investigating the interaction of emotions and music is vast <span class="citation" data-cites="juslin2013">(<a href="#ref-juslin2013" role="doc-biblioref">Juslin 2013</a>)</span>. Many models have been proposed <span class="citation" data-cites="eerola2010">(<a href="#ref-eerola2010" role="doc-biblioref">Eerola and Vuoskoski 2010</a>)</span> and interest in the study of emotions and music recommendation systems is growing <span class="citation" data-cites="schedl2018">(<a href="#ref-schedl2018" role="doc-biblioref">Schedl et al. 2018</a>)</span>. Measures similar to Russell’s dimensions are found in <a href="https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features">Spotify’s track audio features</a> <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. Spotify defines their valence and energy (a proxy for arousal) measures as:</p>
+<p>Research investigating the interaction of emotions and music is vast <span class="citation" data-cites="juslin2013">(<a href="#ref-juslin2013" role="doc-biblioref">Juslin, 2013</a>)</span>. Many models have been proposed <span class="citation" data-cites="eerola2010">(<a href="#ref-eerola2010" role="doc-biblioref">Eerola &amp; Vuoskoski, 2010</a>)</span> and interest in the study of emotions and music recommendation systems is growing <span class="citation" data-cites="schedl2018">(<a href="#ref-schedl2018" role="doc-biblioref">Schedl et al., 2018</a>)</span>. Measures similar to Russell’s dimensions are found in <a href="https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features">Spotify’s track audio features</a> <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. Spotify defines their valence and energy (a proxy for arousal) measures as:</p>
 <div class="callout-note callout callout-style-default no-icon callout-captioned">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -252,7 +252,7 @@ background-size: cover;
 <p><em>“Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy.”</em></p>
 </div>
 </div>
-<p>Using the <em>Spotifyr</em> package <span class="citation" data-cites="spotifyr-2">(<a href="#ref-spotifyr-2" role="doc-biblioref">Thompson et al. 2021</a>)</span>, Spotify audio features of valence and energy for the 32 national anthems of the participating countries at the 2022 FIFA Men’s World Cup were plotted via <em>ggplot2</em> <span class="citation" data-cites="ggplot2-2">(<a href="#ref-ggplot2-2" role="doc-biblioref">Wickham 2016</a>)</span>. This descriptive analysis is not without limitations. For example, results can vary depending on each artists’ interpretation of the song. That being said, the current analysis’ results are shown in Figure 2 below. Does Wales’ anthem strike a miserable nerve? Can we explain England’s bore draw tendencies via their low energy score? Conversely, did Costa Rica concede seven to Spain because their anthem is too energetic? To be clear, I don’t actually believe any of this relates to performance on the pitch, these are just some of my silly thoughts.</p>
+<p>Using the <em>Spotifyr</em> package <span class="citation" data-cites="spotifyr-2">(<a href="#ref-spotifyr-2" role="doc-biblioref">Thompson et al., 2021</a>)</span>, Spotify audio features of valence and energy for the 32 national anthems of the participating countries at the 2022 FIFA Men’s World Cup were plotted via <em>ggplot2</em> <span class="citation" data-cites="ggplot2-2">(<a href="#ref-ggplot2-2" role="doc-biblioref">Wickham, 2016</a>)</span>. This descriptive analysis is not without limitations. For example, results can vary depending on each artists’ interpretation of the song. That being said, the current analysis’ results are shown in Figure 2 below. Does Wales’ anthem strike a miserable nerve? Can we explain England’s bore draw tendencies via their low energy score? Conversely, did Costa Rica concede seven to Spain because their anthem is too energetic? To be clear, I don’t actually believe any of this relates to performance on the pitch, these are just some of my silly thoughts.</p>
 <p>
 </p><div class="column-page">
 <center>
@@ -291,30 +291,30 @@ background-size: cover;
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="doc-bibliography">
 <div id="ref-eerola2010" class="csl-entry" role="doc-biblioentry">
-Eerola, Tuomas, and Jonna K. Vuoskoski. 2010. <span>“A Comparison of the Discrete and Dimensional Models of Emotion in Music.”</span> <em>Psychology of Music</em> 39 (1): 18–49. <a href="https://doi.org/10.1177/0305735610362821">https://doi.org/10.1177/0305735610362821</a>.
+Eerola, T., &amp; Vuoskoski, J. K. (2010). A comparison of the discrete and dimensional models of emotion in music. <em>Psychology of Music</em>, <em>39</em>(1), 18–49. <a href="https://doi.org/10.1177/0305735610362821">https://doi.org/10.1177/0305735610362821</a>
 </div>
 <div id="ref-juslin2013" class="csl-entry" role="doc-biblioentry">
-Juslin, Patrik N. 2013. <span>“What Does Music Express? Basic Emotions and Beyond.”</span> <em>Frontiers in Psychology</em> 4. <a href="https://doi.org/10.3389/fpsyg.2013.00596">https://doi.org/10.3389/fpsyg.2013.00596</a>.
+Juslin, P. N. (2013). What does music express? Basic emotions and beyond. <em>Frontiers in Psychology</em>, <em>4</em>. <a href="https://doi.org/10.3389/fpsyg.2013.00596">https://doi.org/10.3389/fpsyg.2013.00596</a>
 </div>
 <div id="ref-remington2000" class="csl-entry" role="doc-biblioentry">
-Remington, Nancy A., Leandre R. Fabrigar, and Penny S. Visser. 2000. <span>“Reexamining the Circumplex Model of Affect.”</span> <em>Journal of Personality and Social Psychology</em> 79 (2): 286–300. <a href="https://doi.org/10.1037/0022-3514.79.2.286">https://doi.org/10.1037/0022-3514.79.2.286</a>.
+Remington, N. A., Fabrigar, L. R., &amp; Visser, P. S. (2000). Reexamining the circumplex model of affect. <em>Journal of Personality and Social Psychology</em>, <em>79</em>(2), 286–300. <a href="https://doi.org/10.1037/0022-3514.79.2.286">https://doi.org/10.1037/0022-3514.79.2.286</a>
 </div>
 <div id="ref-russell1980" class="csl-entry" role="doc-biblioentry">
-Russell, James A. 1980. <span>“A Circumplex Model of Affect.”</span> <em>Journal of Personality and Social Psychology</em> 39 (6): 1161–78. <a href="https://doi.org/10.1037/h0077714">https://doi.org/10.1037/h0077714</a>.
+Russell, J. A. (1980). A circumplex model of affect. <em>Journal of Personality and Social Psychology</em>, <em>39</em>(6), 1161–1178. <a href="https://doi.org/10.1037/h0077714">https://doi.org/10.1037/h0077714</a>
 </div>
 <div id="ref-schedl2018" class="csl-entry" role="doc-biblioentry">
-Schedl, Markus, Hamed Zamani, Ching-Wei Chen, Yashar Deldjoo, and Mehdi Elahi. 2018. <span>“Current Challenges and Visions in Music Recommender Systems Research.”</span> <em>International Journal of Multimedia Information Retrieval</em> 7 (2): 95–116. <a href="https://doi.org/10.1007/s13735-018-0154-2">https://doi.org/10.1007/s13735-018-0154-2</a>.
+Schedl, M., Zamani, H., Chen, C.-W., Deldjoo, Y., &amp; Elahi, M. (2018). Current challenges and visions in music recommender systems research. <em>International Journal of Multimedia Information Retrieval</em>, <em>7</em>(2), 95–116. <a href="https://doi.org/10.1007/s13735-018-0154-2">https://doi.org/10.1007/s13735-018-0154-2</a>
 </div>
 <div id="ref-scott2010" class="csl-entry" role="doc-biblioentry">
-Scott, Sophie K., Disa Sauter, and Carolyn McGettigan. 2010. <span>“Brain Mechanisms for Processing Perceived Emotional Vocalizations in Humans.”</span> In, 187–97. Elsevier. <a href="https://doi.org/10.1016/b978-0-12-374593-4.00019-x">https://doi.org/10.1016/b978-0-12-374593-4.00019-x</a>.
+Scott, S. K., Sauter, D., &amp; McGettigan, C. (2010). <em>Brain mechanisms for processing perceived emotional vocalizations in humans</em> (pp. 187–197). Elsevier. <a href="https://doi.org/10.1016/b978-0-12-374593-4.00019-x">https://doi.org/10.1016/b978-0-12-374593-4.00019-x</a>
 </div>
 <div id="ref-spotifyr-2" class="csl-entry" role="doc-biblioentry">
-Thompson, Charlie, Daniel Antal, Josiah Parry, Donal Phipps, and Tom Wolff. 2021. <span>“Spotifyr: R Wrapper for the ’Spotify’ Web API.”</span> <a href="https://CRAN.R-project.org/package=spotifyr">https://CRAN.R-project.org/package=spotifyr</a>.
+Thompson, C., Antal, D., Parry, J., Phipps, D., &amp; Wolff, T. (2021). <em>Spotifyr: R wrapper for the ’spotify’ web API</em>. <a href="https://CRAN.R-project.org/package=spotifyr">https://CRAN.R-project.org/package=spotifyr</a>
 </div>
 <div id="ref-ggplot2-2" class="csl-entry" role="doc-biblioentry">
-Wickham, Hadley. 2016. <span>“Ggplot2: Elegant Graphics for Data Analysis.”</span> <a href="https://ggplot2.tidyverse.org">https://ggplot2.tidyverse.org</a>.
+Wickham, H. (2016). <em>ggplot2: Elegant graphics for data analysis</em>. <a href="https://ggplot2.tidyverse.org">https://ggplot2.tidyverse.org</a>
 </div>
 </div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
