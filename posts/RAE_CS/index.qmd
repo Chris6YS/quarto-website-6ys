@@ -1,0 +1,383 @@
+---
+title: "Selecting The Selected:"
+title-block-banner: rect1493.png
+title-block-style: default
+title-block-banner-color: "black"
+categories: [Data Viz, RAE, ggplot2, Canada Soccer]
+author: Christina
+date: 07/07/2023
+subtitle: The Relative Age Effect within Canada Soccer national teams
+format:
+      html:
+        toc: true
+        html-math-method: katex
+        code-fold: true
+        code-summary: "Show the code"
+        toc-location: left
+        link-external-newwindow: true
+        number-sections: true
+        linkcolor: "#6bb3c9"
+editor: visual
+bibliography: references.bib
+csl: apa.csl
+---
+
+## Introduction
+
+The Relative Age Effect (RAE) is a commonly observed phenomenon within different sports whereby individuals born earlier in a selection period are overrepresented within their cohort, whilst those born later relative to their peers are underrepresented [@cobley2009]. The RAE constitutes a complex selection bias, as a result of confounding sporting ability and potential with a host of chronological age related factors in the physical [@muller2018], cognitive [@jakobsson2021] and socio-emotional [@thompson2004] domains of maturation.
+
+The RAE has been observed across different playing levels of soccer from youth academies [@jackson2020] to professional tiers [@götze2021], with the magnitude of the effect usually larger in younger cohorts [@pedersen2022]. Moreover, it appears that the RAE may be more pronounced in male players [@smith2018], whilst studies involving the RAE within the context of female sports are less prevalent and conclusions are often mixed [@cobley2009]. For example, @korgaokar2018 found RAE within their sample of female players, whereas @andrew2022 were unable to consistently demonstrate this effect in their study.
+
+The aim of the present study was to examine the prevalence of the RAE in players historically selected for Canada Soccer national team programs, including training camps, across playing levels and gender. It was hypothesized that the RAE would be present in the U15, U17 and U20 programs, but not in the U23 or senior levels. It was also hypothesized that the magnitude of the effect would be largest in the youngest level (U15) and it would be more pronounced in the male programs compared to the female programs.
+
+## Methods
+
+### Sample
+
+An apriori analysis using [G\*Power](https://www.psychologie.hhu.de/arbeitsgruppen/allgemeine-psychologie-und-arbeitspsychologie/gpower){.external} version 3.1.9.7 [@Faul2007] was used for sample size estimation. Using 95% power for detecting a medium effect (Cohen's $\omega$= .3), at a significance criterion of α = .05, the required minimum sample size for a Chi-Square goodness-of-fit analysis is 191.
+
+Players that were selected for a Canada Soccer national team program training camp or official competition roster for which birth month data was available were included in the sample. Including participants who were selected for training camps as well as competitions allowed for an increased sample size. This information was obtained from @canadasoccer2022, @fifa2022 and @concacaf2022. The final sample includes 3809 players from 9 national team programs (see **Table 1**). The senior Men's national team program data included was from 1986 to 2022 only. Although information was available beginning from 1885 for this specific program, the period preceding 1986 was excluded from the current analysis, mainly for ease of comparison between the senior Men's and senior Women/X's programs. There was no U23 Women's program, as such, the U23 Men's program is the only one included for this age group.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+## libraries
+library(tidyverse)
+library(gt)
+
+## load data
+
+sum_tab <- read.csv("data/final/summary.csv")
+
+## table
+
+table1 <- gt(sum_tab)
+
+table1 %>% 
+ tab_header(
+ title = md("**Table 1**"),
+ subtitle = md ("*Summary of Program Samples*")
+  ) %>% 
+  tab_footnote(
+    footnote = "Excludes period before 1986.",
+    locations = cells_body(columns = Program, rows = 8)
+  ) %>% 
+  cols_label(
+    n = md("*n*")
+  ) %>% 
+  #Use the Chivo font
+  #Note the great 'google_font' function in 'gt' that removes the need to pre-load fonts
+  opt_table_font(
+    font = list(
+      google_font("Heebo"),
+      default_fonts()
+    )
+  ) %>%
+  #Change the width of columns
+  cols_width(c(Period) ~ px(130),
+             c(Program) ~ px(140),
+             c(n)~px(130)) %>% 
+  tab_options(
+    #Remove border between column headers and title
+    column_labels.border.top.width = px(3),
+    column_labels.border.top.color = "transparent",
+    #Remove border around table
+    table.border.top.color = "transparent",
+    table.border.bottom.color = "transparent",
+    #Reduce the height of rows
+    data_row.padding = px(3),
+    #Adjust font sizes and alignment
+    source_notes.font.size = 12,
+    heading.align = "left"
+  )  %>% 
+  tab_options(heading.subtitle.font.size = 20)
+
+```
+
+### Relative Age Classification
+
+The birth month of each player was categorized into quartiles. The quartiles were defined by using a January 1<sup>st</sup> cut-off date. The year was divided into the following four quarters: Quarter 1 = January, February, March; Quarter 2 = April, May, June; Quarter 3 = July, August, September; Quarter 4 = October, November, December.
+
+### Statistical Analysis
+
+Chi-Square ($\chi^2$) goodness-of-fit tests were used to compare the observed and expected birth month quarter distributions (@eq-chisq).
+
+<font size = "10">
+
+$$\chi^2 = \sum \frac {(O - E)^2}{E}$$ {#eq-chisq}
+
+</font size>
+
+<center>Where: <br> <font size = "2">$O$ = observed value<br>$E$ = expected value </font size></center>
+
+<br>
+
+Statistical significance criterion was set at *p* \< 0.05. Effect sizes for the Chi-Square tests reaching significance were calculated with Cohen's $\omega$, with strength of the effect interpreted as small = 0.1, medium = 0.3 and large = 0.5 [@Cohen1992]. The expected birth month and quarter distributions were calculated from the reference population of births in Canada obtained from @statisticscanada2018. The population birthdate quartile percentages were 24.05 (Quater 1), 25.67 (Quarter 2), 26.27 (Quarter 3) and 24.01 (Quarter 4) respectively.
+
+Post-hoc analyses were conducted by calculating standardized residuals and Odds Ratios (ORs) [@Sharpe2015]. ORs with 95% confidence intervals (CI) were calculated to compare Quarter 1 to Quarter 4 (@eq-or).
+
+<font size = "5">
+
+<center>$$OR = \frac {a/c}{b/d} = \frac {ad}{bc}$$ {#eq-or}</center>
+
+</font size>
+
+<center>Where: <br> <font size = "2">$a$ = observed value group 1<br>$b$ = observed value group 2 <br> $c$ = expected value group 1 <br> $d$ = expected value group 2</font size></center>
+
+<br>
+
+Statistical analyses were performed using R Statistical Software version 4.2.2 [@R2022; @mangiafico2023]. Tables were produced with the *gt* [@iannone2022] and *gtExtras* [@gtExtras] packages. Figures were produced with the *ggplot2* [@ggplot2], *showtext* [@showtext] and *ggtext* [@ggtext] packages.
+
+## Results
+
+The frequency and percentage distributions of the players' birth quartiles for each program category are presented in **Table 2**.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+## libraries
+library(tidyverse)
+library(gt)
+
+## load data
+
+table2 <- read.csv("data/final/table2.csv")
+
+table_2 <-gt(table2)
+
+table_2 %>% 
+ tab_header(
+ title = md("**Table 2**"),
+ subtitle = md("*Birth Month Quartile Distribution by Program*")
+ ) %>% 
+  cols_label("n" = md("*n*"),
+             "Q1" = md("Quarter 1"),
+             "Q2" = md("Quarter 2"),
+             "Q3" = md("Quarter 3"),
+             "Q4" = md("Quarter 4")) %>% 
+  opt_table_font(
+    font = list(
+      google_font("Heebo"),
+      default_fonts()
+    ) ) %>% 
+  tab_spanner(
+    label = "Birth Quarter Frequencies (%)",
+    columns = c(Q1, Q2, Q3, Q4)
+  ) %>% 
+  cols_width(c(Q1, Q2, Q3, Q4) ~ px(120),
+             c(Program) ~ px(131),
+             c(n)~px(80)) %>%
+  cols_align(
+    align = "center",
+    columns = n
+  ) %>% 
+  tab_options(
+    #Remove border between column headers and title
+    column_labels.border.top.width = px(3),
+    column_labels.border.top.color = "transparent",
+    #Remove border around table
+    table.border.top.color = "transparent",
+    table.border.bottom.color = "transparent",
+    #Reduce the height of rows
+    data_row.padding = px(3),
+    #Adjust font sizes and alignment
+    source_notes.font.size = 12,
+    heading.align = "left"
+  ) %>% 
+  tab_options(heading.subtitle.font.size = 20)
+
+```
+
+Chi-Square goodness-of-fit results are presented in **Table 3**. A statistically significant RAE for all U15, U17 and U20 programs was present, indicating that the observed birth quarter distribution was different from the expected birth quarter distribution. The magnitude of the effect for both U15 programs may be considered large. The magnitude of the effect for both U17 programs may be considered medium. The magnitude of the effect for the U20 Men's program may be considered small, whilst it may be considered medium for the U20 Women's program.
+
+The Senior Women/X's program demonstrated a statistically significant RAE, indicating that the observed birth quarter distribution was different from the expected birth quarter distribution. The magnitude of the effect for the Senior Women/X may be considered small, but approaching medium.
+
+However, the U23 Men's and Senior Men's programs did not reach statistical significance, as the observed birth quarter distribution was not different from the expected birth quarter distribution.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+## libraries
+library(tidyverse)
+library(gt)
+library(gtExtras)
+library(dplyr)
+
+## load data
+
+table3 <- read.csv("data/final/table3.csv")
+
+table_3 <-gt(table3)
+
+table_3 %>% 
+  tab_header(
+  title = md("**Table 3**"),
+  subtitle = md("*Chi-Square Goodness-of-fit Results*")
+  ) %>% 
+  cols_label("w" = html("Cohen's &omega;"), 
+             "chisquare" = html("&chi;<sup>2</sup>(3)"),
+             "p" = md("*p* value")) %>% 
+  opt_table_font(
+    font = list(
+      google_font("Heebo"),
+      default_fonts()
+    ) ) %>% 
+  tab_spanner(
+    label = "Standardized Residuals",
+    columns = c(Q1, Q2, Q3, Q4)
+  ) %>% 
+  cols_width(c(Program) ~ px(131),
+             c(chisquare, p, w) ~ px(120)) %>% 
+  tab_options(
+    #Remove border between column headers and title
+    column_labels.border.top.width = px(3),
+    column_labels.border.top.color = "transparent",
+    #Remove border around table
+    table.border.top.color = "transparent",
+    table.border.bottom.color = "transparent",
+    #Reduce the height of rows
+    data_row.padding = px(3),
+    #Adjust font sizes and alignment
+    source_notes.font.size = 12,
+    heading.align = "left"
+  ) %>% 
+  cols_align(
+    align = "center",
+    columns = c(chisquare, p, w)
+  ) %>% 
+  tab_source_note(
+    source_note = html("<b>*&alpha; <0.05</b>")
+  ) %>%
+  tab_style(
+    style = list(
+      cell_fill(color = "white"),
+      cell_text(weight = "bold")
+    ),
+    locations = cells_body(
+      columns = p,
+      rows = p < 0.05
+    ) ) %>% 
+  tab_options(heading.subtitle.font.size = 20,
+              source_notes.font.size = 15)
+```
+
+The reported effect sizes decreased in magnitude as the age associated with each program increased. The effect size was marginally larger for the U15 Boys' program when compared to the U15 Girls' program. Both U17 programs had an equal effect size, whilst the U20 Men's program effect size was smaller than that of the U20 Women's program.
+
+Post-hoc analysis of the standardized residuals are represented in **Figure 1**. <br>
+
+![.](figure_sm.svg){fig-alt="Data visualization in the form of a line chart of the Standardized Residuals by Quarter for each Program category."}
+
+Odds Ratio (OR) results comparing Quarter 1 to Quarter 4 are presented in **Table 4**. ORs for each group were statistically significant except for the U23 Men's and Senior Men's programs.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+## libraries
+library(tidyverse)
+library(gt)
+library(gtExtras)
+library(dplyr)
+
+
+table5 <- read.csv("data/final/table5.csv")
+
+gt::gt(table5) %>%
+gt_plt_conf_int(
+  table5,
+  column = or,
+  ci_column = c(ci1, ci2),
+  palette = c("#17BAB1", "#84CECA", "black", "darkgray"),
+  ref_line = 1,
+  ci = .95,
+  text_size = 0,
+  width = 100
+) %>% 
+ tab_header(
+ title = md("**Table 4**"),
+ subtitle = md("*Odds Ratio (OR) Results for Q1 vs. Q4*")
+  ) %>% 
+  cols_label("Q1Q4" = html(" ")) %>% 
+  opt_table_font(
+    font = list(
+      google_font("Heebo"),
+      default_fonts()
+    ) ) %>% 
+  cols_label("or" = html(" ")) %>% 
+  opt_table_font(
+    font = list(
+      google_font("Heebo"),
+      default_fonts()
+    ) ) %>% 
+  cols_hide(columns = c(ci1, ci2)) %>% 
+  tab_spanner(
+  label = "OR [95% CI]",
+  columns = c(Q1Q4, or)
+  ) %>% 
+  cols_width(c(Program) ~ px(170),
+             c(Q1Q4) ~ px(170)) %>% 
+  tab_options(
+    #Remove border between column headers and title
+    column_labels.border.top.width = px(3),
+    column_labels.border.top.color = "transparent",
+    #Remove border around table
+    table.border.top.color = "transparent",
+    table.border.bottom.color = "transparent",
+    #Reduce the height of rows
+    data_row.padding = px(3),
+    #Adjust font sizes and alignment
+    source_notes.font.size = 12,
+    heading.align = "left"
+  ) %>% 
+  cols_align(
+    align = "center",
+    columns = c(Q1Q4, or)
+  ) %>% 
+  tab_source_note(
+    source_note = html("<i>Confidence Interval (CI), Quarter (Q)</i>")
+  ) %>%
+  tab_source_note(
+    source_note = html("<i>* &alpha; <0.05</i>")
+  ) %>%
+  tab_source_note(
+    source_note = html("Reference line <b>|</b> = OR 1.0")
+  ) %>%
+  tab_options(heading.subtitle.font.size = 20,
+              source_notes.font.size = 12)
+
+```
+
+## Discussion
+
+The present study investigated the RAE prevalence in players historically selected for Canada Soccer national team programs including training camps. The main findings are: (1) The RAE was present within both U15, U17 and U20 programs of the sample; (2) The RAE was present within the Senior Women/X's program but not within the Senior Men's or U23 Men's programs of the sample; (3) The magnitude of the effect sizes decreased with an increase in age of the program samples; (4) The effect sizes for both U15 programs were similar in magnitude; (5) The effect sizes for both U17 programs were also similar in magnitude; (6) The effect size for the U20 Women's program was stronger than that of the U20 Men's program.
+
+The current study's findings for the male programs are in line with several other studies which indicate that the RAE is a common occurrence in these categories worldwide and tends to decrease with an increase in age [@brustio2018; @lupo2019]. Additionally, the absence of a significant RAE in the Senior Men's program of the study's sample is consistent with other past findings [@götze2021; @andrew2022].
+
+However, for the girls' and women's programs, the current study's results that show persistent and significant RAE across all categories are only partially consistent with previous literature [@delorme2009; @götze2021; @simon2022]. For example, @barreira2021 failed to establish the presence of a RAE in a sample of women's national team players participating in the Olympic games from 1996 through 2016. However, @sedano2015 demonstrated a significant RAE among Spanish players at different playing levels including the national team. The current study's results are also in line with those of @korgaokar2018 who found consistent RAE within their sample of girls competing at different levels in the USA, with effect sizes decreasing with an increase in age.
+
+One surprising finding from the current study is the stronger presence of RAE within the U20 Women's program compared to the U20 Men's. This is an unusual pattern that is not consistent with what is typically reported in the current literature [@baker2009gender].
+
+There is evidence to suggest that the RAE may be influenced by region specific variables [@romann2013]. As the RAE is theorized by some to be typically stronger in sports that are the more popular [@cobley2009; @smith2018], it is possible that the RAE may be most present in countries where soccer participation for girls and women is higher [@korgaokar2018; @simon2022]. However, the manifestation of the RAE is likely a non-linear interaction of multiple moderating variables [@baker2009gender; @Schorer2015].
+
+Canada represents a competitive landscape for girls' and women's soccer, with over 200 000 registered female players [@canadasoccer2022b; @fifa2019]. In spite of that, Canada represents one of the only top ranked FIFA nations without a currently active domestic professional women's league. It could be hypothesized that this unique regional condition may be favourable to promoting and sustaining the RAE. With limited opportunities relative to the size of the player pool available, perhaps causing participation rates to exceed the established infrastructure, inequalities such as the RAE could become more pervasive and sustained over time. This supposition could possibly explain the results of the U20 categories as this age group is a crucial time for professional development. However, this is purely speculative from the author's part and requires further investigation.
+
+Research on the RAE in soccer is not new [@helsen2012], however, @pedersen2022 suggest that the RAE has grown stronger over time with the effect being increasingly present in more recent major tournaments. Since research on women's soccer is growing exponentially, investigating the RAE within the girls' and women's soccer context remains relevant, as the literature remains far behind the depth of the boys's and men's game [@Okholm2022]. The importance of this area of research should be emphasized, as even when direct efforts are made to mitigate the RAE, it may still persist [@lagestad2018].
+
+### Limitations
+
+This study is not without limitations. First, the present study did not include physical, cognitive or psychosocial data. Therefore, assumptions about potential advantages in these areas of maturation for early born players cannot be confirmed in the current sample.
+
+Secondly, birth months were used to determine birth quarter distributions. This method has limitations as players born on January 1<sup>st</sup> and March 31<sup>st</sup> are considered as equivalent. Other statistical methods such as Poisson regression techniques could potentially be considered more appropriate and effective in this context [@doyle2019].
+
+Finally, it should also be cautioned that in some instances, the samples for different programs included different time periods. It is possible that differences in the prevalence of the RAE exist dependent on the time period analysed and comparisons across different periods may limit the reliability of conclusions.
+
+## Conclusions
+
+The current study demonstrates the presence of the RAE within players historically selected for Canada Soccer national team programs with the exception of the Men's U23 and Men's Senior programs. The prevalence and overall strength of the effects observed among the Girls' and Women/X's programs is particularly worrisome. To the author's knowledge, this is the first study to identify widespread patterns of the RAE across different Canada Soccer national team programs. Future studies should focus on underlying causes of the RAE with gender and region specific considerations. When validity of possible interventions is established, recommendations for best practices should be made to relevant practitioners.
+
+## Supplementary Infographic
+
+![.](supp_info_rae.png){fig-alt="Data visualization des"}
+
+::: callout-note
+## About the author
+
+Christina is a football (soccer) data analyst. To get in touch: 6ysblog@gmail.com
+:::
+
+## References

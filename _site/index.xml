@@ -5,16 +5,2327 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>6YS</title>
-<link>https://6yardscreamersnew.netlify.app/index.html</link>
-<atom:link href="https://6yardscreamersnew.netlify.app/index.xml" rel="self" type="application/rss+xml"/>
+<title>6YS Blog</title>
+<link>https://6yardscreamers.netlify.app/index.html</link>
+<atom:link href="https://6yardscreamers.netlify.app/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.2.269</generator>
-<lastBuildDate>Tue, 06 Dec 2022 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 07 Jul 2023 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>Selecting The Selected:</title>
+  <dc:creator>Christina</dc:creator>
+  <link>https://6yardscreamers.netlify.app/posts/RAE_CS/index.html</link>
+  <description><![CDATA[ <section id="introduction" class="level2" data-number="1"><h2 data-number="1" class="anchored" data-anchor-id="introduction">
+<span class="header-section-number">1</span> Introduction</h2>
+<p>The Relative Age Effect (RAE) is a commonly observed phenomenon within different sports whereby individuals born earlier in a selection period are overrepresented within their cohort, whilst those born later relative to their peers are underrepresented <span class="citation" data-cites="cobley2009">(Cobley et al., 2009)</span>. The RAE constitutes a complex selection bias, as a result of confounding sporting ability and potential with a host of chronological age related factors in the physical <span class="citation" data-cites="muller2018">(Müller et al., 2018)</span>, cognitive <span class="citation" data-cites="jakobsson2021">(Jakobsson et al., 2021)</span> and socio-emotional <span class="citation" data-cites="thompson2004">(Thompson et al., 2004)</span> domains of maturation.</p>
+<p>The RAE has been observed across different playing levels of soccer from youth academies <span class="citation" data-cites="jackson2020">(Jackson &amp; Comber, 2020)</span> to professional tiers <span class="citation" data-cites="götze2021">(Götze &amp; Hoppe, 2021)</span>, with the magnitude of the effect usually larger in younger cohorts <span class="citation" data-cites="pedersen2022">(Pedersen et al., 2022)</span>. Moreover, it appears that the RAE may be more pronounced in male players <span class="citation" data-cites="smith2018">(Smith et al., 2018)</span>, whilst studies involving the RAE within the context of female sports are less prevalent and conclusions are often mixed <span class="citation" data-cites="cobley2009">(Cobley et al., 2009)</span>. For example, <span class="citation" data-cites="korgaokar2018">Korgaokar et al. (2018)</span> found RAE within their sample of female players, whereas <span class="citation" data-cites="andrew2022">Andrew et al. (2022)</span> were unable to consistently demonstrate this effect in their study.</p>
+<p>The aim of the present study was to examine the prevalence of the RAE in players historically selected for Canada Soccer national team programs, including training camps, across playing levels and gender. It was hypothesized that the RAE would be present in the U15, U17 and U20 programs, but not in the U23 or senior levels. It was also hypothesized that the magnitude of the effect would be largest in the youngest level (U15) and it would be more pronounced in the male programs compared to the female programs.</p>
+</section><section id="methods" class="level2" data-number="2"><h2 data-number="2" class="anchored" data-anchor-id="methods">
+<span class="header-section-number">2</span> Methods</h2>
+<section id="sample" class="level3" data-number="2.1"><h3 data-number="2.1" class="anchored" data-anchor-id="sample">
+<span class="header-section-number">2.1</span> Sample</h3>
+<p>An apriori analysis using <a href="https://www.psychologie.hhu.de/arbeitsgruppen/allgemeine-psychologie-und-arbeitspsychologie/gpower" class="external">G*Power</a> version 3.1.9.7 <span class="citation" data-cites="Faul2007">(Faul et al., 2007)</span> was used for sample size estimation. Using 95% power for detecting a medium effect (Cohen’s <img src="https://latex.codecogs.com/png.latex?%5Comega">= .3), at a significance criterion of α = .05, the required minimum sample size for a Chi-Square goodness-of-fit analysis is 191.</p>
+<p>Players that were selected for a Canada Soccer national team program training camp or official competition roster for which birth month data was available were included in the sample. Including participants who were selected for training camps as well as competitions allowed for an increased sample size. This information was obtained from <span class="citation" data-cites="canadasoccer2022">Canada Soccer (2022)</span>, <span class="citation" data-cites="fifa2022">FIFA (2022)</span> and <span class="citation" data-cites="concacaf2022">CONCACAF (2022)</span>. The final sample includes 3809 players from 9 national team programs (see <strong>Table 1</strong>). The senior Men’s national team program data included was from 1986 to 2022 only. Although information was available beginning from 1885 for this specific program, the period preceding 1986 was excluded from the current analysis, mainly for ease of comparison between the senior Men’s and senior Women/X’s programs. There was no U23 Women’s program, as such, the U23 Men’s program is the only one included for this age group.</p>
+<div class="cell">
+<div class="cell-output-display">
+
+<div id="uygqpvpgzm" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>@import url("https://fonts.googleapis.com/css2?family=Heebo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html {
+  font-family: Heebo, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#uygqpvpgzm .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: rgba(255, 255, 255, 0);
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: rgba(255, 255, 255, 0);
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#uygqpvpgzm .gt_heading {
+  background-color: #FFFFFF;
+  text-align: left;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#uygqpvpgzm .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#uygqpvpgzm .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#uygqpvpgzm .gt_subtitle {
+  color: #333333;
+  font-size: 20px;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#uygqpvpgzm .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#uygqpvpgzm .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 3px;
+  border-top-color: rgba(255, 255, 255, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#uygqpvpgzm .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#uygqpvpgzm .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#uygqpvpgzm .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#uygqpvpgzm .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#uygqpvpgzm .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#uygqpvpgzm .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#uygqpvpgzm .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#uygqpvpgzm .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#uygqpvpgzm .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#uygqpvpgzm .gt_row {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#uygqpvpgzm .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#uygqpvpgzm .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#uygqpvpgzm .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#uygqpvpgzm .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#uygqpvpgzm .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#uygqpvpgzm .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#uygqpvpgzm .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#uygqpvpgzm .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#uygqpvpgzm .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#uygqpvpgzm .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#uygqpvpgzm .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#uygqpvpgzm .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#uygqpvpgzm .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#uygqpvpgzm .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#uygqpvpgzm .gt_sourcenote {
+  font-size: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#uygqpvpgzm .gt_left {
+  text-align: left;
+}
+
+#uygqpvpgzm .gt_center {
+  text-align: center;
+}
+
+#uygqpvpgzm .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#uygqpvpgzm .gt_font_normal {
+  font-weight: normal;
+}
+
+#uygqpvpgzm .gt_font_bold {
+  font-weight: bold;
+}
+
+#uygqpvpgzm .gt_font_italic {
+  font-style: italic;
+}
+
+#uygqpvpgzm .gt_super {
+  font-size: 65%;
+}
+
+#uygqpvpgzm .gt_footnote_marks {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 75%;
+  vertical-align: 0.4em;
+}
+
+#uygqpvpgzm .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#uygqpvpgzm .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#uygqpvpgzm .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#uygqpvpgzm .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#uygqpvpgzm .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#uygqpvpgzm .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table" style="table-layout: fixed;; width: 0px">
+<colgroup>
+<col style="width:140px;">
+<col style="width:130px;">
+<col style="width:130px;">
+</colgroup>
+<thead class="gt_header">
+<tr>
+<td colspan="3" class="gt_heading gt_title gt_font_normal" style=""><strong>Table 1</strong></td>
+    </tr>
+<tr>
+<td colspan="3" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style=""><em>Summary of Program Samples</em></td>
+    </tr>
+</thead>
+<thead class="gt_col_headings"><tr>
+<th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="Program">Program</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="<em>n</em>"><em>n</em></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Period">Period</th>
+    </tr></thead>
+<tbody class="gt_table_body">
+<tr>
+<td headers="Program" class="gt_row gt_left">U15 Boys</td>
+<td headers="n" class="gt_row gt_right">685</td>
+<td headers="Period" class="gt_row gt_right">1997-2022</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">U15 Girls</td>
+<td headers="n" class="gt_row gt_right">213</td>
+<td headers="Period" class="gt_row gt_right">2004-2022</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">U17 Boys</td>
+<td headers="n" class="gt_row gt_right">542</td>
+<td headers="Period" class="gt_row gt_right">1990-2022</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">U17 Girls</td>
+<td headers="n" class="gt_row gt_right">423</td>
+<td headers="Period" class="gt_row gt_right">2000-2022</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">U20 Men</td>
+<td headers="n" class="gt_row gt_right">709</td>
+<td headers="Period" class="gt_row gt_right">1973-2022</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">U20 Women</td>
+<td headers="n" class="gt_row gt_right">294</td>
+<td headers="Period" class="gt_row gt_right">2002-2022</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">U23 Men</td>
+<td headers="n" class="gt_row gt_right">330</td>
+<td headers="Period" class="gt_row gt_right">1990-2022</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">Senior Men<sup class="gt_footnote_marks">1</sup>
+</td>
+<td headers="n" class="gt_row gt_right">366</td>
+<td headers="Period" class="gt_row gt_right">1986-2022</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">Senior Women/X</td>
+<td headers="n" class="gt_row gt_right">247</td>
+<td headers="Period" class="gt_row gt_right">1986-2022</td>
+</tr>
+</tbody>
+<tfoot class="gt_footnotes"><tr>
+<td class="gt_footnote" colspan="3">
+<sup class="gt_footnote_marks">1</sup> Excludes period before 1986.</td>
+    </tr></tfoot>
+</table>
+</div>
+</div>
+</div>
+</section><section id="relative-age-classification" class="level3" data-number="2.2"><h3 data-number="2.2" class="anchored" data-anchor-id="relative-age-classification">
+<span class="header-section-number">2.2</span> Relative Age Classification</h3>
+<p>The birth month of each player was categorized into quartiles. The quartiles were defined by using a January 1<sup>st</sup> cut-off date. The year was divided into the following four quarters: Quarter 1 = January, February, March; Quarter 2 = April, May, June; Quarter 3 = July, August, September; Quarter 4 = October, November, December.</p>
+</section><section id="statistical-analysis" class="level3" data-number="2.3"><h3 data-number="2.3" class="anchored" data-anchor-id="statistical-analysis">
+<span class="header-section-number">2.3</span> Statistical Analysis</h3>
+<p>Chi-Square (<img src="https://latex.codecogs.com/png.latex?%5Cchi%5E2">) goodness-of-fit tests were used to compare the observed and expected birth month quarter distributions (Equation&nbsp;1).</p>
+<p><font size="10"></font></p>
+<p><span id="eq-chisq"><img src="https://latex.codecogs.com/png.latex?%5Cchi%5E2%20=%20%5Csum%20%5Cfrac%20%7B(O%20-%20E)%5E2%7D%7BE%7D%20%5Ctag%7B1%7D"></span></p>
+<p></p>
+<center>
+Where: <br><font size="2"><img src="https://latex.codecogs.com/png.latex?O"> = observed value<br><img src="https://latex.codecogs.com/png.latex?E"> = expected value </font>
+</center>
+<p><br></p>
+<p>Statistical significance criterion was set at <em>p</em> &lt; 0.05. Effect sizes for the Chi-Square tests reaching significance were calculated with Cohen’s <img src="https://latex.codecogs.com/png.latex?%5Comega">, with strength of the effect interpreted as small = 0.1, medium = 0.3 and large = 0.5 <span class="citation" data-cites="Cohen1992">(Cohen, 1992)</span>. The expected birth month and quarter distributions were calculated from the reference population of births in Canada obtained from <span class="citation" data-cites="statisticscanada2018">Statistics Canada (2022)</span>. The population birthdate quartile percentages were 24.05 (Quater 1), 25.67 (Quarter 2), 26.27 (Quarter 3) and 24.01 (Quarter 4) respectively.</p>
+<p>Post-hoc analyses were conducted by calculating standardized residuals and Odds Ratios (ORs) <span class="citation" data-cites="Sharpe2015">(Sharpe, 2015)</span>. ORs with 95% confidence intervals (CI) were calculated to compare Quarter 1 to Quarter 4 (Equation&nbsp;2).</p>
+<p><font size="5"></font></p>
+<center>
+<span id="eq-or"><img src="https://latex.codecogs.com/png.latex?OR%20=%20%5Cfrac%20%7Ba/c%7D%7Bb/d%7D%20=%20%5Cfrac%20%7Bad%7D%7Bbc%7D%20%5Ctag%7B2%7D"></span>
+</center>
+<p></p>
+<center>
+Where: <br><font size="2"><img src="https://latex.codecogs.com/png.latex?a"> = observed value group 1<br><img src="https://latex.codecogs.com/png.latex?b"> = observed value group 2 <br><img src="https://latex.codecogs.com/png.latex?c"> = expected value group 1 <br><img src="https://latex.codecogs.com/png.latex?d"> = expected value group 2</font>
+</center>
+<p><br></p>
+<p>Statistical analyses were performed using R Statistical Software version 4.2.2 <span class="citation" data-cites="R2022 mangiafico2023">(Mangiafico, 2023; R Core Team, 2022)</span>. Tables were produced with the <em>gt</em> <span class="citation" data-cites="iannone2022">(Iannone et al., 2022)</span> and <em>gtExtras</em> <span class="citation" data-cites="gtExtras">(Mock, 2022)</span> packages. Figures were produced with the <em>ggplot2</em> <span class="citation" data-cites="ggplot2">(Wickham, 2016)</span>, <em>showtext</em> <span class="citation" data-cites="showtext">(Qiu, 2022)</span> and <em>ggtext</em> <span class="citation" data-cites="ggtext">(Wilke &amp; Wiernik, 2022)</span> packages.</p>
+</section></section><section id="results" class="level2" data-number="3"><h2 data-number="3" class="anchored" data-anchor-id="results">
+<span class="header-section-number">3</span> Results</h2>
+<p>The frequency and percentage distributions of the players’ birth quartiles for each program category are presented in <strong>Table 2</strong>.</p>
+<div class="cell">
+<div class="cell-output-display">
+
+<div id="xbneojfsfa" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>@import url("https://fonts.googleapis.com/css2?family=Heebo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html {
+  font-family: Heebo, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#xbneojfsfa .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: rgba(255, 255, 255, 0);
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: rgba(255, 255, 255, 0);
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#xbneojfsfa .gt_heading {
+  background-color: #FFFFFF;
+  text-align: left;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#xbneojfsfa .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#xbneojfsfa .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#xbneojfsfa .gt_subtitle {
+  color: #333333;
+  font-size: 20px;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#xbneojfsfa .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#xbneojfsfa .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 3px;
+  border-top-color: rgba(255, 255, 255, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#xbneojfsfa .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#xbneojfsfa .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#xbneojfsfa .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#xbneojfsfa .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#xbneojfsfa .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#xbneojfsfa .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#xbneojfsfa .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#xbneojfsfa .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#xbneojfsfa .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#xbneojfsfa .gt_row {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#xbneojfsfa .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#xbneojfsfa .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#xbneojfsfa .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#xbneojfsfa .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#xbneojfsfa .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#xbneojfsfa .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#xbneojfsfa .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#xbneojfsfa .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#xbneojfsfa .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#xbneojfsfa .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#xbneojfsfa .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#xbneojfsfa .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#xbneojfsfa .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#xbneojfsfa .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#xbneojfsfa .gt_sourcenote {
+  font-size: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#xbneojfsfa .gt_left {
+  text-align: left;
+}
+
+#xbneojfsfa .gt_center {
+  text-align: center;
+}
+
+#xbneojfsfa .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#xbneojfsfa .gt_font_normal {
+  font-weight: normal;
+}
+
+#xbneojfsfa .gt_font_bold {
+  font-weight: bold;
+}
+
+#xbneojfsfa .gt_font_italic {
+  font-style: italic;
+}
+
+#xbneojfsfa .gt_super {
+  font-size: 65%;
+}
+
+#xbneojfsfa .gt_footnote_marks {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 75%;
+  vertical-align: 0.4em;
+}
+
+#xbneojfsfa .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#xbneojfsfa .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#xbneojfsfa .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#xbneojfsfa .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#xbneojfsfa .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#xbneojfsfa .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table" style="table-layout: fixed;; width: 0px">
+<colgroup>
+<col style="width:131px;">
+<col style="width:80px;">
+<col style="width:120px;">
+<col style="width:120px;">
+<col style="width:120px;">
+<col style="width:120px;">
+</colgroup>
+<thead class="gt_header">
+<tr>
+<td colspan="6" class="gt_heading gt_title gt_font_normal" style=""><strong>Table 2</strong></td>
+    </tr>
+<tr>
+<td colspan="6" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style=""><em>Birth Month Quartile Distribution by Program</em></td>
+    </tr>
+</thead>
+<thead class="gt_col_headings">
+<tr>
+<th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="2" colspan="1" scope="col" id="Program">Program</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="2" colspan="1" scope="col" id="<em>n</em>"><em>n</em></th>
+      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="4" scope="colgroup" id="Birth Quarter Frequencies (%)">
+        <span class="gt_column_spanner">Birth Quarter Frequencies (%)</span>
+      </th>
+    </tr>
+<tr>
+<th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Quarter 1">Quarter 1</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Quarter 2">Quarter 2</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Quarter 3">Quarter 3</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Quarter 4">Quarter 4</th>
+    </tr>
+</thead>
+<tbody class="gt_table_body">
+<tr>
+<td headers="Program" class="gt_row gt_left">U15 Boys</td>
+<td headers="n" class="gt_row gt_center">685</td>
+<td headers="Q1" class="gt_row gt_right">303 (44.23)</td>
+<td headers="Q2" class="gt_row gt_right">193 (28.18)</td>
+<td headers="Q3" class="gt_row gt_right">123 (17.96)</td>
+<td headers="Q4" class="gt_row gt_right">66 (9.63)</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">U15 Girls</td>
+<td headers="n" class="gt_row gt_center">213</td>
+<td headers="Q1" class="gt_row gt_right">93 (43.66)</td>
+<td headers="Q2" class="gt_row gt_right">55 (25.82)</td>
+<td headers="Q3" class="gt_row gt_right">44 (20.66)</td>
+<td headers="Q4" class="gt_row gt_right">21 (9.86)</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">U17 Boys</td>
+<td headers="n" class="gt_row gt_center">542</td>
+<td headers="Q1" class="gt_row gt_right">197 (36.35)</td>
+<td headers="Q2" class="gt_row gt_right">150 (27.67)</td>
+<td headers="Q3" class="gt_row gt_right">129 (23.80)</td>
+<td headers="Q4" class="gt_row gt_right">66 (12.18)</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">U17 Girls</td>
+<td headers="n" class="gt_row gt_center">423</td>
+<td headers="Q1" class="gt_row gt_right">154 (36.41)</td>
+<td headers="Q2" class="gt_row gt_right">117 (27.66)</td>
+<td headers="Q3" class="gt_row gt_right">97 (22.93)</td>
+<td headers="Q4" class="gt_row gt_right">55 (13.00)</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">U20 Men</td>
+<td headers="n" class="gt_row gt_center">709</td>
+<td headers="Q1" class="gt_row gt_right">225 (31.73)</td>
+<td headers="Q2" class="gt_row gt_right">177 (24.96)</td>
+<td headers="Q3" class="gt_row gt_right">168 (23.70)</td>
+<td headers="Q4" class="gt_row gt_right">139 (19.61)</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">U20 Women</td>
+<td headers="n" class="gt_row gt_center">294</td>
+<td headers="Q1" class="gt_row gt_right">103 (35.03)</td>
+<td headers="Q2" class="gt_row gt_right">75 (25.51)</td>
+<td headers="Q3" class="gt_row gt_right">78 (26.53)</td>
+<td headers="Q4" class="gt_row gt_right">38 (12.93)</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">U23 Men</td>
+<td headers="n" class="gt_row gt_center">330</td>
+<td headers="Q1" class="gt_row gt_right">85 (25.76)</td>
+<td headers="Q2" class="gt_row gt_right">87 (26.36)</td>
+<td headers="Q3" class="gt_row gt_right">86 (26.06)</td>
+<td headers="Q4" class="gt_row gt_right">72 (21.82)</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">Senior Men</td>
+<td headers="n" class="gt_row gt_center">366</td>
+<td headers="Q1" class="gt_row gt_right">97 (26.50)</td>
+<td headers="Q2" class="gt_row gt_right">97 (26.50)</td>
+<td headers="Q3" class="gt_row gt_right">88 (24.04)</td>
+<td headers="Q4" class="gt_row gt_right">84 (22.95)</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">Senior Women/X</td>
+<td headers="n" class="gt_row gt_center">247</td>
+<td headers="Q1" class="gt_row gt_right">80 (32.39)</td>
+<td headers="Q2" class="gt_row gt_right">67 (27.13)</td>
+<td headers="Q3" class="gt_row gt_right">65 (26.32)</td>
+<td headers="Q4" class="gt_row gt_right">35 (14.17)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<p>Chi-Square goodness-of-fit results are presented in <strong>Table 3</strong>. A statistically significant RAE for all U15, U17 and U20 programs was present, indicating that the observed birth quarter distribution was different from the expected birth quarter distribution. The magnitude of the effect for both U15 programs may be considered large. The magnitude of the effect for both U17 programs may be considered medium. The magnitude of the effect for the U20 Men’s program may be considered small, whilst it may be considered medium for the U20 Women’s program.</p>
+<p>The Senior Women/X’s program demonstrated a statistically significant RAE, indicating that the observed birth quarter distribution was different from the expected birth quarter distribution. The magnitude of the effect for the Senior Women/X may be considered small, but approaching medium.</p>
+<p>However, the U23 Men’s and Senior Men’s programs did not reach statistical significance, as the observed birth quarter distribution was not different from the expected birth quarter distribution.</p>
+<div class="cell">
+<div class="cell-output-display">
+
+<div id="heobgnzcne" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>@import url("https://fonts.googleapis.com/css2?family=Heebo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html {
+  font-family: Heebo, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#heobgnzcne .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: rgba(255, 255, 255, 0);
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: rgba(255, 255, 255, 0);
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#heobgnzcne .gt_heading {
+  background-color: #FFFFFF;
+  text-align: left;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#heobgnzcne .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#heobgnzcne .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#heobgnzcne .gt_subtitle {
+  color: #333333;
+  font-size: 20px;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#heobgnzcne .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#heobgnzcne .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 3px;
+  border-top-color: rgba(255, 255, 255, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#heobgnzcne .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#heobgnzcne .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#heobgnzcne .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#heobgnzcne .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#heobgnzcne .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#heobgnzcne .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#heobgnzcne .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#heobgnzcne .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#heobgnzcne .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#heobgnzcne .gt_row {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#heobgnzcne .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#heobgnzcne .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#heobgnzcne .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#heobgnzcne .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#heobgnzcne .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#heobgnzcne .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#heobgnzcne .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#heobgnzcne .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#heobgnzcne .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#heobgnzcne .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#heobgnzcne .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#heobgnzcne .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#heobgnzcne .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#heobgnzcne .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#heobgnzcne .gt_sourcenote {
+  font-size: 15px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#heobgnzcne .gt_left {
+  text-align: left;
+}
+
+#heobgnzcne .gt_center {
+  text-align: center;
+}
+
+#heobgnzcne .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#heobgnzcne .gt_font_normal {
+  font-weight: normal;
+}
+
+#heobgnzcne .gt_font_bold {
+  font-weight: bold;
+}
+
+#heobgnzcne .gt_font_italic {
+  font-style: italic;
+}
+
+#heobgnzcne .gt_super {
+  font-size: 65%;
+}
+
+#heobgnzcne .gt_footnote_marks {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 75%;
+  vertical-align: 0.4em;
+}
+
+#heobgnzcne .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#heobgnzcne .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#heobgnzcne .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#heobgnzcne .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#heobgnzcne .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#heobgnzcne .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table" style="table-layout: fixed;">
+<colgroup>
+<col style="width:131px;">
+<col style="width:120px;">
+<col style="width:120px;">
+<col style="width:120px;">
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead class="gt_header">
+<tr>
+<td colspan="8" class="gt_heading gt_title gt_font_normal" style=""><strong>Table 3</strong></td>
+    </tr>
+<tr>
+<td colspan="8" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style=""><em>Chi-Square Goodness-of-fit Results</em></td>
+    </tr>
+</thead>
+<thead class="gt_col_headings">
+<tr>
+<th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="2" colspan="1" scope="col" id="Program">Program</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="2" colspan="1" scope="col" id="&amp;chi;<sup>2</sup>(3)">χ<sup>2</sup>(3)</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="2" colspan="1" scope="col" id="<em>p</em> value">
+<em>p</em> value</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="2" colspan="1" scope="col" id="Cohen's &amp;omega;">Cohen's ω</th>
+      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="4" scope="colgroup" id="Standardized Residuals">
+        <span class="gt_column_spanner">Standardized Residuals</span>
+      </th>
+    </tr>
+<tr>
+<th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Q1">Q1</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Q2">Q2</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Q3">Q3</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Q4">Q4</th>
+    </tr>
+</thead>
+<tbody class="gt_table_body">
+<tr>
+<td headers="Program" class="gt_row gt_left">U15 Boys</td>
+<td headers="chisquare" class="gt_row gt_center">194.68</td>
+<td headers="p" class="gt_row gt_center" style="background-color: #FFFFFF; font-weight: bold;">0.00*</td>
+<td headers="w" class="gt_row gt_center">0.53</td>
+<td headers="Q1" class="gt_row gt_right">12.36</td>
+<td headers="Q2" class="gt_row gt_right">1.50</td>
+<td headers="Q3" class="gt_row gt_right">-4.94</td>
+<td headers="Q4" class="gt_row gt_right">-8.81</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">U15 Girls</td>
+<td headers="chisquare" class="gt_row gt_center">54.39</td>
+<td headers="p" class="gt_row gt_center" style="background-color: #FFFFFF; font-weight: bold;">0.00*</td>
+<td headers="w" class="gt_row gt_center">0.51</td>
+<td headers="Q1" class="gt_row gt_right">6.70</td>
+<td headers="Q2" class="gt_row gt_right">0.05</td>
+<td headers="Q3" class="gt_row gt_right">-1.86</td>
+<td headers="Q4" class="gt_row gt_right">-4.84</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">U17 Boys</td>
+<td headers="chisquare" class="gt_row gt_center">67.79</td>
+<td headers="p" class="gt_row gt_center" style="background-color: #FFFFFF; font-weight: bold;">0.00*</td>
+<td headers="w" class="gt_row gt_center">0.35</td>
+<td headers="Q1" class="gt_row gt_right">6.70</td>
+<td headers="Q2" class="gt_row gt_right">1.07</td>
+<td headers="Q3" class="gt_row gt_right">-1.31</td>
+<td headers="Q4" class="gt_row gt_right">-6.45</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">U17 Girls</td>
+<td headers="chisquare" class="gt_row gt_center">50.65</td>
+<td headers="p" class="gt_row gt_center" style="background-color: #FFFFFF; font-weight: bold;">0.00*</td>
+<td headers="w" class="gt_row gt_center">0.35</td>
+<td headers="Q1" class="gt_row gt_right">5.95</td>
+<td headers="Q2" class="gt_row gt_right">0.94</td>
+<td headers="Q3" class="gt_row gt_right">-1.56</td>
+<td headers="Q4" class="gt_row gt_right">-5.30</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">U20 Men</td>
+<td headers="chisquare" class="gt_row gt_center">25.07</td>
+<td headers="p" class="gt_row gt_center" style="background-color: #FFFFFF; font-weight: bold;">0.00*</td>
+<td headers="w" class="gt_row gt_center">0.19</td>
+<td headers="Q1" class="gt_row gt_right">4.79</td>
+<td headers="Q2" class="gt_row gt_right">-0.43</td>
+<td headers="Q3" class="gt_row gt_right">-1.56</td>
+<td headers="Q4" class="gt_row gt_right">-2.75</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">U20 Women</td>
+<td headers="chisquare" class="gt_row gt_center">29.81</td>
+<td headers="p" class="gt_row gt_center" style="background-color: #FFFFFF; font-weight: bold;">0.00*</td>
+<td headers="w" class="gt_row gt_center">0.32</td>
+<td headers="Q1" class="gt_row gt_right">4.41</td>
+<td headers="Q2" class="gt_row gt_right">-0.06</td>
+<td headers="Q3" class="gt_row gt_right">0.10</td>
+<td headers="Q4" class="gt_row gt_right">-4.45</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">U23 Men</td>
+<td headers="chisquare" class="gt_row gt_center">1.13</td>
+<td headers="p" class="gt_row gt_center">0.77</td>
+<td headers="w" class="gt_row gt_center">-</td>
+<td headers="Q1" class="gt_row gt_right">0.73</td>
+<td headers="Q2" class="gt_row gt_right">0.29</td>
+<td headers="Q3" class="gt_row gt_right">-0.09</td>
+<td headers="Q4" class="gt_row gt_right">-0.93</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">Senior Men</td>
+<td headers="chisquare" class="gt_row gt_center">1.88</td>
+<td headers="p" class="gt_row gt_center">0.60</td>
+<td headers="w" class="gt_row gt_center">-</td>
+<td headers="Q1" class="gt_row gt_right">1.10</td>
+<td headers="Q2" class="gt_row gt_right">0.37</td>
+<td headers="Q3" class="gt_row gt_right">-0.97</td>
+<td headers="Q4" class="gt_row gt_right">-0.47</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">Senior Women/X</td>
+<td headers="chisquare" class="gt_row gt_center">17.31</td>
+<td headers="p" class="gt_row gt_center" style="background-color: #FFFFFF; font-weight: bold;">0.00*</td>
+<td headers="w" class="gt_row gt_center">0.27</td>
+<td headers="Q1" class="gt_row gt_right">3.07</td>
+<td headers="Q2" class="gt_row gt_right">0.52</td>
+<td headers="Q3" class="gt_row gt_right">0.02</td>
+<td headers="Q4" class="gt_row gt_right">-3.62</td>
+</tr>
+</tbody>
+<tfoot class="gt_sourcenotes"><tr>
+<td class="gt_sourcenote" colspan="8"><b>*α &lt;0.05</b></td>
+    </tr></tfoot>
+</table>
+</div>
+</div>
+</div>
+<p>The reported effect sizes decreased in magnitude as the age associated with each program increased. The effect size was marginally larger for the U15 Boys’ program when compared to the U15 Girls’ program. Both U17 programs had an equal effect size, whilst the U20 Men’s program effect size was smaller than that of the U20 Women’s program.</p>
+<p>Post-hoc analysis of the standardized residuals are represented in <strong>Figure 1</strong>. <br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://6yardscreamers.netlify.app/posts/RAE_CS/figure_sm.svg" class="img-fluid figure-img" alt="Data visualization in the form of a line chart of the Standardized Residuals by Quarter for each Program category."></p>
+<p></p><figcaption class="figure-caption">.</figcaption><p></p>
+</figure>
+</div>
+<p>Odds Ratio (OR) results comparing Quarter 1 to Quarter 4 are presented in <strong>Table 4</strong>. ORs for each group were statistically significant except for the U23 Men’s and Senior Men’s programs.</p>
+<div class="cell">
+<div class="cell-output-display">
+
+<div id="jphjndkxvu" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>@import url("https://fonts.googleapis.com/css2?family=Heebo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html {
+  font-family: Heebo, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#jphjndkxvu .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: rgba(255, 255, 255, 0);
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: rgba(255, 255, 255, 0);
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#jphjndkxvu .gt_heading {
+  background-color: #FFFFFF;
+  text-align: left;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#jphjndkxvu .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#jphjndkxvu .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#jphjndkxvu .gt_subtitle {
+  color: #333333;
+  font-size: 20px;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#jphjndkxvu .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#jphjndkxvu .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 3px;
+  border-top-color: rgba(255, 255, 255, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#jphjndkxvu .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#jphjndkxvu .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#jphjndkxvu .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#jphjndkxvu .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#jphjndkxvu .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#jphjndkxvu .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#jphjndkxvu .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#jphjndkxvu .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#jphjndkxvu .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#jphjndkxvu .gt_row {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#jphjndkxvu .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#jphjndkxvu .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#jphjndkxvu .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#jphjndkxvu .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#jphjndkxvu .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#jphjndkxvu .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#jphjndkxvu .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#jphjndkxvu .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#jphjndkxvu .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#jphjndkxvu .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#jphjndkxvu .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#jphjndkxvu .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#jphjndkxvu .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#jphjndkxvu .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#jphjndkxvu .gt_sourcenote {
+  font-size: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#jphjndkxvu .gt_left {
+  text-align: left;
+}
+
+#jphjndkxvu .gt_center {
+  text-align: center;
+}
+
+#jphjndkxvu .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#jphjndkxvu .gt_font_normal {
+  font-weight: normal;
+}
+
+#jphjndkxvu .gt_font_bold {
+  font-weight: bold;
+}
+
+#jphjndkxvu .gt_font_italic {
+  font-style: italic;
+}
+
+#jphjndkxvu .gt_super {
+  font-size: 65%;
+}
+
+#jphjndkxvu .gt_footnote_marks {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 75%;
+  vertical-align: 0.4em;
+}
+
+#jphjndkxvu .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#jphjndkxvu .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#jphjndkxvu .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#jphjndkxvu .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#jphjndkxvu .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#jphjndkxvu .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table" style="table-layout: fixed;">
+<colgroup>
+<col style="width:170px;">
+<col style="width:170px;">
+<col>
+</colgroup>
+<thead class="gt_header">
+<tr>
+<td colspan="3" class="gt_heading gt_title gt_font_normal" style=""><strong>Table 4</strong></td>
+    </tr>
+<tr>
+<td colspan="3" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style=""><em>Odds Ratio (OR) Results for Q1 vs. Q4</em></td>
+    </tr>
+</thead>
+<thead class="gt_col_headings">
+<tr>
+<th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="2" colspan="1" scope="col" id="Program">Program</th>
+      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="2" scope="colgroup" id="OR [95% CI]">
+        <span class="gt_column_spanner">OR [95% CI]</span>
+      </th>
+    </tr>
+<tr>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id=" "> </th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id=" "> </th>
+    </tr>
+</thead>
+<tbody class="gt_table_body">
+<tr>
+<td headers="Program" class="gt_row gt_left">U15 Boys</td>
+<td headers="Q1Q4" class="gt_row gt_center">4.55 [3.20-6.54]*</td>
+<td headers="or" class="gt_row gt_center">
+<!--?xml version='1.0' encoding='UTF-8' ?--><svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" class="svglite" width="283.46pt" height="14.17pt" viewbox="0 0 283.46 14.17"><defs><style type="text/css">    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {      fill: none;      stroke: #000000;      stroke-linecap: round;      stroke-linejoin: round;      stroke-miterlimit: 10.00;    }    .svglite text {      white-space: pre;    }  </style></defs><rect width="100%" height="100%" style="stroke: none; fill: none;"></rect><defs><clippath id="cpMC4wMHwyODMuNDZ8MC4wMHwxNC4xNw=="><rect x="0.00" y="0.00" width="283.46" height="14.17"></rect></clippath></defs><g clip-path="url(#cpMC4wMHwyODMuNDZ8MC4wMHwxNC4xNw==)"><text x="41.73" y="11.26" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">1</text><line x1="41.45" y1="14.17" x2="41.45" y2="0.0000000000000018" style="stroke-width: 1.07; stroke: #A9A9A9; stroke-linecap: butt;"></line><line x1="101.48" y1="8.66" x2="192.62" y2="8.66" style="stroke-width: 2.13; stroke: #84CECA; stroke-opacity: 0.75;"></line><circle cx="138.32" cy="8.66" r="2.67" style="stroke-width: 1.06; fill: #17BAB1;"></circle><polygon points="190.38,6.69 192.42,6.69 192.42,6.69 192.42,6.69 192.42,6.69 192.42,6.69 192.42,6.69 192.42,6.69 192.42,6.69 192.42,6.69 192.42,6.69 192.42,6.69 192.42,6.69 192.42,6.69 192.42,4.68 192.42,4.68 192.42,4.68 192.42,4.68 192.42,4.68 192.42,4.68 192.42,4.68 192.42,4.68 192.42,4.68 192.42,4.68 192.42,4.68 192.42,4.68 190.38,4.68 190.38,4.68 190.38,4.68 190.38,4.68 190.38,4.68 190.38,4.68 190.38,4.68 190.38,4.68 190.38,4.68 190.38,4.68 190.38,4.68 190.38,4.68 190.38,4.68 190.38,6.69 190.38,6.69 190.38,6.69 190.38,6.69 190.38,6.69 190.38,6.69 190.38,6.69 190.38,6.69 190.38,6.69 190.38,6.69 190.38,6.69 190.38,6.69 " style="stroke-width: 0.00; stroke: #A9A9A9;"></polygon><text x="192.56" y="6.69" text-anchor="end" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">7</text><polygon points="101.69,6.69 103.73,6.69 103.73,6.69 103.73,6.69 103.73,6.69 103.73,6.69 103.73,6.69 103.73,6.69 103.73,6.69 103.73,6.69 103.73,6.69 103.73,6.69 103.73,6.69 103.73,6.69 103.73,4.68 103.73,4.68 103.73,4.68 103.73,4.68 103.73,4.68 103.73,4.68 103.73,4.68 103.73,4.68 103.73,4.68 103.73,4.68 103.73,4.68 103.73,4.68 101.69,4.68 101.69,4.68 101.69,4.68 101.69,4.68 101.69,4.68 101.69,4.68 101.69,4.68 101.69,4.68 101.69,4.68 101.69,4.68 101.69,4.68 101.69,4.68 101.69,4.68 101.69,6.69 101.69,6.69 101.69,6.69 101.69,6.69 101.69,6.69 101.69,6.69 101.69,6.69 101.69,6.69 101.69,6.69 101.69,6.69 101.69,6.69 101.69,6.69 " style="stroke-width: 0.00; stroke: #A9A9A9;"></polygon><text x="101.54" y="6.69" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">3</text></g></svg>
+</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">U15 Girls</td>
+<td headers="Q1Q4" class="gt_row gt_center">4.40 [2.31-8.61]*</td>
+<td headers="or" class="gt_row gt_center">
+<!--?xml version='1.0' encoding='UTF-8' ?--><svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" class="svglite" width="283.46pt" height="14.17pt" viewbox="0 0 283.46 14.17"><defs><style type="text/css">    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {      fill: none;      stroke: #000000;      stroke-linecap: round;      stroke-linejoin: round;      stroke-miterlimit: 10.00;    }    .svglite text {      white-space: pre;    }  </style></defs><rect width="100%" height="100%" style="stroke: none; fill: none;"></rect><defs><clippath id="cpMC4wMHwyODMuNDZ8MC4wMHwxNC4xNw=="><rect x="0.00" y="0.00" width="283.46" height="14.17"></rect></clippath></defs><g clip-path="url(#cpMC4wMHwyODMuNDZ8MC4wMHwxNC4xNw==)"><text x="41.73" y="11.26" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">1</text><line x1="41.45" y1="14.17" x2="41.45" y2="0.0000000000000018" style="stroke-width: 1.07; stroke: #A9A9A9; stroke-linecap: butt;"></line><line x1="77.20" y1="8.66" x2="249.11" y2="8.66" style="stroke-width: 2.13; stroke: #84CECA; stroke-opacity: 0.75;"></line><circle cx="134.23" cy="8.66" r="2.67" style="stroke-width: 1.06; fill: #17BAB1;"></circle><polygon points="246.86,6.69 248.90,6.69 248.90,6.69 248.90,6.69 248.90,6.69 248.90,6.69 248.90,6.69 248.90,6.69 248.90,6.69 248.90,6.69 248.90,6.69 248.90,6.69 248.90,6.69 248.90,6.69 248.90,4.68 248.90,4.68 248.90,4.68 248.90,4.68 248.90,4.68 248.90,4.68 248.90,4.68 248.90,4.68 248.90,4.68 248.90,4.68 248.90,4.68 248.90,4.68 246.86,4.68 246.86,4.68 246.86,4.68 246.86,4.68 246.86,4.68 246.86,4.68 246.86,4.68 246.86,4.68 246.86,4.68 246.86,4.68 246.86,4.68 246.86,4.68 246.86,4.68 246.86,6.69 246.86,6.69 246.86,6.69 246.86,6.69 246.86,6.69 246.86,6.69 246.86,6.69 246.86,6.69 246.86,6.69 246.86,6.69 246.86,6.69 246.86,6.69 " style="stroke-width: 0.00; stroke: #A9A9A9;"></polygon><text x="249.05" y="6.69" text-anchor="end" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">9</text><polygon points="77.40,6.69 79.44,6.69 79.44,6.69 79.44,6.69 79.44,6.69 79.44,6.69 79.44,6.69 79.44,6.69 79.44,6.69 79.44,6.69 79.44,6.69 79.44,6.69 79.44,6.69 79.44,6.69 79.44,4.68 79.44,4.68 79.44,4.68 79.44,4.68 79.44,4.68 79.44,4.68 79.44,4.68 79.44,4.68 79.44,4.68 79.44,4.68 79.44,4.68 79.44,4.68 77.40,4.68 77.40,4.68 77.40,4.68 77.40,4.68 77.40,4.68 77.40,4.68 77.40,4.68 77.40,4.68 77.40,4.68 77.40,4.68 77.40,4.68 77.40,4.68 77.40,4.68 77.40,6.69 77.40,6.69 77.40,6.69 77.40,6.69 77.40,6.69 77.40,6.69 77.40,6.69 77.40,6.69 77.40,6.69 77.40,6.69 77.40,6.69 77.40,6.69 " style="stroke-width: 0.00; stroke: #A9A9A9;"></polygon><text x="77.26" y="6.69" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">2</text></g></svg>
+</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">U17 Boys</td>
+<td headers="Q1Q4" class="gt_row gt_center">2.98 [2.03-4.40]*</td>
+<td headers="or" class="gt_row gt_center">
+<!--?xml version='1.0' encoding='UTF-8' ?--><svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" class="svglite" width="283.46pt" height="14.17pt" viewbox="0 0 283.46 14.17"><defs><style type="text/css">    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {      fill: none;      stroke: #000000;      stroke-linecap: round;      stroke-linejoin: round;      stroke-miterlimit: 10.00;    }    .svglite text {      white-space: pre;    }  </style></defs><rect width="100%" height="100%" style="stroke: none; fill: none;"></rect><defs><clippath id="cpMC4wMHwyODMuNDZ8MC4wMHwxNC4xNw=="><rect x="0.00" y="0.00" width="283.46" height="14.17"></rect></clippath></defs><g clip-path="url(#cpMC4wMHwyODMuNDZ8MC4wMHwxNC4xNw==)"><text x="41.73" y="11.26" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">1</text><line x1="41.45" y1="14.17" x2="41.45" y2="0.0000000000000018" style="stroke-width: 1.07; stroke: #A9A9A9; stroke-linecap: butt;"></line><line x1="69.56" y1="8.66" x2="134.23" y2="8.66" style="stroke-width: 2.13; stroke: #84CECA; stroke-opacity: 0.75;"></line><circle cx="95.48" cy="8.66" r="2.67" style="stroke-width: 1.06; fill: #17BAB1;"></circle><polygon points="131.99,6.69 134.02,6.69 134.02,6.69 134.02,6.69 134.02,6.69 134.02,6.69 134.02,6.69 134.02,6.69 134.02,6.69 134.02,6.69 134.02,6.69 134.02,6.69 134.02,6.69 134.02,6.69 134.02,4.68 134.02,4.68 134.02,4.68 134.02,4.68 134.02,4.68 134.02,4.68 134.02,4.68 134.02,4.68 134.02,4.68 134.02,4.68 134.02,4.68 134.02,4.68 131.99,4.68 131.99,4.68 131.99,4.68 131.99,4.68 131.99,4.68 131.99,4.68 131.99,4.68 131.99,4.68 131.99,4.68 131.99,4.68 131.99,4.68 131.99,4.68 131.99,4.68 131.99,6.69 131.99,6.69 131.99,6.69 131.99,6.69 131.99,6.69 131.99,6.69 131.99,6.69 131.99,6.69 131.99,6.69 131.99,6.69 131.99,6.69 131.99,6.69 " style="stroke-width: 0.00; stroke: #A9A9A9;"></polygon><text x="134.17" y="6.69" text-anchor="end" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">4</text><polygon points="69.76,6.69 71.80,6.69 71.80,6.69 71.80,6.69 71.80,6.69 71.80,6.69 71.80,6.69 71.80,6.69 71.80,6.69 71.80,6.69 71.80,6.69 71.80,6.69 71.80,6.69 71.80,6.69 71.80,4.68 71.80,4.68 71.80,4.68 71.80,4.68 71.80,4.68 71.80,4.68 71.80,4.68 71.80,4.68 71.80,4.68 71.80,4.68 71.80,4.68 71.80,4.68 69.76,4.68 69.76,4.68 69.76,4.68 69.76,4.68 69.76,4.68 69.76,4.68 69.76,4.68 69.76,4.68 69.76,4.68 69.76,4.68 69.76,4.68 69.76,4.68 69.76,4.68 69.76,6.69 69.76,6.69 69.76,6.69 69.76,6.69 69.76,6.69 69.76,6.69 69.76,6.69 69.76,6.69 69.76,6.69 69.76,6.69 69.76,6.69 69.76,6.69 " style="stroke-width: 0.00; stroke: #A9A9A9;"></polygon><text x="69.62" y="6.69" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">2</text></g></svg>
+</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">U17 Girl</td>
+<td headers="Q1Q4" class="gt_row gt_center">2.79 [1.82-4.33]*</td>
+<td headers="or" class="gt_row gt_center">
+<!--?xml version='1.0' encoding='UTF-8' ?--><svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" class="svglite" width="283.46pt" height="14.17pt" viewbox="0 0 283.46 14.17"><defs><style type="text/css">    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {      fill: none;      stroke: #000000;      stroke-linecap: round;      stroke-linejoin: round;      stroke-miterlimit: 10.00;    }    .svglite text {      white-space: pre;    }  </style></defs><rect width="100%" height="100%" style="stroke: none; fill: none;"></rect><defs><clippath id="cpMC4wMHwyODMuNDZ8MC4wMHwxNC4xNw=="><rect x="0.00" y="0.00" width="283.46" height="14.17"></rect></clippath></defs><g clip-path="url(#cpMC4wMHwyODMuNDZ8MC4wMHwxNC4xNw==)"><text x="41.73" y="11.26" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">1</text><line x1="41.45" y1="14.17" x2="41.45" y2="0.0000000000000018" style="stroke-width: 1.07; stroke: #A9A9A9; stroke-linecap: butt;"></line><line x1="63.83" y1="8.66" x2="132.32" y2="8.66" style="stroke-width: 2.13; stroke: #84CECA; stroke-opacity: 0.75;"></line><circle cx="90.30" cy="8.66" r="2.67" style="stroke-width: 1.06; fill: #17BAB1;"></circle><polygon points="130.08,6.69 132.11,6.69 132.11,6.69 132.11,6.69 132.11,6.69 132.11,6.69 132.11,6.69 132.11,6.69 132.11,6.69 132.11,6.69 132.11,6.69 132.11,6.69 132.11,6.69 132.11,6.69 132.11,4.68 132.11,4.68 132.11,4.68 132.11,4.68 132.11,4.68 132.11,4.68 132.11,4.68 132.11,4.68 132.11,4.68 132.11,4.68 132.11,4.68 132.11,4.68 130.08,4.68 130.08,4.68 130.08,4.68 130.08,4.68 130.08,4.68 130.08,4.68 130.08,4.68 130.08,4.68 130.08,4.68 130.08,4.68 130.08,4.68 130.08,4.68 130.08,4.68 130.08,6.69 130.08,6.69 130.08,6.69 130.08,6.69 130.08,6.69 130.08,6.69 130.08,6.69 130.08,6.69 130.08,6.69 130.08,6.69 130.08,6.69 130.08,6.69 " style="stroke-width: 0.00; stroke: #A9A9A9;"></polygon><text x="132.26" y="6.69" text-anchor="end" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">4</text><polygon points="64.03,6.69 66.07,6.69 66.07,6.69 66.07,6.69 66.07,6.69 66.07,6.69 66.07,6.69 66.07,6.69 66.07,6.69 66.07,6.69 66.07,6.69 66.07,6.69 66.07,6.69 66.07,6.69 66.07,4.68 66.07,4.68 66.07,4.68 66.07,4.68 66.07,4.68 66.07,4.68 66.07,4.68 66.07,4.68 66.07,4.68 66.07,4.68 66.07,4.68 66.07,4.68 64.03,4.68 64.03,4.68 64.03,4.68 64.03,4.68 64.03,4.68 64.03,4.68 64.03,4.68 64.03,4.68 64.03,4.68 64.03,4.68 64.03,4.68 64.03,4.68 64.03,4.68 64.03,6.69 64.03,6.69 64.03,6.69 64.03,6.69 64.03,6.69 64.03,6.69 64.03,6.69 64.03,6.69 64.03,6.69 64.03,6.69 64.03,6.69 64.03,6.69 " style="stroke-width: 0.00; stroke: #A9A9A9;"></polygon><text x="63.89" y="6.69" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">2</text></g></svg>
+</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">U20 Men</td>
+<td headers="Q1Q4" class="gt_row gt_center">1.61 [1.18-2.20]*</td>
+<td headers="or" class="gt_row gt_center">
+<!--?xml version='1.0' encoding='UTF-8' ?--><svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" class="svglite" width="283.46pt" height="14.17pt" viewbox="0 0 283.46 14.17"><defs><style type="text/css">    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {      fill: none;      stroke: #000000;      stroke-linecap: round;      stroke-linejoin: round;      stroke-miterlimit: 10.00;    }    .svglite text {      white-space: pre;    }  </style></defs><rect width="100%" height="100%" style="stroke: none; fill: none;"></rect><defs><clippath id="cpMC4wMHwyODMuNDZ8MC4wMHwxNC4xNw=="><rect x="0.00" y="0.00" width="283.46" height="14.17"></rect></clippath></defs><g clip-path="url(#cpMC4wMHwyODMuNDZ8MC4wMHwxNC4xNw==)"><text x="41.73" y="11.26" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">1</text><line x1="41.45" y1="14.17" x2="41.45" y2="0.0000000000000018" style="stroke-width: 1.07; stroke: #A9A9A9; stroke-linecap: butt;"></line><line x1="46.37" y1="8.66" x2="74.20" y2="8.66" style="stroke-width: 2.13; stroke: #84CECA; stroke-opacity: 0.75;"></line><circle cx="58.10" cy="8.66" r="2.67" style="stroke-width: 1.06; fill: #17BAB1;"></circle><polygon points="71.96,6.69 73.99,6.69 73.99,6.69 73.99,6.69 73.99,6.69 73.99,6.69 73.99,6.69 73.99,6.69 73.99,6.69 73.99,6.69 73.99,6.69 73.99,6.69 73.99,6.69 73.99,6.69 73.99,4.68 73.99,4.68 73.99,4.68 73.99,4.68 73.99,4.68 73.99,4.68 73.99,4.68 73.99,4.68 73.99,4.68 73.99,4.68 73.99,4.68 73.99,4.68 71.96,4.68 71.96,4.68 71.96,4.68 71.96,4.68 71.96,4.68 71.96,4.68 71.96,4.68 71.96,4.68 71.96,4.68 71.96,4.68 71.96,4.68 71.96,4.68 71.96,4.68 71.96,6.69 71.96,6.69 71.96,6.69 71.96,6.69 71.96,6.69 71.96,6.69 71.96,6.69 71.96,6.69 71.96,6.69 71.96,6.69 71.96,6.69 71.96,6.69 " style="stroke-width: 0.00; stroke: #A9A9A9;"></polygon><text x="74.14" y="6.69" text-anchor="end" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">2</text><polygon points="46.57,6.69 48.61,6.69 48.61,6.69 48.61,6.69 48.61,6.69 48.61,6.69 48.61,6.69 48.61,6.69 48.61,6.69 48.61,6.69 48.61,6.69 48.61,6.69 48.61,6.69 48.61,6.69 48.61,4.68 48.61,4.68 48.61,4.68 48.61,4.68 48.61,4.68 48.61,4.68 48.61,4.68 48.61,4.68 48.61,4.68 48.61,4.68 48.61,4.68 48.61,4.68 46.57,4.68 46.57,4.68 46.57,4.68 46.57,4.68 46.57,4.68 46.57,4.68 46.57,4.68 46.57,4.68 46.57,4.68 46.57,4.68 46.57,4.68 46.57,4.68 46.57,4.68 46.57,6.69 46.57,6.69 46.57,6.69 46.57,6.69 46.57,6.69 46.57,6.69 46.57,6.69 46.57,6.69 46.57,6.69 46.57,6.69 46.57,6.69 46.57,6.69 " style="stroke-width: 0.00; stroke: #A9A9A9;"></polygon><text x="46.43" y="6.69" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">1</text></g></svg>
+</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">U20 Women</td>
+<td headers="Q1Q4" class="gt_row gt_center">2.70 [1.60-4.60]*</td>
+<td headers="or" class="gt_row gt_center">
+<!--?xml version='1.0' encoding='UTF-8' ?--><svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" class="svglite" width="283.46pt" height="14.17pt" viewbox="0 0 283.46 14.17"><defs><style type="text/css">    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {      fill: none;      stroke: #000000;      stroke-linecap: round;      stroke-linejoin: round;      stroke-miterlimit: 10.00;    }    .svglite text {      white-space: pre;    }  </style></defs><rect width="100%" height="100%" style="stroke: none; fill: none;"></rect><defs><clippath id="cpMC4wMHwyODMuNDZ8MC4wMHwxNC4xNw=="><rect x="0.00" y="0.00" width="283.46" height="14.17"></rect></clippath></defs><g clip-path="url(#cpMC4wMHwyODMuNDZ8MC4wMHwxNC4xNw==)"><text x="41.73" y="11.26" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">1</text><line x1="41.45" y1="14.17" x2="41.45" y2="0.0000000000000018" style="stroke-width: 1.07; stroke: #A9A9A9; stroke-linecap: butt;"></line><line x1="57.83" y1="8.66" x2="139.69" y2="8.66" style="stroke-width: 2.13; stroke: #84CECA; stroke-opacity: 0.75;"></line><circle cx="87.84" cy="8.66" r="2.67" style="stroke-width: 1.06; fill: #17BAB1;"></circle><polygon points="137.44,6.69 139.48,6.69 139.48,6.69 139.48,6.69 139.48,6.69 139.48,6.69 139.48,6.69 139.48,6.69 139.48,6.69 139.48,6.69 139.48,6.69 139.48,6.69 139.48,6.69 139.48,6.69 139.48,4.68 139.48,4.68 139.48,4.68 139.48,4.68 139.48,4.68 139.48,4.68 139.48,4.68 139.48,4.68 139.48,4.68 139.48,4.68 139.48,4.68 139.48,4.68 137.44,4.68 137.44,4.68 137.44,4.68 137.44,4.68 137.44,4.68 137.44,4.68 137.44,4.68 137.44,4.68 137.44,4.68 137.44,4.68 137.44,4.68 137.44,4.68 137.44,4.68 137.44,6.69 137.44,6.69 137.44,6.69 137.44,6.69 137.44,6.69 137.44,6.69 137.44,6.69 137.44,6.69 137.44,6.69 137.44,6.69 137.44,6.69 137.44,6.69 " style="stroke-width: 0.00; stroke: #A9A9A9;"></polygon><text x="139.63" y="6.69" text-anchor="end" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">5</text><polygon points="58.03,6.69 60.07,6.69 60.07,6.69 60.07,6.69 60.07,6.69 60.07,6.69 60.07,6.69 60.07,6.69 60.07,6.69 60.07,6.69 60.07,6.69 60.07,6.69 60.07,6.69 60.07,6.69 60.07,4.68 60.07,4.68 60.07,4.68 60.07,4.68 60.07,4.68 60.07,4.68 60.07,4.68 60.07,4.68 60.07,4.68 60.07,4.68 60.07,4.68 60.07,4.68 58.03,4.68 58.03,4.68 58.03,4.68 58.03,4.68 58.03,4.68 58.03,4.68 58.03,4.68 58.03,4.68 58.03,4.68 58.03,4.68 58.03,4.68 58.03,4.68 58.03,4.68 58.03,6.69 58.03,6.69 58.03,6.69 58.03,6.69 58.03,6.69 58.03,6.69 58.03,6.69 58.03,6.69 58.03,6.69 58.03,6.69 58.03,6.69 58.03,6.69 " style="stroke-width: 0.00; stroke: #A9A9A9;"></polygon><text x="57.89" y="6.69" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">2</text></g></svg>
+</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">U23 Men</td>
+<td headers="Q1Q4" class="gt_row gt_center">1.20 [0.74-1.88]</td>
+<td headers="or" class="gt_row gt_center">
+<!--?xml version='1.0' encoding='UTF-8' ?--><svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" class="svglite" width="283.46pt" height="14.17pt" viewbox="0 0 283.46 14.17"><defs><style type="text/css">    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {      fill: none;      stroke: #000000;      stroke-linecap: round;      stroke-linejoin: round;      stroke-miterlimit: 10.00;    }    .svglite text {      white-space: pre;    }  </style></defs><rect width="100%" height="100%" style="stroke: none; fill: none;"></rect><defs><clippath id="cpMC4wMHwyODMuNDZ8MC4wMHwxNC4xNw=="><rect x="0.00" y="0.00" width="283.46" height="14.17"></rect></clippath></defs><g clip-path="url(#cpMC4wMHwyODMuNDZ8MC4wMHwxNC4xNw==)"><text x="41.73" y="11.26" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">1</text><line x1="41.45" y1="14.17" x2="41.45" y2="0.0000000000000018" style="stroke-width: 1.07; stroke: #A9A9A9; stroke-linecap: butt;"></line><line x1="34.36" y1="8.66" x2="65.47" y2="8.66" style="stroke-width: 2.13; stroke: #84CECA; stroke-opacity: 0.75;"></line><circle cx="46.91" cy="8.66" r="2.67" style="stroke-width: 1.06; fill: #17BAB1;"></circle><polygon points="63.22,6.69 65.26,6.69 65.26,6.69 65.26,6.69 65.26,6.69 65.26,6.69 65.26,6.69 65.26,6.69 65.26,6.69 65.26,6.69 65.26,6.69 65.26,6.69 65.26,6.69 65.26,6.69 65.26,4.68 65.26,4.68 65.26,4.68 65.26,4.68 65.26,4.68 65.26,4.68 65.26,4.68 65.26,4.68 65.26,4.68 65.26,4.68 65.26,4.68 65.26,4.68 63.22,4.68 63.22,4.68 63.22,4.68 63.22,4.68 63.22,4.68 63.22,4.68 63.22,4.68 63.22,4.68 63.22,4.68 63.22,4.68 63.22,4.68 63.22,4.68 63.22,4.68 63.22,6.69 63.22,6.69 63.22,6.69 63.22,6.69 63.22,6.69 63.22,6.69 63.22,6.69 63.22,6.69 63.22,6.69 63.22,6.69 63.22,6.69 63.22,6.69 " style="stroke-width: 0.00; stroke: #A9A9A9;"></polygon><text x="65.41" y="6.69" text-anchor="end" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">2</text><polygon points="34.56,6.69 36.60,6.69 36.60,6.69 36.60,6.69 36.60,6.69 36.60,6.69 36.60,6.69 36.60,6.69 36.60,6.69 36.60,6.69 36.60,6.69 36.60,6.69 36.60,6.69 36.60,6.69 36.60,4.68 36.60,4.68 36.60,4.68 36.60,4.68 36.60,4.68 36.60,4.68 36.60,4.68 36.60,4.68 36.60,4.68 36.60,4.68 36.60,4.68 36.60,4.68 34.56,4.68 34.56,4.68 34.56,4.68 34.56,4.68 34.56,4.68 34.56,4.68 34.56,4.68 34.56,4.68 34.56,4.68 34.56,4.68 34.56,4.68 34.56,4.68 34.56,4.68 34.56,6.69 34.56,6.69 34.56,6.69 34.56,6.69 34.56,6.69 34.56,6.69 34.56,6.69 34.56,6.69 34.56,6.69 34.56,6.69 34.56,6.69 34.56,6.69 " style="stroke-width: 0.00; stroke: #A9A9A9;"></polygon><text x="34.42" y="6.69" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">1</text></g></svg>
+</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">Senior Men</td>
+<td headers="Q1Q4" class="gt_row gt_center">1.15 [0.75-1.79]</td>
+<td headers="or" class="gt_row gt_center">
+<!--?xml version='1.0' encoding='UTF-8' ?--><svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" class="svglite" width="283.46pt" height="14.17pt" viewbox="0 0 283.46 14.17"><defs><style type="text/css">    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {      fill: none;      stroke: #000000;      stroke-linecap: round;      stroke-linejoin: round;      stroke-miterlimit: 10.00;    }    .svglite text {      white-space: pre;    }  </style></defs><rect width="100%" height="100%" style="stroke: none; fill: none;"></rect><defs><clippath id="cpMC4wMHwyODMuNDZ8MC4wMHwxNC4xNw=="><rect x="0.00" y="0.00" width="283.46" height="14.17"></rect></clippath></defs><g clip-path="url(#cpMC4wMHwyODMuNDZ8MC4wMHwxNC4xNw==)"><text x="41.73" y="11.26" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">1</text><line x1="41.45" y1="14.17" x2="41.45" y2="0.0000000000000018" style="stroke-width: 1.07; stroke: #A9A9A9; stroke-linecap: butt;"></line><line x1="34.63" y1="8.66" x2="63.01" y2="8.66" style="stroke-width: 2.13; stroke: #84CECA; stroke-opacity: 0.75;"></line><circle cx="45.55" cy="8.66" r="2.67" style="stroke-width: 1.06; fill: #17BAB1;"></circle><polygon points="60.77,6.69 62.81,6.69 62.81,6.69 62.81,6.69 62.81,6.69 62.81,6.69 62.81,6.69 62.81,6.69 62.81,6.69 62.81,6.69 62.81,6.69 62.81,6.69 62.81,6.69 62.81,6.69 62.81,4.68 62.81,4.68 62.81,4.68 62.81,4.68 62.81,4.68 62.81,4.68 62.81,4.68 62.81,4.68 62.81,4.68 62.81,4.68 62.81,4.68 62.81,4.68 60.77,4.68 60.77,4.68 60.77,4.68 60.77,4.68 60.77,4.68 60.77,4.68 60.77,4.68 60.77,4.68 60.77,4.68 60.77,4.68 60.77,4.68 60.77,4.68 60.77,4.68 60.77,6.69 60.77,6.69 60.77,6.69 60.77,6.69 60.77,6.69 60.77,6.69 60.77,6.69 60.77,6.69 60.77,6.69 60.77,6.69 60.77,6.69 60.77,6.69 " style="stroke-width: 0.00; stroke: #A9A9A9;"></polygon><text x="62.95" y="6.69" text-anchor="end" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">2</text><polygon points="34.84,6.69 36.87,6.69 36.87,6.69 36.87,6.69 36.87,6.69 36.87,6.69 36.87,6.69 36.87,6.69 36.87,6.69 36.87,6.69 36.87,6.69 36.87,6.69 36.87,6.69 36.87,6.69 36.87,4.68 36.87,4.68 36.87,4.68 36.87,4.68 36.87,4.68 36.87,4.68 36.87,4.68 36.87,4.68 36.87,4.68 36.87,4.68 36.87,4.68 36.87,4.68 34.84,4.68 34.84,4.68 34.84,4.68 34.84,4.68 34.84,4.68 34.84,4.68 34.84,4.68 34.84,4.68 34.84,4.68 34.84,4.68 34.84,4.68 34.84,4.68 34.84,4.68 34.84,6.69 34.84,6.69 34.84,6.69 34.84,6.69 34.84,6.69 34.84,6.69 34.84,6.69 34.84,6.69 34.84,6.69 34.84,6.69 34.84,6.69 34.84,6.69 " style="stroke-width: 0.00; stroke: #A9A9A9;"></polygon><text x="34.69" y="6.69" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">1</text></g></svg>
+</td>
+</tr>
+<tr>
+<td headers="Program" class="gt_row gt_left">Senior Women/X</td>
+<td headers="Q1Q4" class="gt_row gt_center">2.28 [1.29-4.06]*</td>
+<td headers="or" class="gt_row gt_center">
+<!--?xml version='1.0' encoding='UTF-8' ?--><svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" class="svglite" width="283.46pt" height="14.17pt" viewbox="0 0 283.46 14.17"><defs><style type="text/css">    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {      fill: none;      stroke: #000000;      stroke-linecap: round;      stroke-linejoin: round;      stroke-miterlimit: 10.00;    }    .svglite text {      white-space: pre;    }  </style></defs><rect width="100%" height="100%" style="stroke: none; fill: none;"></rect><defs><clippath id="cpMC4wMHwyODMuNDZ8MC4wMHwxNC4xNw=="><rect x="0.00" y="0.00" width="283.46" height="14.17"></rect></clippath></defs><g clip-path="url(#cpMC4wMHwyODMuNDZ8MC4wMHwxNC4xNw==)"><text x="41.73" y="11.26" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">1</text><line x1="41.45" y1="14.17" x2="41.45" y2="0.0000000000000018" style="stroke-width: 1.07; stroke: #A9A9A9; stroke-linecap: butt;"></line><line x1="49.37" y1="8.66" x2="124.95" y2="8.66" style="stroke-width: 2.13; stroke: #84CECA; stroke-opacity: 0.75;"></line><circle cx="76.38" cy="8.66" r="2.67" style="stroke-width: 1.06; fill: #17BAB1;"></circle><polygon points="122.71,6.69 124.75,6.69 124.75,6.69 124.75,6.69 124.75,6.69 124.75,6.69 124.75,6.69 124.75,6.69 124.75,6.69 124.75,6.69 124.75,6.69 124.75,6.69 124.75,6.69 124.75,6.69 124.75,4.68 124.75,4.68 124.75,4.68 124.75,4.68 124.75,4.68 124.75,4.68 124.75,4.68 124.75,4.68 124.75,4.68 124.75,4.68 124.75,4.68 124.75,4.68 122.71,4.68 122.71,4.68 122.71,4.68 122.71,4.68 122.71,4.68 122.71,4.68 122.71,4.68 122.71,4.68 122.71,4.68 122.71,4.68 122.71,4.68 122.71,4.68 122.71,4.68 122.71,6.69 122.71,6.69 122.71,6.69 122.71,6.69 122.71,6.69 122.71,6.69 122.71,6.69 122.71,6.69 122.71,6.69 122.71,6.69 122.71,6.69 122.71,6.69 " style="stroke-width: 0.00; stroke: #A9A9A9;"></polygon><text x="124.89" y="6.69" text-anchor="end" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">4</text><polygon points="49.57,6.69 51.61,6.69 51.61,6.69 51.61,6.69 51.61,6.69 51.61,6.69 51.61,6.69 51.61,6.69 51.61,6.69 51.61,6.69 51.61,6.69 51.61,6.69 51.61,6.69 51.61,6.69 51.61,4.68 51.61,4.68 51.61,4.68 51.61,4.68 51.61,4.68 51.61,4.68 51.61,4.68 51.61,4.68 51.61,4.68 51.61,4.68 51.61,4.68 51.61,4.68 49.57,4.68 49.57,4.68 49.57,4.68 49.57,4.68 49.57,4.68 49.57,4.68 49.57,4.68 49.57,4.68 49.57,4.68 49.57,4.68 49.57,4.68 49.57,4.68 49.57,4.68 49.57,6.69 49.57,6.69 49.57,6.69 49.57,6.69 49.57,6.69 49.57,6.69 49.57,6.69 49.57,6.69 49.57,6.69 49.57,6.69 49.57,6.69 49.57,6.69 " style="stroke-width: 0.00; stroke: #A9A9A9;"></polygon><text x="49.43" y="6.69" style="font-size: 0.00px; font-weight: bold;fill: #A9A9A9; font-family: &quot;Arial&quot;;" textlength="0.60px" lengthadjust="spacingAndGlyphs">1</text></g></svg>
+</td>
+</tr>
+</tbody>
+<tfoot class="gt_sourcenotes">
+<tr>
+<td class="gt_sourcenote" colspan="3"><i>Confidence Interval (CI), Quarter (Q)</i></td>
+    </tr>
+<tr>
+<td class="gt_sourcenote" colspan="3"><i>* α &lt;0.05</i></td>
+    </tr>
+<tr>
+<td class="gt_sourcenote" colspan="3">Reference line <b>|</b> = OR 1.0</td>
+    </tr>
+</tfoot>
+</table>
+</div>
+</div>
+</div>
+</section><section id="discussion" class="level2" data-number="4"><h2 data-number="4" class="anchored" data-anchor-id="discussion">
+<span class="header-section-number">4</span> Discussion</h2>
+<p>The present study investigated the RAE prevalence in players historically selected for Canada Soccer national team programs including training camps. The main findings are: (1) The RAE was present within both U15, U17 and U20 programs of the sample; (2) The RAE was present within the Senior Women/X’s program but not within the Senior Men’s or U23 Men’s programs of the sample; (3) The magnitude of the effect sizes decreased with an increase in age of the program samples; (4) The effect sizes for both U15 programs were similar in magnitude; (5) The effect sizes for both U17 programs were also similar in magnitude; (6) The effect size for the U20 Women’s program was stronger than that of the U20 Men’s program.</p>
+<p>The current study’s findings for the male programs are in line with several other studies which indicate that the RAE is a common occurrence in these categories worldwide and tends to decrease with an increase in age <span class="citation" data-cites="brustio2018 lupo2019">(Brustio et al., 2018; Lupo et al., 2019)</span>. Additionally, the absence of a significant RAE in the Senior Men’s program of the study’s sample is consistent with other past findings <span class="citation" data-cites="götze2021 andrew2022">(Andrew et al., 2022; Götze &amp; Hoppe, 2021)</span>.</p>
+<p>However, for the girls’ and women’s programs, the current study’s results that show persistent and significant RAE across all categories are only partially consistent with previous literature <span class="citation" data-cites="delorme2009 götze2021 simon2022">(Delorme et al., 2009; Götze &amp; Hoppe, 2021; Simon et al., 2022)</span>. For example, <span class="citation" data-cites="barreira2021">Barreira et al. (2021)</span> failed to establish the presence of a RAE in a sample of women’s national team players participating in the Olympic games from 1996 through 2016. However, <span class="citation" data-cites="sedano2015">Sedano et al. (2015)</span> demonstrated a significant RAE among Spanish players at different playing levels including the national team. The current study’s results are also in line with those of <span class="citation" data-cites="korgaokar2018">Korgaokar et al. (2018)</span> who found consistent RAE within their sample of girls competing at different levels in the USA, with effect sizes decreasing with an increase in age.</p>
+<p>One surprising finding from the current study is the stronger presence of RAE within the U20 Women’s program compared to the U20 Men’s. This is an unusual pattern that is not consistent with what is typically reported in the current literature <span class="citation" data-cites="baker2009gender">(Baker et al., 2009)</span>.</p>
+<p>There is evidence to suggest that the RAE may be influenced by region specific variables <span class="citation" data-cites="romann2013">(Romann &amp; Fuchslocher, 2013)</span>. As the RAE is theorized by some to be typically stronger in sports that are the more popular <span class="citation" data-cites="cobley2009 smith2018">(Cobley et al., 2009; Smith et al., 2018)</span>, it is possible that the RAE may be most present in countries where soccer participation for girls and women is higher <span class="citation" data-cites="korgaokar2018 simon2022">(Korgaokar et al., 2018; Simon et al., 2022)</span>. However, the manifestation of the RAE is likely a non-linear interaction of multiple moderating variables <span class="citation" data-cites="baker2009gender Schorer2015">(Baker et al., 2009; Schorer et al., 2015)</span>.</p>
+<p>Canada represents a competitive landscape for girls’ and women’s soccer, with over 200 000 registered female players <span class="citation" data-cites="canadasoccer2022b fifa2019">(Canada Soccer Association, 2022; FIFA, 2019)</span>. In spite of that, Canada represents one of the only top ranked FIFA nations without a currently active domestic professional women’s league. It could be hypothesized that this unique regional condition may be favourable to promoting and sustaining the RAE. With limited opportunities relative to the size of the player pool available, perhaps causing participation rates to exceed the established infrastructure, inequalities such as the RAE could become more pervasive and sustained over time. This supposition could possibly explain the results of the U20 categories as this age group is a crucial time for professional development. However, this is purely speculative from the author’s part and requires further investigation.</p>
+<p>Research on the RAE in soccer is not new <span class="citation" data-cites="helsen2012">(Helsen et al., 2012)</span>, however, <span class="citation" data-cites="pedersen2022">Pedersen et al. (2022)</span> suggest that the RAE has grown stronger over time with the effect being increasingly present in more recent major tournaments. Since research on women’s soccer is growing exponentially, investigating the RAE within the girls’ and women’s soccer context remains relevant, as the literature remains far behind the depth of the boys’s and men’s game <span class="citation" data-cites="Okholm2022">(Okholm Kryger et al., 2021)</span>. The importance of this area of research should be emphasized, as even when direct efforts are made to mitigate the RAE, it may still persist <span class="citation" data-cites="lagestad2018">(Lagestad et al., 2018)</span>.</p>
+<section id="limitations" class="level3" data-number="4.1"><h3 data-number="4.1" class="anchored" data-anchor-id="limitations">
+<span class="header-section-number">4.1</span> Limitations</h3>
+<p>This study is not without limitations. First, the present study did not include physical, cognitive or psychosocial data. Therefore, assumptions about potential advantages in these areas of maturation for early born players cannot be confirmed in the current sample.</p>
+<p>Secondly, birth months were used to determine birth quarter distributions. This method has limitations as players born on January 1<sup>st</sup> and March 31<sup>st</sup> are considered as equivalent. Other statistical methods such as Poisson regression techniques could potentially be considered more appropriate and effective in this context <span class="citation" data-cites="doyle2019">(Doyle &amp; Bottomley, 2019)</span>.</p>
+<p>Finally, it should also be cautioned that in some instances, the samples for different programs included different time periods. It is possible that differences in the prevalence of the RAE exist dependent on the time period analysed and comparisons across different periods may limit the reliability of conclusions.</p>
+</section></section><section id="conclusions" class="level2" data-number="5"><h2 data-number="5" class="anchored" data-anchor-id="conclusions">
+<span class="header-section-number">5</span> Conclusions</h2>
+<p>The current study demonstrates the presence of the RAE within players historically selected for Canada Soccer national team programs with the exception of the Men’s U23 and Men’s Senior programs. The prevalence and overall strength of the effects observed among the Girls’ and Women/X’s programs is particularly worrisome. To the author’s knowledge, this is the first study to identify widespread patterns of the RAE across different Canada Soccer national team programs. Future studies should focus on underlying causes of the RAE with gender and region specific considerations. When validity of possible interventions is established, recommendations for best practices should be made to relevant practitioners.</p>
+</section><section id="supplementary-infographic" class="level2" data-number="6"><h2 data-number="6" class="anchored" data-anchor-id="supplementary-infographic">
+<span class="header-section-number">6</span> Supplementary Infographic</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://6yardscreamers.netlify.app/posts/RAE_CS/supp_info_rae.png" class="img-fluid figure-img" alt="Data visualization des"></p>
+<p></p><figcaption class="figure-caption">.</figcaption><p></p>
+</figure>
+</div>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+About the author
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Christina is a football (soccer) data analyst. To get in touch: 6ysblog@gmail.com</p>
+</div>
+</div>
+</section><section id="references" class="level2" data-number="7">
+
+
+
+</section><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">
+7 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2">
+<div id="ref-andrew2022" class="csl-entry">
+Andrew, M., Finnegan, L., Datson, N., &amp; Dugdale, J. H. (2022). Men are from quartile one, women are from? Relative Age Effect in European soccer and the influence of age, success, and playing status. <em>Children</em>, <em>9</em>(11), 1747. <a href="https://doi.org/10.3390/children9111747">https://doi.org/10.3390/children9111747</a>
+</div>
+<div id="ref-baker2009gender" class="csl-entry">
+Baker, J., Schorer, J., Cobley, S., Bräutigam, H., &amp; Büsch, D. (2009). Gender, depth of competition and relative age effects in team sports. <em>Asian Journal of Exercise &amp; Sports Science</em>, <em>6</em>(1).
+</div>
+<div id="ref-barreira2021" class="csl-entry">
+Barreira, J., Bueno, B., &amp; Chiminazzo, J. G. C. (2021). Relative age effect and age of peak performance: An analysis of women’s football players in the olympic games (1996-2016). <em>Motriz: Revista de Educação Física</em>, <em>27</em>. <a href="https://doi.org/10.1590/s1980-65742021006921">https://doi.org/10.1590/s1980-65742021006921</a>
+</div>
+<div id="ref-brustio2018" class="csl-entry">
+Brustio, P. R., Lupo, C., Ungureanu, A. N., Frati, R., Rainoldi, A., &amp; Boccia, G. (2018). The relative age effect is larger in Italian soccer top-level youth categories and smaller in Serie A. <em>PLOS ONE</em>, <em>13</em>(4), e0196253. <a href="https://doi.org/10.1371/journal.pone.0196253">https://doi.org/10.1371/journal.pone.0196253</a>
+</div>
+<div id="ref-canadasoccer2022" class="csl-entry">
+Canada Soccer. (2022). <a href="https://www.canadasoccer.com">www.canadasoccer.com</a>
+</div>
+<div id="ref-canadasoccer2022b" class="csl-entry">
+Canada Soccer Association. (2022). <em>2021 annual report</em>. <a href="https://www.canadasoccer.com/wp-content/uploads/2022/05/2021-AnnualReport-Web-EN.pdf" class="uri">https://www.canadasoccer.com/wp-content/uploads/2022/05/2021-AnnualReport-Web-EN.pdf</a>.
+</div>
+<div id="ref-cobley2009" class="csl-entry">
+Cobley, S., Baker, J., Wattie, N., &amp; McKenna, J. (2009). Annual age-grouping and athlete development: A meta-analytical review of relative age effects in sport. <em>Sports Medicine (Auckland, N.Z.)</em>, <em>39</em>, 235–256.
+</div>
+<div id="ref-Cohen1992" class="csl-entry">
+Cohen, J. (1992). A power primer. <em>Psychological Bulletin</em>, <em>112</em>(1), 155–159. <a href="https://doi.org/10.1037/0033-2909.112.1.155">https://doi.org/10.1037/0033-2909.112.1.155</a>
+</div>
+<div id="ref-concacaf2022" class="csl-entry">
+CONCACAF. (2022). <a href="https://www.concacaf.com">www.concacaf.com</a>
+</div>
+<div id="ref-delorme2009" class="csl-entry">
+Delorme, N., Boiché, J., &amp; Raspaud, M. (2009). Relative age effect in female sport: a diachronic examination of soccer players. <em>Scandinavian Journal of Medicine &amp; Science in Sports</em>, <em>20</em>(3), 509–515. <a href="https://doi.org/10.1111/j.1600-0838.2009.00979.x">https://doi.org/10.1111/j.1600-0838.2009.00979.x</a>
+</div>
+<div id="ref-doyle2019" class="csl-entry">
+Doyle, J. R., &amp; Bottomley, P. A. (2019). The relative age effect in European elite soccer: A practical guide to Poisson regression modelling. <em>PLOS ONE</em>, <em>14</em>(4), e0213988. <a href="https://doi.org/10.1371/journal.pone.0213988">https://doi.org/10.1371/journal.pone.0213988</a>
+</div>
+<div id="ref-Faul2007" class="csl-entry">
+Faul, F., Erdfelder, E., Lang, A.-G., &amp; Buchner, A. (2007). G*Power 3: A flexible statistical power analysis program for the social, behavioral, and biomedical sciences. <em>Behavior Research Methods</em>, <em>39</em>(2), 175–191. <a href="https://doi.org/10.3758/bf03193146">https://doi.org/10.3758/bf03193146</a>
+</div>
+<div id="ref-fifa2019" class="csl-entry">
+FIFA. (2019). <em>Women’s football member associations survey report 2019</em>. <a href="https://digitalhub.fifa.com/m/231330ded0bf3120/original/nq3ensohyxpuxovcovj0-pdf.pdf" class="uri">https://digitalhub.fifa.com/m/231330ded0bf3120/original/nq3ensohyxpuxovcovj0-pdf.pdf</a>.
+</div>
+<div id="ref-fifa2022" class="csl-entry">
+FIFA. (2022). <a href="https://www.fifa.com">www.fifa.com</a>
+</div>
+<div id="ref-götze2021" class="csl-entry">
+Götze, M., &amp; Hoppe, M. W. (2021). Relative age effect in elite german soccer: Influence of gender and competition level. <em>Frontiers in Psychology</em>, <em>11</em>. <a href="https://doi.org/10.3389/fpsyg.2020.587023">https://doi.org/10.3389/fpsyg.2020.587023</a>
+</div>
+<div id="ref-helsen2012" class="csl-entry">
+Helsen, W. F., Baker, J., Michiels, S., Schorer, J., Van winckel, J., &amp; Williams, A. M. (2012). The relative age effect in European professional soccer: Did ten years of research make any difference? <em>Journal of Sports Sciences</em>, <em>30</em>(15), 1665–1671. <a href="https://doi.org/10.1080/02640414.2012.721929">https://doi.org/10.1080/02640414.2012.721929</a>
+</div>
+<div id="ref-iannone2022" class="csl-entry">
+Iannone, R., Cheng, J., Schloerke, B., Hughes, E., &amp; Seo, J. (2022). <em>Gt: Easily create presentation-ready display tables</em>. <a href="https://CRAN.R-project.org/package=gt">https://CRAN.R-project.org/package=gt</a>
+</div>
+<div id="ref-jackson2020" class="csl-entry">
+Jackson, R. C., &amp; Comber, G. (2020). Hill on a mountaintop: A longitudinal and cross-sectional analysis of The Relative Age Effect in competitive youth football. <em>Journal of Sports Sciences</em>, <em>38</em>(11-12), 1352–1358. <a href="https://doi.org/10.1080/02640414.2019.1706830">https://doi.org/10.1080/02640414.2019.1706830</a>
+</div>
+<div id="ref-jakobsson2021" class="csl-entry">
+Jakobsson, J., Julin, A. L., Persson, G., &amp; Malm, C. (2021). Darwinian selection discriminates young athletes: The Relative Age Effect in relation to sporting performance. <em>Sports Medicine - Open</em>, <em>7</em>(1). <a href="https://doi.org/10.1186/s40798-021-00300-2">https://doi.org/10.1186/s40798-021-00300-2</a>
+</div>
+<div id="ref-korgaokar2018" class="csl-entry">
+Korgaokar, A. D., Farley, R. S., Fuller, D. K., &amp; Caputo, J. L. (2018). Relative age effect among elite youth female soccer players across the united states. <em>Sport Mont</em>, <em>16</em>(3), 37–41. <a href="https://doi.org/10.26773/smj.181007">https://doi.org/10.26773/smj.181007</a>
+</div>
+<div id="ref-lagestad2018" class="csl-entry">
+Lagestad, P., Steen, I., &amp; Dalen, T. (2018). Inevitable Relative Age Effects in different stages of the selection process among male and female youth soccer players. <em>Sports</em>, <em>6</em>(2), 29. <a href="https://doi.org/10.3390/sports6020029">https://doi.org/10.3390/sports6020029</a>
+</div>
+<div id="ref-lupo2019" class="csl-entry">
+Lupo, C., Boccia, G., Ungureanu, A. N., Frati, R., Marocco, R., &amp; Brustio, P. R. (2019). The beginning of senior career in team sport is affected by relative age effect. <em>Frontiers in Psychology</em>, <em>10</em>. <a href="https://doi.org/10.3389/fpsyg.2019.01465">https://doi.org/10.3389/fpsyg.2019.01465</a>
+</div>
+<div id="ref-mangiafico2023" class="csl-entry">
+Mangiafico, S. S. (2023). <em><span class="nocase">rcompanion</span>: Functions to support extension education program evaluation</em>. Rutgers Cooperative Extension. <a href="https://CRAN.R-project.org/package=rcompanion/">https://CRAN.R-project.org/package=rcompanion/</a>
+</div>
+<div id="ref-gtExtras" class="csl-entry">
+Mock, T. (2022). <em>gtExtras: Extending ’gt’ for beautiful HTML tables</em>. <a href="https://CRAN.R-project.org/package=gtExtras">https://CRAN.R-project.org/package=gtExtras</a>
+</div>
+<div id="ref-muller2018" class="csl-entry">
+Müller, L., Gehmaier, J., Gonaus, C., Raschner, C., &amp; Müller, E. (2018). Maturity status strongly influences the relative age effect in international elite under-9 soccer. <em>Journal of Sports Science &amp; Medicine</em>, <em>17</em>(2), 216.
+</div>
+<div id="ref-Okholm2022" class="csl-entry">
+Okholm Kryger, K., Wang, A., Mehta, R., Impellizzeri, F. M., Massey, A., &amp; McCall, A. (2021). Research on women<span>’</span>s football: A scoping review. <em>Science and Medicine in Football</em>, <em>6</em>(5), 549–558. <a href="https://doi.org/10.1080/24733938.2020.1868560">https://doi.org/10.1080/24733938.2020.1868560</a>
+</div>
+<div id="ref-pedersen2022" class="csl-entry">
+Pedersen, A. V., Aune, T. K., Dalen, T., &amp; Lorås, H. (2022). Variations in The Relative Age Effect with age and sex, and over time: <span></span>Elite-level data from international soccer World Cups. <em>PLOS ONE</em>, <em>17</em>(4), e0264813. <a href="https://doi.org/10.1371/journal.pone.0264813">https://doi.org/10.1371/journal.pone.0264813</a>
+</div>
+<div id="ref-showtext" class="csl-entry">
+Qiu, Y. (2022). <em>Showtext: Using fonts more easily in r graphs</em>. <a href="https://CRAN.R-project.org/package=showtext">https://CRAN.R-project.org/package=showtext</a>
+</div>
+<div id="ref-R2022" class="csl-entry">
+R Core Team. (2022). <em>R: A language and environment for statistical computing</em>. R Foundation for Statistical Computing. <a href="https://www.R-project.org/">https://www.R-project.org/</a>
+</div>
+<div id="ref-romann2013" class="csl-entry">
+Romann, M., &amp; Fuchslocher, J. (2013). Influences of player nationality, playing position, and height on relative age effects at women’s under-17 FIFA World Cup. <em>Journal of Sports Sciences</em>, <em>31</em>(1), 32–40. <a href="https://doi.org/10.1080/02640414.2012.718442">https://doi.org/10.1080/02640414.2012.718442</a>
+</div>
+<div id="ref-Schorer2015" class="csl-entry">
+Schorer, J., Cobley, S. P., Brautigam, H., Loffing, F., Hütter, S., Büsch, D., Wattie, N., Helsen, W. F., &amp; Baker, J. (2015). Developmental contexts, depth of competition and relative age effects in sport: A database analysis and a quasi- experiment. <em>Psychological Test and Assessment Modeling</em>, <em>57</em>, 126–143.
+</div>
+<div id="ref-sedano2015" class="csl-entry">
+Sedano, S., Vaeyens, R., &amp; Redondo, J. C. (2015). The Relative Age Effect in Spanish Female Soccer Players. Influence of the Competitive Level and a Playing Position. <em>Journal of Human Kinetics</em>, <em>46</em>(1), 129–137. <a href="https://doi.org/10.1515/hukin-2015-0041">https://doi.org/10.1515/hukin-2015-0041</a>
+</div>
+<div id="ref-Sharpe2015" class="csl-entry">
+Sharpe, D. M. (2015). Your chi-square test is statistically significant: Now what? <em>Practical Assessment, Research and Evaluation</em>, <em>20</em>(8), 1–10.
+</div>
+<div id="ref-simon2022" class="csl-entry">
+Simon, C., Carson, F., Faber, I. R., &amp; Hülsdünker, T. (2022). Low prevalence of relative age effects in Luxembourg<span>’</span>s male and female youth football. <em>PLOS ONE</em>, <em>17</em>(8), e0273019. <a href="https://doi.org/10.1371/journal.pone.0273019">https://doi.org/10.1371/journal.pone.0273019</a>
+</div>
+<div id="ref-smith2018" class="csl-entry">
+Smith, K. L., Weir, P. L., Till, K., Romann, M., &amp; Cobley, S. (2018). Relative Age Effects across and within female sport contexts: A systematic review and meta-analysis. <em>Sports Medicine</em>, <em>48</em>(6), 1451–1478. <a href="https://doi.org/10.1007/s40279-018-0890-8">https://doi.org/10.1007/s40279-018-0890-8</a>
+</div>
+<div id="ref-statisticscanada2018" class="csl-entry">
+Statistics Canada. (2022). <em>Live births, by month</em>. Government of Canada. <a href="https://doi.org/10.25318/1310041501-ENG">https://doi.org/10.25318/1310041501-ENG</a>
+</div>
+<div id="ref-thompson2004" class="csl-entry">
+Thompson, A., Barnsley, R., &amp; Battle, J. (2004). The relative age effect and the development of self-esteem. <em>Educational Research - EDUC RES</em>, <em>46</em>. <a href="https://doi.org/10.1080/0013188042000277368">https://doi.org/10.1080/0013188042000277368</a>
+</div>
+<div id="ref-ggplot2" class="csl-entry">
+Wickham, H. (2016). <em>ggplot2: Elegant graphics for data analysis</em>. <a href="https://ggplot2.tidyverse.org">https://ggplot2.tidyverse.org</a>
+</div>
+<div id="ref-ggtext" class="csl-entry">
+Wilke, C. O., &amp; Wiernik, B. M. (2022). <em>Ggtext: Improved text rendering support for ’ggplot2’</em>. <a href="https://CRAN.R-project.org/package=ggtext">https://CRAN.R-project.org/package=ggtext</a>
+</div>
+</div></section></div> ]]></description>
+  <category>Data Viz</category>
+  <category>RAE</category>
+  <category>ggplot2</category>
+  <category>Canada Soccer</category>
+  <guid>https://6yardscreamers.netlify.app/posts/RAE_CS/index.html</guid>
+  <pubDate>Fri, 07 Jul 2023 03:00:00 GMT</pubDate>
+  <media:content url="https://6yardscreamers.netlify.app/posts/RAE_CS/figure_sm.svg" medium="image" type="image/svg+xml"/>
+</item>
 <item>
   <title>World Cup National Anthems, Emotions &amp; Audio Features</title>
   <dc:creator>Christina</dc:creator>
-  <link>https://6yardscreamersnew.netlify.app/posts/wc_anthems_emotions/index.html</link>
+  <link>https://6yardscreamers.netlify.app/posts/wc_anthems_emotions/index.html</link>
   <description><![CDATA[ 
 
 
@@ -32,17 +2343,17 @@
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 <hr>
-<p>The <em>circumplex model of emotion</em> developed by James Russell <span class="citation" data-cites="russell1980">(Russell, 1980)</span> is a commonly cited framework for defining dimensions of affective states <span class="citation" data-cites="remington2000">(Remington et al., 2000)</span>.<sup>1</sup> This model suggests that emotional states are processed and represented along the two dimensions of valence (horizontal axis) and arousal/activity (vertical axis) <span class="citation" data-cites="scott2010">(Scott et al., 2010)</span> (Figure 1).</p>
+<p>The <em>circumplex model of emotion</em> developed by James Russell <span class="citation" data-cites="russell1980">(Russell 1980)</span> is a commonly cited framework for defining dimensions of affective states <span class="citation" data-cites="remington2000">(Remington, Fabrigar, and Visser 2000)</span>.<sup>1</sup> This model suggests that emotional states are processed and represented along the two dimensions of valence (horizontal axis) and arousal/activity (vertical axis) <span class="citation" data-cites="scott2010">(Scott, Sauter, and McGettigan 2010)</span> (Figure 1).</p>
 <center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://6yardscreamersnew.netlify.app/posts/wc_anthems_emotions/Russell1980_model_annot1.png" class="img-fluid figure-img" width="500"></p>
-<p></p><figcaption class="figure-caption">Figure 1. Russell’s 2 dimensional model of emotions. Adapted from Russell (1980)</figcaption><p></p>
+<p><img src="https://6yardscreamers.netlify.app/posts/wc_anthems_emotions/Russell1980_model_annot1.png" class="img-fluid figure-img" width="500"></p>
+<p></p><figcaption class="figure-caption">Figure 1. Russell's 2 dimensional model of emotions. Adapted from Russell (1980)</figcaption><p></p>
 </figure>
 </div>
 </center>
 <hr>
-<p>Research investigating the interaction of emotions and music is vast <span class="citation" data-cites="juslin2013">(Juslin, 2013)</span>. Many models have been proposed <span class="citation" data-cites="eerola2010">(Eerola &amp; Vuoskoski, 2010)</span> and interest in the study of emotions and music recommendation systems is growing <span class="citation" data-cites="schedl2018">(Schedl et al., 2018)</span>. Measures similar to Russell’s dimensions are found in <a href="https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features">Spotify’s track audio features</a> <sup>2</sup>. Spotify defines their valence and energy (a proxy for arousal) measures as:</p>
+<p>Research investigating the interaction of emotions and music is vast <span class="citation" data-cites="juslin2013">(Juslin 2013)</span>. Many models have been proposed <span class="citation" data-cites="eerola2010">(Eerola and Vuoskoski 2010)</span> and interest in the study of emotions and music recommendation systems is growing <span class="citation" data-cites="schedl2018">(Schedl et al. 2018)</span>. Metrics similar to Russell’s dimensions are found in <a href="https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features">Spotify’s track audio features</a> <sup>2</sup>. Spotify defines their valence and energy (a proxy for arousal) measures as:</p>
 <div class="callout-note callout callout-style-default no-icon callout-captioned">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -69,13 +2380,13 @@
 <p><em>“Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy.”</em></p>
 </div>
 </div>
-<p>Using the <em>Spotifyr</em> package <span class="citation" data-cites="spotifyr-2">(Thompson et al., 2021)</span>, Spotify audio features of valence and energy for the 32 national anthems of the participating countries at the 2022 FIFA Men’s World Cup were plotted via <em>ggplot2</em> <span class="citation" data-cites="ggplot2-2">(Wickham, 2016)</span>. This descriptive analysis is not without limitations. For example, results can vary depending on each artists’ interpretation of the song. That being said, the current analysis’ results are shown in Figure 2 below. Does Wales’ anthem strike a miserable nerve? Can we explain England’s bore draw tendencies via their low energy score? Conversely, did Costa Rica concede seven to Spain because their anthem is too energetic? To be clear, I don’t actually believe any of this relates to performance on the pitch, these are just some of my silly thoughts.</p>
+<p>Using the <em>Spotifyr</em> package <span class="citation" data-cites="spotifyr-2">(Thompson et al. 2021)</span>, Spotify audio features of valence and energy for the 32 national anthems of the participating countries at the 2022 FIFA Men’s World Cup were plotted with <em>ggplot2</em> <span class="citation" data-cites="ggplot2-2">(Wickham 2016)</span>. This descriptive analysis is not without limitations. For example, results can vary depending on each artists’ interpretation of the song. That being said, the current analysis’ results are shown in Figure 2 below. Does Wales’ anthem strike a miserable nerve? Can we explain England’s bore draw tendencies via their low energy score? Conversely, did Costa Rica concede seven to Spain because their anthem is too energetic? To be clear, I don’t actually believe any of this relates to performance on the pitch, these are just some of my silly thoughts.</p>
 <p>
 </p><div class="column-page">
 <center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://6yardscreamersnew.netlify.app/posts/wc_anthems_emotions/plot1_final.png" class="img-fluid figure-img" width="12000"></p>
+<p><img src="https://6yardscreamers.netlify.app/posts/wc_anthems_emotions/plot1_final.png" class="img-fluid figure-img" width="12000"></p>
 <p></p><figcaption class="figure-caption">Figure 2. National Anthems of The 2022 World Cup: Emotions and Audio Features</figcaption><p></p>
 </figure>
 </div>
@@ -108,30 +2419,30 @@
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-eerola2010" class="csl-entry">
-Eerola, T., &amp; Vuoskoski, J. K. (2010). A comparison of the discrete and dimensional models of emotion in music. <em>Psychology of Music</em>, <em>39</em>(1), 18–49. <a href="https://doi.org/10.1177/0305735610362821">https://doi.org/10.1177/0305735610362821</a>
+Eerola, Tuomas, and Jonna K. Vuoskoski. 2010. <span>“A Comparison of the Discrete and Dimensional Models of Emotion in Music.”</span> <em>Psychology of Music</em> 39 (1): 18–49. <a href="https://doi.org/10.1177/0305735610362821">https://doi.org/10.1177/0305735610362821</a>.
 </div>
 <div id="ref-juslin2013" class="csl-entry">
-Juslin, P. N. (2013). What does music express? Basic emotions and beyond. <em>Frontiers in Psychology</em>, <em>4</em>. <a href="https://doi.org/10.3389/fpsyg.2013.00596">https://doi.org/10.3389/fpsyg.2013.00596</a>
+Juslin, Patrik N. 2013. <span>“What Does Music Express? Basic Emotions and Beyond.”</span> <em>Frontiers in Psychology</em> 4. <a href="https://doi.org/10.3389/fpsyg.2013.00596">https://doi.org/10.3389/fpsyg.2013.00596</a>.
 </div>
 <div id="ref-remington2000" class="csl-entry">
-Remington, N. A., Fabrigar, L. R., &amp; Visser, P. S. (2000). Reexamining the circumplex model of affect. <em>Journal of Personality and Social Psychology</em>, <em>79</em>(2), 286–300. <a href="https://doi.org/10.1037/0022-3514.79.2.286">https://doi.org/10.1037/0022-3514.79.2.286</a>
+Remington, Nancy A., Leandre R. Fabrigar, and Penny S. Visser. 2000. <span>“Reexamining the Circumplex Model of Affect.”</span> <em>Journal of Personality and Social Psychology</em> 79 (2): 286–300. <a href="https://doi.org/10.1037/0022-3514.79.2.286">https://doi.org/10.1037/0022-3514.79.2.286</a>.
 </div>
 <div id="ref-russell1980" class="csl-entry">
-Russell, J. A. (1980). A circumplex model of affect. <em>Journal of Personality and Social Psychology</em>, <em>39</em>(6), 1161–1178. <a href="https://doi.org/10.1037/h0077714">https://doi.org/10.1037/h0077714</a>
+Russell, James A. 1980. <span>“A Circumplex Model of Affect.”</span> <em>Journal of Personality and Social Psychology</em> 39 (6): 1161–78. <a href="https://doi.org/10.1037/h0077714">https://doi.org/10.1037/h0077714</a>.
 </div>
 <div id="ref-schedl2018" class="csl-entry">
-Schedl, M., Zamani, H., Chen, C.-W., Deldjoo, Y., &amp; Elahi, M. (2018). Current challenges and visions in music recommender systems research. <em>International Journal of Multimedia Information Retrieval</em>, <em>7</em>(2), 95–116. <a href="https://doi.org/10.1007/s13735-018-0154-2">https://doi.org/10.1007/s13735-018-0154-2</a>
+Schedl, Markus, Hamed Zamani, Ching-Wei Chen, Yashar Deldjoo, and Mehdi Elahi. 2018. <span>“Current Challenges and Visions in Music Recommender Systems Research.”</span> <em>International Journal of Multimedia Information Retrieval</em> 7 (2): 95–116. <a href="https://doi.org/10.1007/s13735-018-0154-2">https://doi.org/10.1007/s13735-018-0154-2</a>.
 </div>
 <div id="ref-scott2010" class="csl-entry">
-Scott, S. K., Sauter, D., &amp; McGettigan, C. (2010). <em>Brain mechanisms for processing perceived emotional vocalizations in humans</em> (pp. 187–197). Elsevier. <a href="https://doi.org/10.1016/b978-0-12-374593-4.00019-x">https://doi.org/10.1016/b978-0-12-374593-4.00019-x</a>
+Scott, Sophie K., Disa Sauter, and Carolyn McGettigan. 2010. <span>“Brain Mechanisms for Processing Perceived Emotional Vocalizations in Humans.”</span> In, 187–97. Elsevier. <a href="https://doi.org/10.1016/b978-0-12-374593-4.00019-x">https://doi.org/10.1016/b978-0-12-374593-4.00019-x</a>.
 </div>
 <div id="ref-spotifyr-2" class="csl-entry">
-Thompson, C., Antal, D., Parry, J., Phipps, D., &amp; Wolff, T. (2021). <em>Spotifyr: R wrapper for the ’spotify’ web API</em>. <a href="https://CRAN.R-project.org/package=spotifyr">https://CRAN.R-project.org/package=spotifyr</a>
+Thompson, Charlie, Daniel Antal, Josiah Parry, Donal Phipps, and Tom Wolff. 2021. <span>“Spotifyr: R Wrapper for the ’Spotify’ Web API.”</span> <a href="https://CRAN.R-project.org/package=spotifyr">https://CRAN.R-project.org/package=spotifyr</a>.
 </div>
 <div id="ref-ggplot2-2" class="csl-entry">
-Wickham, H. (2016). <em>ggplot2: Elegant graphics for data analysis</em>. <a href="https://ggplot2.tidyverse.org">https://ggplot2.tidyverse.org</a>
+Wickham, Hadley. 2016. <span>“Ggplot2: Elegant Graphics for Data Analysis.”</span> <a href="https://ggplot2.tidyverse.org">https://ggplot2.tidyverse.org</a>.
 </div>
 </div></section><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
@@ -142,15 +2453,15 @@ Wickham, H. (2016). <em>ggplot2: Elegant graphics for data analysis</em>. <a hre
 </section></div> ]]></description>
   <category>Data Viz</category>
   <category>World Cup</category>
-  <category>ggplot</category>
-  <guid>https://6yardscreamersnew.netlify.app/posts/wc_anthems_emotions/index.html</guid>
+  <category>ggplot2</category>
+  <guid>https://6yardscreamers.netlify.app/posts/wc_anthems_emotions/index.html</guid>
   <pubDate>Tue, 06 Dec 2022 04:00:00 GMT</pubDate>
-  <media:content url="https://6yardscreamersnew.netlify.app/posts/wc_anthems_emotions/plot1_final.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://6yardscreamers.netlify.app/posts/wc_anthems_emotions/plot1_final.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Coming Soon</title>
   <dc:creator>Christina</dc:creator>
-  <link>https://6yardscreamersnew.netlify.app/posts/welcome/index.html</link>
+  <link>https://6yardscreamers.netlify.app/posts/welcome/index.html</link>
   <description><![CDATA[ 
 
 
@@ -162,9 +2473,9 @@ Wickham, H. (2016). <em>ggplot2: Elegant graphics for data analysis</em>. <a hre
 
  ]]></description>
   <category>misc</category>
-  <guid>https://6yardscreamersnew.netlify.app/posts/welcome/index.html</guid>
+  <guid>https://6yardscreamers.netlify.app/posts/welcome/index.html</guid>
   <pubDate>Fri, 18 Nov 2022 04:00:00 GMT</pubDate>
-  <media:content url="https://6yardscreamersnew.netlify.app/images/soccer2.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://6yardscreamers.netlify.app/images/soccer2.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 </channel>
 </rss>

@@ -2,13 +2,11 @@
 title: "World Cup National Anthems, Emotions & Audio Features"
 author: "Christina"
 date: "2022-12-06"
-categories: [Data Viz, World Cup, ggplot]
+categories: [Data Viz, World Cup, ggplot2]
 image: "plot1_final.png"
+bibliography: references.bib
 title-block-banner: plot_banner.png
 title-block-style: default
-title-block-banner-color: "black"
-bibliography: references.bib
-csl: apa.csl
 ---
 
 Outbursts of emotions in football are common and can be observed by watching players, managers, supporters, and even referees. The emotions revealed at tournaments such as the FIFA World Cup are visible in many situations. On this international stage, the playing of national anthems prior to kick-off frequently evokes strong expressions of emotions and, for some, may represent a unique affect driven experience.
@@ -40,11 +38,11 @@ The *circumplex model of emotion* developed by James Russell [@russell1980] is a
 
 [^1]: Please note that there are important limitations and criticisms to this model of emotions that go beyond the scope of this article.
 
-<center>![Figure 1. Russell's 2 dimensional model of emotions. Adapted from Russell (1980)](Russell1980_model_annot1.png){width="500"}</center>
+<center>![Figure 1. Russell\'s 2 dimensional model of emotions. Adapted from Russell (1980)](Russell1980_model_annot1.png){width="500"}</center>
 
 ------------------------------------------------------------------------
 
-Research investigating the interaction of emotions and music is vast [@juslin2013]. Many models have been proposed [@eerola2010] and interest in the study of emotions and music recommendation systems is growing [@schedl2018]. Measures similar to Russell's dimensions are found in [Spotify's track audio features](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features) [^2]. Spotify defines their valence and energy (a proxy for arousal) measures as:
+Research investigating the interaction of emotions and music is vast [@juslin2013]. Many models have been proposed [@eerola2010] and interest in the study of emotions and music recommendation systems is growing [@schedl2018]. Metrics similar to Russell's dimensions are found in [Spotify's track audio features](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features) [^2]. Spotify defines their valence and energy (a proxy for arousal) measures as:
 
 [^2]: The validity and reliability of these metrics merits further investigation therefore they should be interpreted with caution.
 
@@ -60,7 +58,7 @@ Research investigating the interaction of emotions and music is vast [@juslin201
 *"Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy."*
 :::
 
-Using the *Spotifyr* package [@spotifyr-2], Spotify audio features of valence and energy for the 32 national anthems of the participating countries at the 2022 FIFA Men's World Cup were plotted via *ggplot2* [@ggplot2-2]. This descriptive analysis is not without limitations. For example, results can vary depending on each artists' interpretation of the song. That being said, the current analysis' results are shown in Figure 2 below. Does Wales' anthem strike a miserable nerve? Can we explain England's bore draw tendencies via their low energy score? Conversely, did Costa Rica concede seven to Spain because their anthem is too energetic? To be clear, I don't actually believe any of this relates to performance on the pitch, these are just some of my silly thoughts.
+Using the *Spotifyr* package [@spotifyr-2], Spotify audio features of valence and energy for the 32 national anthems of the participating countries at the 2022 FIFA Men's World Cup were plotted with *ggplot2* [@ggplot2-2]. This descriptive analysis is not without limitations. For example, results can vary depending on each artists' interpretation of the song. That being said, the current analysis' results are shown in Figure 2 below. Does Wales' anthem strike a miserable nerve? Can we explain England's bore draw tendencies via their low energy score? Conversely, did Costa Rica concede seven to Spain because their anthem is too energetic? To be clear, I don't actually believe any of this relates to performance on the pitch, these are just some of my silly thoughts.
 
 <p>
 

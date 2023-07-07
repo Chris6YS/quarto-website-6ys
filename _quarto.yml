@@ -2,8 +2,8 @@ project:
   type: website
 
 website:
-  title: "6YS"
-  site-url: https://6yardscreamersnew.netlify.app
+  title: "6YS Blog"
+  site-url: https://6yardscreamers.netlify.app
   favicon: "images/soccer2.png"
   twitter-card: true
   page-footer: 
@@ -23,8 +23,6 @@ website:
         href: projects.qmd 
     right:
       - about.qmd
-      - icon: github
-        href: https://github.com/
       - icon: twitter
         href: https://twitter.com/6yardscreamers
       - icon: mastodon

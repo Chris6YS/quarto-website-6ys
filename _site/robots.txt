@@ -1,1 +1,1 @@
-Sitemap: https://6yardscreamersnew.netlify.app/sitemap.xml
+Sitemap: https://6yardscreamers.netlify.app/sitemap.xml
