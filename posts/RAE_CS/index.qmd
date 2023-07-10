@@ -20,8 +20,7 @@ format:
 editor: visual
 bibliography: references.bib
 csl: apa.csl
-twitter-card:
-  image: "rect1493.png"
+twitter-card: true
 ---
 
 ## Introduction
