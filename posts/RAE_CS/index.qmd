@@ -21,7 +21,7 @@ editor: visual
 bibliography: references.bib
 csl: apa.csl
 twitter-card:
-  image: "/posts/RAE_CS/figure_sm.svg"
+  image: "/posts/RAE_CS/rect1493.png"
 ---
 
 ## Introduction
