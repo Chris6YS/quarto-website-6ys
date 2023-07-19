@@ -373,12 +373,14 @@ The current study demonstrates the presence of the RAE within players historical
 
 ## Supplementary Infographic
 
-![.](supp_info_rae.png){fig-alt="Data visualization des"}
+![](supp_info_rae.png){fig-alt="Data visualization des"}
+
+Infographic figures produced with RAWGraphs [@10.1145/3125571.3125585].
 
 ::: callout-note
 ## About the author
 
-Christina is a football (soccer) data analyst. To get in touch: 6ysblog@gmail.com
+Christina is a football (soccer) data analyst. To get in touch: 6ysblog\@gmail.com
 :::
 
 ## References
