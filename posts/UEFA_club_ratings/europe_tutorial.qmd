@@ -1,0 +1,326 @@
+---
+title: "2023 UEFA competitions group stage: Visualizing club rankings with ggplot2"
+author: Christina
+image: /images/banner.png
+date: today
+categories: [Data Viz, football, ggplot2]
+link-external-newwindow: true
+editor: visual
+theme: lumen
+format:
+  html:
+    toc: true
+    toc-location: left
+    code-fold: true
+    page-layout: full
+bibliography: references.bib
+csl: apa.csl
+---
+
+## Intro
+
+The UEFA Champions League, Europa League and Conference League group stages are about to begin this week so with the help of *Opta's Power Rankings*, I decided to visualize the competitions from this perspective. This is a limited descriptive exercise and purely easy excuse for a simple new post.
+
+::: column-margin
+::: callout-note
+"Opta's Power Rankings is a global team ranking system that assigns an ability score over 13,000 domestic football teams on a scale between zero and 100, where zero is the worst-ranked team in the world and 100 is the best team in the world." - [The Analyst](https://theanalyst.com/na/2023/07/who-are-the-best-football-team-in-the-world-opta-power-rankings/)
+:::
+:::
+
+For additional details regarding Opta's model see [Introducing Power Rankings: Your Club Ranked](https://theanalyst.com/na/2023/01/power-rankings-your-club-ranked/).
+
+## The data
+
+The data was obtained from [Opta's club ratings page](https://theanalyst.com/na/2023/09/who-are-the-best-football-team-in-the-world-opta-power-rankings/){.uri} on September 18th 2023. Ratings fluctuate with time and the below figures are the ratings retrieved at the time indicated which represents the moment before the start of the group stage of the competitions.
+
+## Visualizations
+
+The following packages were used to produce the figures in R:\
+`ggplot2`\
+`tidyverse`\
+`showtext`\
+`ggtext`\
+`ggiraph`\
+
+[@ggplot2; @tidyverse; @showtext; @ggtext; @ggiraph].
+
+\
+For Figure 2, 3 and 4, ratings were transformed into z scores (@eq-zscore) for added ease of interpretation.
+
+$$
+Z = \frac{{X – \mu}}{{\sigma}} 
+$$ {#eq-zscore}
+
+------------------------------------------------------------------------
+
+#### **Figure 1**
+
+\
+
+```{r}
+#| warning: false
+#| echo: false
+#| fig-height: 10
+#| fig-width: 15
+#| fig-dpi: 600
+#| column: page-right
+
+library(ggplot2)
+library(tidyverse)
+library(showtext)
+library(ggtext) 
+library(ggiraph)
+font_add_google("Overpass", family = "overpass")
+
+showtext_auto()
+
+dat <- read.csv("data/EUROPE.csv")
+
+plot1_int <- ggplot(dat, aes(x = group, y = rating)) +
+  geom_point_interactive(aes(x = group, y = rating, colour = competition,
+                             tooltip = team, data_id = team, family = "overpass"), shape = 21, size = 5, alpha = 1, stroke = 1) + 
+  geom_point(shape = 20, size = 1, aes(colour = competition)) +
+  scale_color_manual(values = c("UCL" = "#0000FF", "UEL" = "#FF8000", "UECL" = "#00CC00")) +
+  geom_hline(yintercept = 87.96, colour = "#0000FF", size = 1, alpha = 1, linetype = "dotted") +
+  geom_hline(yintercept = 82.10, colour = "#FF8000", size = 1, alpha = 1, linetype = "dotted") +
+  geom_hline(yintercept = 77.70, colour = "#00CC00", size = 1, alpha = 1, linetype = "dotted") +
+  facet_grid(~factor(competition, levels=c('UCL', 'UEL', 'UECL'))) +
+  labs(x = "Group",
+       y = "Rating",
+       title = "**UEFA Competition Club Ratings:**
+    <span style='font-size:20pt'> 
+    <span style='color:#0000FF;'>Champions League</span>, 
+    <span style='color:#FF8000;'>Europa League</span>, and
+    <span style='color:#00CC00;'>Europa Conference League</span>
+    </span>",
+       caption = "Hover over point of interest for team name; --- competition mean rating") +
+  theme_bw() +
+  theme(plot.title = element_markdown(family = "overpass", size = 20),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.text.x = element_text(size = 15, family = "overpass", colour = "gray60"),
+        axis.text.y = element_text(size = 20, family = "overpass"),
+        axis.title.x = element_text(size = 20, family = "overpass"),
+        axis.title.y = element_text(size = 20, family = "overpass"),
+        axis.ticks.x = element_blank(),
+        axis.ticks.y = element_blank(),
+        strip.background = element_blank(),
+        strip.text = element_text(),
+        legend.position = "none",
+        plot.caption = element_text(hjust = 0, size = 12))
+
+a <- girafe(ggobj = plot1_int, width_svg = 15, height_svg = 10)
+a <- girafe_options(a,
+  opts_hover(css = "fill:white;stroke:black;r:8pt;"))
+a
+
+###
+
+
+```
+
+\
+
+#### **Figure 2**
+
+\
+
+```{r}
+#| warning: false
+#| echo: false
+#| fig-height: 10
+#| fig-width: 15
+#| fig-dpi: 600
+#| column: page-right
+
+library(ggplot2)
+library(tidyverse)
+library(showtext)
+library(ggtext) 
+library(ggiraph)
+font_add_google("Overpass", family = "overpass")
+
+showtext_auto()
+UCL_dat <- read.csv("data/UCL.csv")
+
+
+zscore_UCL <- scale(UCL_dat$rating)
+
+UCL_new <- cbind(UCL_dat, zscore_UCL)
+
+plot3 <- ggplot(UCL_new, aes(x = group, y = zscore_UCL)) +
+  geom_point_interactive(aes(x = group, y = zscore_UCL, colour = "blue",
+                             tooltip = team, data_id = team), shape = 21, size = 8, alpha = 1, stroke = 1, colour ="blue") + 
+  geom_point(shape = 20, size = 2, aes(colour = "blue"), colour = "blue") +
+  scale_y_discrete(limits = c(3, 2,1,0,-1,-2, -3)) +
+  expand_limits(y = -3)+
+  labs(x = "Group",
+       y = "Z Score",
+       title = "**UEFA Champions League Club Ratings Z Scores**",
+       caption = "Hover over point of interest for team name") +
+  theme_bw() +
+  theme(plot.title = element_markdown(family = "overpass", size = 30),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.text.x = element_text(size = 15, family = "overpass", colour = "gray60"),
+        axis.text.y = element_text(size = 20, family = "overpass"),
+        axis.title.x = element_text(size = 20, family = "overpass"),
+        axis.title.y = element_text(size = 20, family = "overpass"),
+        axis.ticks.x = element_blank(),
+        axis.ticks.y = element_blank(),
+        panel.border = element_blank(),
+        axis.line.x.bottom = element_line(),
+        axis.line.y = element_line(),
+        strip.background = element_blank(),
+        strip.text = element_text(),
+        legend.position = "none",
+        plot.caption = element_text(hjust = 0, size = 12))
+
+
+b <- girafe(ggobj = plot3, width_svg = 15, height_svg = 10)
+b <- girafe_options(b,
+                    opts_hover(css = "fill:white;stroke:black;r:8pt;"))
+b
+```
+
+\
+
+#### **Figure 3**
+
+\
+
+```{r}
+#| warning: false
+#| echo: false
+#| fig-height: 10
+#| fig-width: 15
+#| fig-dpi: 600
+#| column: page-right
+
+library(ggplot2)
+library(tidyverse)
+library(showtext)
+library(ggtext) 
+library(ggiraph)
+
+font_add_google("Overpass", family = "overpass")
+
+showtext_auto()
+
+UEL_dat <- read.csv("data/UEL.csv")
+
+
+zscore_UEL <- scale(UEL_dat$rating)
+
+UEL_new <- cbind(UEL_dat, zscore_UEL)
+
+plot4 <- ggplot(UEL_new, aes(x = group, y = zscore_UEL)) +
+  geom_point_interactive(aes(x = group, y = zscore_UEL, colour = "#FF8000",
+                             tooltip = team, data_id = team), shape = 21, size = 8, alpha = 1, stroke = 1, colour ="#FF8000") + 
+  geom_point(shape = 20, size = 2, aes(colour = "#FF8000"), colour = "#FF8000") +
+  scale_y_discrete(limits = c(3, 2,1,0,-1,-2, -3)) +
+  expand_limits(y = -3)+
+  labs(x = "Group",
+       y = "Z Score",
+       title = "**UEFA Europa League Club Ratings Z Scores**",
+       caption = "Hover over point of interest for team name") +
+  theme_bw() +
+  theme(plot.title = element_markdown(family = "overpass", size = 30),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.text.x = element_text(size = 15, family = "overpass", colour = "gray60"),
+        axis.text.y = element_text(size = 20, family = "overpass"),
+        axis.title.x = element_text(size = 20, family = "overpass"),
+        axis.title.y = element_text(size = 20, family = "overpass"),
+        axis.ticks.x = element_blank(),
+        axis.ticks.y = element_blank(),
+        panel.border = element_blank(),
+        axis.line.x.bottom = element_line(),
+        axis.line.y = element_line(),
+        strip.background = element_blank(),
+        strip.text = element_text(),
+        legend.position = "none",
+        plot.caption = element_text(hjust = 0, size = 12))
+
+
+c <- girafe(ggobj = plot4, width_svg = 15, height_svg = 10)
+c <- girafe_options(c,
+                    opts_hover(css = "fill:white;stroke:black;r:8pt;"))
+c
+
+
+```
+
+\
+
+#### **Figure 4**
+
+\
+
+```{r}
+#| warning: false
+#| echo: false
+#| fig-height: 10
+#| fig-width: 15
+#| fig-dpi: 600
+#| column: page-right
+
+library(ggplot2)
+library(tidyverse)
+library(showtext)
+library(ggtext) 
+library(ggiraph)
+
+font_add_google("Overpass", family = "overpass")
+
+showtext_auto()
+
+UECL_dat <- read.csv("data/UECL.csv")
+
+
+zscore_UECL <- scale(UECL_dat$rating)
+
+UECL_new <- cbind(UECL_dat, zscore_UECL)
+
+plot5 <- ggplot(UECL_new, aes(x = group, y = zscore_UECL)) +
+  geom_point_interactive(aes(x = group, y = zscore_UECL, colour = "#00CC00",
+                             tooltip = team, data_id = team), shape = 21, size = 8, alpha = 1, stroke = 1, colour ="#00CC00") + 
+  geom_point(shape = 20, size = 2, aes(colour = "#00CC00"), colour = "#00CC00") +
+  scale_y_discrete(limits = c(3,2,1,0,-1,-2,-3)) +
+  expand_limits(y = c(-3,3))+
+  labs(x = "Group",
+       y = "Z Score",
+       title = "**UEFA Europa Conference League Club Ratings Z Scores**",
+       caption = "Hover over point of interest for team name") +
+  theme_bw() +
+  theme(plot.title = element_markdown(family = "overpass", size = 30),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.text.x = element_text(size = 15, family = "overpass", colour = "gray60"),
+        axis.text.y = element_text(size = 20, family = "overpass"),
+        axis.title.x = element_text(size = 20, family = "overpass"),
+        axis.title.y = element_text(size = 20, family = "overpass"),
+        axis.ticks.x = element_blank(),
+        axis.ticks.y = element_blank(),
+        panel.border = element_blank(),
+        axis.line.x.bottom = element_line(),
+        axis.line.y = element_line(),
+        strip.background = element_blank(),
+        strip.text = element_text(),
+        legend.position = "none",
+        plot.caption = element_text(hjust = 0, size = 12))
+
+
+d <- girafe(ggobj = plot5, width_svg = 15, height_svg = 10)
+d <- girafe_options(d,
+                    opts_hover(css = "fill:white;stroke:black;r:8pt;"))
+d
+```
+
+\
+
+::: {.callout-note appearance="simple"}
+The current document is created with the help of Quarto. To learn more about Quarto see <https://quarto.org>.
+:::
+
+\
