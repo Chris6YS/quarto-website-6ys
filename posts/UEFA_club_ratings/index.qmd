@@ -69,6 +69,7 @@ library(ggplot2)
 library(tidyverse)
 library(showtext)
 library(ggtext) 
+library(ggrepel)
 library(ggiraph)
 font_add_google("Overpass", family = "overpass")
 
@@ -76,10 +77,11 @@ showtext_auto()
 
 dat <- read.csv("data/EUROPE.csv")
 
-plot1_int <- ggplot(dat, aes(x = group, y = rating)) +
+plot1_int <- ggplot(dat, aes(x = group, y = rating), label = team) +
   geom_point_interactive(aes(x = group, y = rating, colour = competition,
                              tooltip = team, data_id = team, family = "overpass"), shape = 21, size = 5, alpha = 1, stroke = 1) + 
   geom_point(shape = 20, size = 1, aes(colour = competition)) +
+  geom_text_repel(aes(label = team), alpha = .4, colour = "gray") +
   scale_color_manual(values = c("UCL" = "#0000FF", "UEL" = "#FF8000", "UECL" = "#00CC00")) +
   geom_hline(yintercept = 87.96, colour = "#0000FF", size = 1, alpha = 1, linetype = "dotted") +
   geom_hline(yintercept = 82.10, colour = "#FF8000", size = 1, alpha = 1, linetype = "dotted") +
@@ -180,7 +182,7 @@ plot3 <- ggplot(UCL_new, aes(x = group, y = zscore_UCL)) +
 b <- girafe(ggobj = plot3, width_svg = 15, height_svg = 10)
 b <- girafe_options(b,
                     opts_hover(css = "fill:white;stroke:black;r:8pt;"),
-                    opts_tooltip(delay_mouseout = 7000))
+                    opts_tooltip(delay_mouseout = 7000, use_cursor_pos = FALSE))
 b
 ```
 
