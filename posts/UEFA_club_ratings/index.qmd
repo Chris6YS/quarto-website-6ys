@@ -180,7 +180,7 @@ plot3 <- ggplot(UCL_new, aes(x = group, y = zscore_UCL)) +
 b <- girafe(ggobj = plot3, width_svg = 15, height_svg = 10)
 b <- girafe_options(b,
                     opts_hover(css = "fill:white;stroke:black;r:8pt;"),
-                    opts_tooltip(delay_mouseout = 3000))
+                    opts_tooltip(delay_mouseout = 7000))
 b
 ```
 
