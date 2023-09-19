@@ -20,7 +20,7 @@ twitter-card: true
 
 ## Intro
 
-The UEFA Champions League, Europa League and Conference League group stages are about to begin this week so with the help of *Opta's Power Rankings*, I decided to visualize the competitions from this perspective. This is a limited descriptive exercise and an easy excuse for a simple new post.
+The UEFA Champions League, Europa League and Conference League group stages are set to begin so with the help of *Opta's Power Rankings* I decided to visualize the competitions from this perspective. This is a limited descriptive exercise and an easy excuse for a simple new post.
 
 ::: column-margin
 ::: callout-note
@@ -30,11 +30,9 @@ The UEFA Champions League, Europa League and Conference League group stages are 
 
 For additional details regarding Opta's model see [Introducing Power Rankings: Your Club Ranked](https://theanalyst.com/na/2023/01/power-rankings-your-club-ranked/).
 
-## The data
+## Methods
 
-The data was obtained from [Opta's club ratings page](https://theanalyst.com/na/2023/09/who-are-the-best-football-team-in-the-world-opta-power-rankings/){.uri} on September 18th 2023. Ratings fluctuate with time and the below figures are the ratings retrieved at the time indicated which represents the moment before the start of the group stage of the competitions.
-
-## Visualizations
+The data for club ratings was obtained from [Opta's club ratings page](https://theanalyst.com/na/2023/09/who-are-the-best-football-team-in-the-world-opta-power-rankings/){.uri} on September 18th 2023. Ratings fluctuate with time and the below figures display data retrieved at the time indicated which represents the moment before the start of the group stages.
 
 The following packages were used to produce the figures in R:\
 `ggplot2`\
@@ -46,13 +44,24 @@ The following packages were used to produce the figures in R:\
 [@ggplot2; @tidyverse; @showtext; @ggtext; @ggiraph].
 
 \
-For Figure 2, 3 and 4, ratings were transformed into z scores (@eq-zscore) for added ease of interpretation.
+For figures 2, 3 and 4, ratings were transformed into z scores (@eq-zscore) for added ease of interpretation.
+
+::: {.column-margin}
 
 $$
 Z = \frac{{X – \mu}}{{\sigma}} 
 $$ {#eq-zscore}
 
-------------------------------------------------------------------------
+
+<center>Where: <br> <font size = "2">$Z$ = standard score<br>$X$ = observed value <br> $\mu$ = mean of the sample <br> $\sigma$ = standard deviation of the sample </font size></center>
+
+:::
+
+## Results
+
+::: callout-warning
+Team label hover interactivity is currently not optimized for mobile viewing.
+:::
 
 #### **Figure 1**
 
@@ -108,7 +117,7 @@ plot1_int <- ggplot(dat, aes(x = group, y = rating), label = team) +
         axis.ticks.x = element_blank(),
         axis.ticks.y = element_blank(),
         strip.background = element_blank(),
-        strip.text = element_text(),
+        strip.text = element_blank(),
         legend.position = "none",
         plot.caption = element_text(hjust = 0, size = 12))
 

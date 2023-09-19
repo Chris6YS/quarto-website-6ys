@@ -151,7 +151,7 @@
     "href": "posts/UEFA_club_ratings/index.html",
     "title": "2023 UEFA competitions group stage: Visualizing club rankings with ggplot2",
     "section": "",
-    "text": "The UEFA Champions League, Europa League and Conference League group stages are about to begin this week so with the help of Opta’s Power Rankings, I decided to visualize the competitions from this perspective. This is a limited descriptive exercise and an easy excuse for a simple new post.\n\n\n\n\n\n\n\n\nNote\n\n\n\n“Opta’s Power Rankings is a global team ranking system that assigns an ability score over 13,000 domestic football teams on a scale between zero and 100, where zero is the worst-ranked team in the world and 100 is the best team in the world.” - The Opta Analyst\n\n\nFor additional details regarding Opta’s model see Introducing Power Rankings: Your Club Ranked."
+    "text": "The UEFA Champions League, Europa League and Conference League group stages are set to begin so with the help of Opta’s Power Rankings I decided to visualize the competitions from this perspective. This is a limited descriptive exercise and an easy excuse for a simple new post.\n\n\n\n\n\n\n\n\nNote\n\n\n\n“Opta’s Power Rankings is a global team ranking system that assigns an ability score over 13,000 domestic football teams on a scale between zero and 100, where zero is the worst-ranked team in the world and 100 is the best team in the world.” - The Opta Analyst\n\n\nFor additional details regarding Opta’s model see Introducing Power Rankings: Your Club Ranked."
   },
   {
     "objectID": "posts/UEFA_club_ratings/index.html#the-data",
@@ -166,5 +166,26 @@
     "title": "2023 UEFA competitions group stage: Visualizing club rankings with ggplot2",
     "section": "Visualizations",
     "text": "Visualizations\nThe following packages were used to produce the figures in R:ggplot2tidyverseshowtextggtextggiraph\n(Gohel & Skintzos, 2022; Qiu & details., 2022; Wickham, 2016; Wickham et al., 2019; Wilke & Wiernik, 2022).\n\nFor Figure 2, 3 and 4, ratings were transformed into z scores (Equation 1) for added ease of interpretation.\n\\[\nZ = \\frac{{X – \\mu}}{{\\sigma}}\n\\tag{1}\\]\n\nFigure 1\n\n\n\n\n\n\n\n\nFigure 2\n\n\n\n\n\n\n\n\nFigure 3\n\n\n\n\n\n\n\n\nFigure 4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe current document is created with the help of Quarto. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "posts/UEFA_club_ratings/index.html#method",
+    "href": "posts/UEFA_club_ratings/index.html#method",
+    "title": "2023 UEFA competitions group stage: Visualizing club rankings with ggplot2",
+    "section": "Method",
+    "text": "Method\nThe data for club ratings was obtained from Opta’s club ratings page on September 18th 2023. Ratings fluctuate with time and the below figures display data retrieved at the time indicated which represents the moment before the start of the group stages.\nThe following packages were used to produce the figures in R:ggplot2tidyverseshowtextggtextggiraph\n(Gohel & Skintzos, 2022; Qiu & details., 2022; Wickham, 2016; Wickham et al., 2019; Wilke & Wiernik, 2022).\n\nFor figure 2, 3 and 4, ratings were transformed into z scores (Equation 1) for added ease of interpretation.\n\\[\nZ = \\frac{{X – \\mu}}{{\\sigma}}\n\\tag{1}\\]\nTeam label hover interactivity is not be optimized for mobile viewing."
+  },
+  {
+    "objectID": "posts/UEFA_club_ratings/index.html#results",
+    "href": "posts/UEFA_club_ratings/index.html#results",
+    "title": "2023 UEFA competitions group stage: Visualizing club rankings with ggplot2",
+    "section": "Results",
+    "text": "Results\n\n\n\n\n\n\nWarning\n\n\n\nTeam label hover interactivity is currently not optimized for mobile viewing.\n\n\nFigure 1\n\n\n\n\n\n\n\n\nFigure 2\n\n\n\n\n\n\n\n\nFigure 3\n\n\n\n\n\n\n\n\nFigure 4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe current document is created with the help of Quarto. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "posts/UEFA_club_ratings/index.html#methods",
+    "href": "posts/UEFA_club_ratings/index.html#methods",
+    "title": "2023 UEFA competitions group stage: Visualizing club rankings with ggplot2",
+    "section": "Methods",
+    "text": "Methods\nThe data for club ratings was obtained from Opta’s club ratings page on September 18th 2023. Ratings fluctuate with time and the below figures display data retrieved at the time indicated which represents the moment before the start of the group stages.\nThe following packages were used to produce the figures in R:ggplot2tidyverseshowtextggtextggiraph\n(Gohel & Skintzos, 2022; Qiu & details., 2022; Wickham, 2016; Wickham et al., 2019; Wilke & Wiernik, 2022).\n\nFor figures 2, 3 and 4, ratings were transformed into z scores (Equation 1) for added ease of interpretation.\n\n\n\\[\nZ = \\frac{{X – \\mu}}{{\\sigma}}\n\\tag{1}\\]\n\nWhere: \\(Z\\) = standard score\\(X\\) = observed value \\(\\mu\\) = mean of the sample \\(\\sigma\\) = standard deviation of the sample"
   }
 ]
