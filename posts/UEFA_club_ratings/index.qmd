@@ -1,5 +1,5 @@
 ---
-title: "2023 UEFA competitions group stage: Visualizing club rankings with ggplot2"
+title: "2023 UEFA competitions group stage: Visualizing club ratings"
 author: Christina
 image: /images/banner.png
 date: today
@@ -32,7 +32,7 @@ For additional details regarding Opta's model see [Introducing Power Rankings: Y
 
 ## Methods
 
-The data for club ratings was obtained from [Opta's club ratings page](https://theanalyst.com/na/2023/09/who-are-the-best-football-team-in-the-world-opta-power-rankings/){.uri} on September 18th 2023. Ratings fluctuate with time and the below figures display data retrieved at the time indicated which represents the moment before the start of the group stages.
+The data for club ratings was obtained from [Opta's club ratings page](https://theanalyst.com/na/2023/09/who-are-the-best-football-team-in-the-world-opta-power-rankings/){.uri} on September 18th 2023. Ratings fluctuate with time and the below figures display data retrieved at the time indicated which represents the day before the start of the group stages.
 
 The following packages were used to produce the figures in R:\
 `ggplot2`\
@@ -46,8 +46,6 @@ The following packages were used to produce the figures in R:\
 \
 For figures 2, 3 and 4, ratings were transformed into z scores (@eq-zscore) for added ease of interpretation.
 
-::: {.column-margin}
-
 $$
 Z = \frac{{X – \mu}}{{\sigma}} 
 $$ {#eq-zscore}
@@ -55,7 +53,6 @@ $$ {#eq-zscore}
 
 <center>Where: <br> <font size = "2">$Z$ = standard score<br>$X$ = observed value <br> $\mu$ = mean of the sample <br> $\sigma$ = standard deviation of the sample </font size></center>
 
-:::
 
 ## Results
 
@@ -107,10 +104,10 @@ plot1_int <- ggplot(dat, aes(x = group, y = rating), label = team) +
     </span>",
        caption = "Hover over point of interest for team name; --- competition mean rating") +
   theme_bw() +
-  theme(plot.title = element_markdown(family = "overpass", size = 20),
+  theme(plot.title = element_markdown(family = "overpass", size = 25),
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
-        axis.text.x = element_text(size = 15, family = "overpass", colour = "gray60"),
+        axis.text.x = element_text(size = 20, family = "overpass", colour = "gray60"),
         axis.text.y = element_text(size = 20, family = "overpass"),
         axis.title.x = element_text(size = 20, family = "overpass"),
         axis.title.y = element_text(size = 20, family = "overpass"),
@@ -172,10 +169,10 @@ plot3 <- ggplot(UCL_new, aes(x = group, y = zscore_UCL)) +
        title = "**UEFA Champions League Club Ratings Z Scores**",
        caption = "Hover over point of interest for team name") +
   theme_bw() +
-  theme(plot.title = element_markdown(family = "overpass", size = 30),
+  theme(plot.title = element_markdown(family = "overpass", size = 35),
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
-        axis.text.x = element_text(size = 15, family = "overpass", colour = "gray60"),
+        axis.text.x = element_text(size = 20, family = "overpass", colour = "gray60"),
         axis.text.y = element_text(size = 20, family = "overpass"),
         axis.title.x = element_text(size = 20, family = "overpass"),
         axis.title.y = element_text(size = 20, family = "overpass"),
@@ -239,10 +236,10 @@ plot4 <- ggplot(UEL_new, aes(x = group, y = zscore_UEL)) +
        title = "**UEFA Europa League Club Ratings Z Scores**",
        caption = "Hover over point of interest for team name") +
   theme_bw() +
-  theme(plot.title = element_markdown(family = "overpass", size = 30),
+  theme(plot.title = element_markdown(family = "overpass", size = 35),
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
-        axis.text.x = element_text(size = 15, family = "overpass", colour = "gray60"),
+        axis.text.x = element_text(size = 20, family = "overpass", colour = "gray60"),
         axis.text.y = element_text(size = 20, family = "overpass"),
         axis.title.x = element_text(size = 20, family = "overpass"),
         axis.title.y = element_text(size = 20, family = "overpass"),
@@ -308,10 +305,10 @@ plot5 <- ggplot(UECL_new, aes(x = group, y = zscore_UECL)) +
        title = "**UEFA Europa Conference League Club Ratings Z Scores**",
        caption = "Hover over point of interest for team name") +
   theme_bw() +
-  theme(plot.title = element_markdown(family = "overpass", size = 30),
+  theme(plot.title = element_markdown(family = "overpass", size = 35),
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
-        axis.text.x = element_text(size = 15, family = "overpass", colour = "gray60"),
+        axis.text.x = element_text(size = 20, family = "overpass", colour = "gray60"),
         axis.text.y = element_text(size = 20, family = "overpass"),
         axis.title.x = element_text(size = 20, family = "overpass"),
         axis.title.y = element_text(size = 20, family = "overpass"),
