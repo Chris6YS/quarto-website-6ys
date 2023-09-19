@@ -23,7 +23,7 @@ The UEFA Champions League, Europa League and Conference League group stages are 
 
 ::: column-margin
 ::: callout-note
-"Opta's Power Rankings is a global team ranking system that assigns an ability score over 13,000 domestic football teams on a scale between zero and 100, where zero is the worst-ranked team in the world and 100 is the best team in the world." - [The Analyst](https://theanalyst.com/na/2023/07/who-are-the-best-football-team-in-the-world-opta-power-rankings/)
+"Opta's Power Rankings is a global team ranking system that assigns an ability score over 13,000 domestic football teams on a scale between zero and 100, where zero is the worst-ranked team in the world and 100 is the best team in the world." - [The Opta Analyst](https://theanalyst.com/na/2023/07/who-are-the-best-football-team-in-the-world-opta-power-rankings/)
 :::
 :::
 
@@ -179,7 +179,8 @@ plot3 <- ggplot(UCL_new, aes(x = group, y = zscore_UCL)) +
 
 b <- girafe(ggobj = plot3, width_svg = 15, height_svg = 10)
 b <- girafe_options(b,
-                    opts_hover(css = "fill:white;stroke:black;r:8pt;"))
+                    opts_hover(css = "fill:white;stroke:black;r:8pt;"),
+                    opts_tooltip(delay_mouseout = 3000))
 b
 ```
 
