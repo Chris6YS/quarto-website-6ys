@@ -151,7 +151,7 @@
     "href": "posts/UEFA_club_ratings/index.html",
     "title": "2023 UEFA competitions group stage: Visualizing club rankings with ggplot2",
     "section": "",
-    "text": "The UEFA Champions League, Europa League and Conference League group stages are about to begin this week so with the help of Opta’s Power Rankings, I decided to visualize the competitions from this perspective. This is a limited descriptive exercise and purely easy excuse for a simple new post.\n\n\n\n\n\n\n\n\nNote\n\n\n\n“Opta’s Power Rankings is a global team ranking system that assigns an ability score over 13,000 domestic football teams on a scale between zero and 100, where zero is the worst-ranked team in the world and 100 is the best team in the world.” - The Opta Analyst\n\n\nFor additional details regarding Opta’s model see Introducing Power Rankings: Your Club Ranked."
+    "text": "The UEFA Champions League, Europa League and Conference League group stages are about to begin this week so with the help of Opta’s Power Rankings, I decided to visualize the competitions from this perspective. This is a limited descriptive exercise and an easy excuse for a simple new post.\n\n\n\n\n\n\n\n\nNote\n\n\n\n“Opta’s Power Rankings is a global team ranking system that assigns an ability score over 13,000 domestic football teams on a scale between zero and 100, where zero is the worst-ranked team in the world and 100 is the best team in the world.” - The Opta Analyst\n\n\nFor additional details regarding Opta’s model see Introducing Power Rankings: Your Club Ranked."
   },
   {
     "objectID": "posts/UEFA_club_ratings/index.html#the-data",

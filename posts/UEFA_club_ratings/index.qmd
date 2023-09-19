@@ -15,11 +15,12 @@ format:
     page-layout: full
 bibliography: references.bib
 csl: apa.csl
+twitter-card: true
 ---
 
 ## Intro
 
-The UEFA Champions League, Europa League and Conference League group stages are about to begin this week so with the help of *Opta's Power Rankings*, I decided to visualize the competitions from this perspective. This is a limited descriptive exercise and purely easy excuse for a simple new post.
+The UEFA Champions League, Europa League and Conference League group stages are about to begin this week so with the help of *Opta's Power Rankings*, I decided to visualize the competitions from this perspective. This is a limited descriptive exercise and an easy excuse for a simple new post.
 
 ::: column-margin
 ::: callout-note
