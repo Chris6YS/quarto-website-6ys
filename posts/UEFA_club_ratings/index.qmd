@@ -2,7 +2,7 @@
 title: "2023 UEFA competitions group stage: Visualizing club ratings"
 author: Christina
 image: /images/banner.png
-date: today
+date: "2023-09-19"
 categories: [Data Viz, football, ggplot2]
 link-external-newwindow: true
 editor: visual

@@ -1,7 +1,7 @@
 ---
 title: "Team Strength: A CanMNT Snapshot"
 author: Christina
-date: today
+date: "2024-06-05"
 title-block-banner-color: "black"
 categories: [Data Viz, football, ggplot2, Canada Soccer]
 link-external-newwindow: true
