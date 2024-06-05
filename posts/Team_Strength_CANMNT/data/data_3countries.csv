@@ -1,0 +1,79 @@
+country,player,caps,club,opta_league,opta_club,fm_inside,initials,player2
+france,M. Maignan,14,AC Milan,85.77,90.3,80,MM,Maignan
+france,A. Areola,5,West Ham United,86.34,85.4,70,AA,Areola
+france,B. Samba,3,Lens,83.79,86.6,71,BS,Samba
+france,B. Pavard,53,Inter Milan,85.77,97.5,78,BP,Pavard
+france,J. Kounde,26,Barcelona,85.29,93.6,79,JK,Kounde
+france,T. Hernandez,25,AC Milan,85.77,90.3,79,TH,Hernandez
+france,D. Upamecano,18,Bayern Munich,85.31,93.6,79,DU,Upamecano
+france,I. Konate,14,Liverpool,86.34,93.8,78,IK,Konate
+france,W. Saliba,13,Arsenal,86.34,95.2,82,WS,Saliba
+france,J. Clauss,12,Marseille,83.79,86.4,73,JC,Clauss
+france,F. Mendy,9,Real Madrid,85.29,99.2,78,FM,Mendy
+france,N. Kante,53,Al-Ittihad,72.02,74.3,80,NK,Kante
+france,A. Rabiot,43,Juventus,85.77,91.3,78,AR,Rabiot
+france,A.Tchouameni,31,Real Madrid,85.29,99.2,79,AT,Tchouameni
+france,Y. Fofana,17,Monaco,83.79,88.9,72,YF,Fofana
+france,E. Camavinga,15,Real Madrid,85.29,99.2,85,EC,Camavinga
+france,W. Zaire-Emery,2,Paris Saint-Germain,83.79,94.0,74,WZE,Zaire-Emery
+france,O. Giroud,131,AC Milan,85.77,90.3,78,OG,Giroud
+france,A. Griezmann,127,Atl�tico Madrid,85.29,91.2,86,AG,Griezmann
+france,K. Mbappe,77,Paris Saint-Germain,83.79,94.0,94,KM,Mbappe
+france,K. Coman,55,Bayern Munich,85.31,93.6,81,KC,Coman
+france,O. Dembele,43,Paris Saint-Germain,83.79,94.0,84,OD,Dembele
+france,M. Thuram,18,Inter Milan,85.77,97.5,79,MT,Thuram
+france,R. Kolo Muani,15,Paris Saint-Germain,83.79,94.0,78,RKM,Kolo Muani
+france,B. Barcola,0,Paris Saint-Germain,83.79,94.0,72,BB,Barcola
+netherlands,J. Bijlow,8,Feyenoord,75.04,87.7,72,JB,Bijlow
+netherlands,M. Flekken,7,Brentford,86.34,84.5,69,MF,Flekken
+netherlands,B. Verbruggen,5,Brighton & Hove Albion,86.34,85.4,66,BV,Verbruggen
+netherlands,D. Blind,106,Girona,85.29,89.8,72,DB,Blind
+netherlands,V. van Dijk,66,Liverpool,86.34,93.8,89,VvD,van Dijk
+netherlands,S. de Vrij,62,Inter Milan,85.77,97.5,73,SdV,de Vrij
+netherlands,D. Dumfries,52,Inter Milan,85.77,97.5,76,DD,Dumfries
+netherlands,N. Ake,44,Manchester City,86.34,100.0,78,NA,Ake
+netherlands,M. de Ligt,44,Bayern Munich,85.31,93.6,80,MdL,de Ligt
+netherlands,L. Geertruida,7,Feyenoord,75.04,87.7,73,LG,Geertruida
+netherlands,M. van de Ven,2,Tottenham Hotspur,86.34,88.4,74,MvV,van de Ven
+netherlands,J. Frimpong,2,Bayer Leverkusen,85.31,95.2,73,JF,Frimpong
+netherlands,G. Wijnaldum,91,Al-Ettifaq,72.02,72.8,70,GW,Wijnaldum
+netherlands,F. de Jong,54,Barcelona,85.29,93.6,83,FdJ,de Jong
+netherlands,T. Koopmeiners,21,Atalanta,85.77,92.9,77,TK,Koopmeiners
+netherlands,X. Simons,13,RB Leipzig,85.31,92.6,74,XS,Simons
+netherlands,R. Gravenberch,11,Liverpool,86.34,93.8,71,RG,Gravenberch
+netherlands,T. Reijnders,8,AC Milan,85.77,90.3,75,TR,Reijnders
+netherlands,J. Veerman,8,PSV Eindhoven,75.04,89.2,70,JV,Veerman
+netherlands,J. Schouten,3,PSV Eindhoven,75.04,89.2,71,JS,Schouten
+netherlands,M. Depay,90,Atl�tico Madrid,85.29,91.2,75,MD,Depay
+netherlands,S. Bergwijn,32,Ajax,75.04,80.5,74,SB,Bergwijn
+netherlands,W. Weghorst,31,TSG Hoffenheim,85.31,84.5,68,WW,Weghorst
+netherlands,D. Malen,30,Borussia Dortmund,85.31,92.1,73,DM,Malen
+netherlands,C. Gakpo,23,Liverpool,86.34,93.8,77,CG,Gakpo
+netherlands,B. Brobbey,1,Ajax,75.04,80.5,68,BB,Brobbey
+canada,M. Crepeau,16,Portland Timbers,75.40,74.7,60,MC,Crepeau
+canada,D. St. Clair,4,Minnesota United,75.40,76.8,59,DSC,St. Clair
+canada,T. McGill,0,Brighton Hove Albion,86.34,85.4,49,TM,McGill
+canada,R. Laryea,48,Toronto FC,75.40,71.5,61,RL,Laryea
+canada,D. Zator,2,Korona Kielce,73.53,72.0,48,DZ,Zator
+canada,D. Cornelius,18,Malmo FF,72.36,79.8,62,DC,Cornelius
+canada,A. Johnston,40,Celtic,70.46,83.3,66,AJ,Johnston
+canada,K. Miller,42,Portland Timbers,75.40,74.7,59,KM,Miller
+canada,M. Bombito,4,Colorado Rapids,75.40,72.9,50,MB,Bombito
+canada,L. De Fougerolles,1,Fulham,86.34,85.1,41,LDF,De Fougerolles
+canada,K. Hiebert,1,St. Louis CITY,75.40,74.0,53,KH,Hiebert
+canada,T. Buchanan,36,Inter Milan,85.77,97.5,64,TB,Buchanan
+canada,A. Davies,45,Bayern Munich,85.31,93.6,78,AD,Davies
+canada,S. Piette,68,CF Montreal,75.40,73.2,58,SP,Piette
+canada,J. Osorio,71,Toronto FC,75.40,71.5,63,JO,Osorio
+canada,S. Eustaquio,35,Porto,77.62,89.4,71,SE,Eustaquio
+canada,I. Kone,17,Watford,75.50,74.6,62,IK,Kone
+canada,M. Choiniere,2,CF Montreal,75.40,73.2,56,MC,Choiniere
+canada,J. Hoilett,62,Aberdeen,70.46,70.6,54,JH,Hoilett
+canada,L. Millar,24,Preston North End,75.50,74.3,62,LM,Millar
+canada,J. Shaffelburg,8,Nashville SC,75.40,75.7,56,JS,Shaffelburg
+canada,C. Larin,66,Mallorca,85.29,83.2,65,CL,Larin
+canada,J. David,46,Lille,83.79,87.9,72,JD,David
+canada,C. Brym,11,Sparta Rotterdam,75.04,75.6,54,CAB,Brym
+canada,I. Ugbo,9,Sheffield Wednesday,75.50,75.1,60,IU,Ugbo
+canada,T. Bair,2,Motherwell,70.46,68.0,50,TB,Bair
+canada,T. Oluwaseyi,0,Minnesota United,75.40,76.8,45,TO,Oluwaseyi

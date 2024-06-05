@@ -50,9 +50,7 @@ $$
 Z = \frac{{X – \mu}}{{\sigma}} 
 $$ {#eq-zscore}
 
-
 <center>Where: <br> <font size = "2">$Z$ = standard score<br>$X$ = observed value <br> $\mu$ = mean of the sample <br> $\sigma$ = standard deviation of the sample </font size></center>
-
 
 ## Results
 
