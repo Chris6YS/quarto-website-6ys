@@ -78,7 +78,7 @@ rtable <-reactable(data,
   language = reactableLang(
     searchPlaceholder = "SEARCH FOR A PLAYER..."),
   columns = list(
-    team = colDef(show = TRUE, align = "center", maxWidth = 100, name = "Club"),
+    team = colDef(show = TRUE, align = "center", maxWidth = 175, name = "Club"),
     player = colDef(maxWidth = 200, align = "center", style = cell_style(data, font_weight = "bold")),
     primary_position = colDef(maxWidth = 75, name = "Primary Position", align = "center"),
     NT_apps = colDef(maxWidth = 50, name = "NT apps", align = "center"),
