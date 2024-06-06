@@ -31,7 +31,7 @@ The table and plots include data from [FM Inside](https://fminside.net/players) 
 
 The following packages were used to produce the table and figures in R:
 
-\
+
 `ggplot2`\
 `tidyverse`\
 `showtext`\
@@ -41,6 +41,12 @@ The following packages were used to produce the table and figures in R:
 `reactablefmtr`\
 
 [@tidyverse; @showtext; @ggtext;@reactable;@reactablefmtr; @htmltools;@ggplot2-2].
+
+\
+
+::: callout-tip
+Select a table column title to sort in ascending or descending order. For mobile viewing, drag the table from right to left to reveal additional columns.
+:::
 
 
 \
@@ -158,6 +164,7 @@ rtable <-reactable(data,
 rtable
 
 #save_reactable_test(rtable, "rtable.html")
+
 ```
 
 \
