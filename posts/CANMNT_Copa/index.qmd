@@ -1,7 +1,7 @@
 ---
 title: "Four-Triple-Toonie?" 
 author: Christina
-date: today
+date: "2024-06-18"
 categories: [Data Viz, football, ggplot2, Canada Soccer]
 link-external-newwindow: true
 editor: visual
@@ -26,7 +26,7 @@ twitter-card: true
 
 ## The Canadian Men's National Team Squad
 
-The Canadian Men's National Team (CanMNT) will participate at the Copa America for the first time. This marks a new era for the team, as Jesse Marsch takes charge of competitive fixtures for the first time.
+The Canadian Men's National Team (CanMNT) will make their Copa America debut on Thursday. This marks a new era for the team, as Jesse Marsch takes charge of competitive fixtures for the first time.
 
 The current article serves primarily as a descriptive overview of the selected squad and team staff for the competition. A brief look at pre-tournament formations is also included.
 
@@ -625,7 +625,11 @@ save_reactable_test("rtable_copa4.html", "rtable_copa4.png")
 > - [Jesse Marsch](https://www.coachesvoice.com/cv/jesse-marsch-ralf-rangnick-red-bull-salzburg-rb-leipzig/)
 
 Ahead of the Copa America, we saw a glimpse of how Marsch's iteration of Canada may set up. The sample size is small, but there was enough evidence in the two warm-up friendlies to suggest that a handful of possibilities exist.
+\
 
+###  The Netherlands v Canada - friendly - June 6th 2024 - 4:0 FT
+
+\
 <iframe id="sofa-lineups-embed-12258876" src="https://widgets.sofascore.com/embed/lineups?id=12258876&widgetTheme=light" style=height:786px!important;max-width:800px!important;width:100%!important; frameborder="0"
       scrolling="no"></iframe>
 
@@ -642,7 +646,11 @@ Focusing mainly on the out-of-possession shape, against the Dutch, the first hal
 
 ![\~4222 second half](images2/4nd.png)
 :::
+\
 
+### France v Canada - friendly - June 9th 2024 - 0:0 FT
+
+\
 <iframe id="sofa-lineups-embed-12325287" src="https://widgets.sofascore.com/embed/lineups?id=12325287&widgetTheme=light" style=height:786px!important;max-width:800px!important;width:100%!important; frameborder="0"
       scrolling="no"></iframe>
 
