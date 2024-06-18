@@ -626,6 +626,9 @@ save_reactable_test("rtable_copa4.html", "rtable_copa4.png")
 
 Ahead of the Copa America, we saw a glimpse of how Marsch's iteration of Canada may set up. The sample size is small, but there was enough evidence in the two warm-up friendlies to suggest that a handful of possibilities exist.
 
+<iframe id="sofa-lineups-embed-12258876" src="https://widgets.sofascore.com/embed/lineups?id=12258876&widgetTheme=light" style=height:786px!important;max-width:800px!important;width:100%!important; frameborder="0"
+      scrolling="no"></iframe>
+
 Focusing mainly on the out-of-possession shape, against the Dutch, the first half saw a version of 4231/4411 with David doing a lot of leg work behind Larin. At half time, the introduction of Shaffelburg in place of Millar (a pre-planned sub, likely for fitness reasons) likely shifted the formation slightly. When Brym came on for Buchanan, a closer approximation of 4222 emerged. A wild mutant four-triple-[toonie](https://www.mint.ca/en/discover/canadian-circulation/2-dollars) appeared. It will be noted that Brym is left footed whilst Shaffelburg is also left footed. This was a swap from the Buchanan right-dominant (RW) and Millar right-dominant (LW) roles from earlier in the match.
 
 ::: {layout-ncol="2" layout-valign="center"}
@@ -639,6 +642,11 @@ Focusing mainly on the out-of-possession shape, against the Dutch, the first hal
 
 ![\~4222 second half](images2/4nd.png)
 :::
+
+<iframe id="sofa-lineups-embed-12325287" src="https://widgets.sofascore.com/embed/lineups?id=12325287&widgetTheme=light" style=height:786px!important;max-width:800px!important;width:100%!important; frameborder="0"
+      scrolling="no"></iframe>
+
+
 
 Against France, a different shape emerged. From the start, out of possession, a type of 433 was apparent with Millar maintaining a stronger presence in midfield, whilst Buchanan was part of the front line. With the ball, 3223 was on show with slight variations to roles and situations in the match. Larin being a target to kickstart a bounce pass to release others was common... In the second half, a more concise 442 was employed. There were a host of other nuances and tactical trials that go beyond this post. However, it was interesting that we saw Shaffelburg (left foot dominant) play a role on the right side this time. Hiebert, the aforementioned particular two-footed depth option even saw brief minutes at LB and RB.
 
@@ -669,6 +677,8 @@ Going into the Copa America, it's not clear what Canada can achieve. The intensi
 
 ## Final Thoughts
 As Canada faces the reigning Copa America and World Cup champions, Marsch may look for inspiration from his past. When Red Bull Salzburg automatically qualified for the Champions League group stages for the first time, they drew the then title holders Liverpool. Could Liam Millar be Marsch's ode to the Salzburg Szoboszlai? It seems another left back wears the armband for Marsch, as Andreas Ulmer once did. Whether it's four-triple-toonie or another Canadian classic, such as the [medium double double](https://timhortons.co.th/product/double-double/) with two sugar (Millar + Buchanan) and two cream (Eustaquio + Kone), *we will be there*. Insert sting drum sequence here. {{< video https://www.youtube.com/watch?v=Dcwun-ecmAA width="400" height="300" >}}
+
+
 
 ::: {.callout-note appearance="simple"}
 ## About the author:
