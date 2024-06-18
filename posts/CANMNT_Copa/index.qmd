@@ -92,10 +92,10 @@ rtable_copa1 <-reactable(data,
     player = colDef(maxWidth = 200, name = "name",
                     align = "center", style = cell_style(data, font_weight = "bold")),
     primary_position = colDef(maxWidth = 75, name = "Position", align = "center"),
-    foot = colDef(maxWidth = 75, name = "Footedness", align = "center"),
+    foot = colDef(maxWidth = 80, name = "Footedness", align = "center"),
     height = colDef(maxWidth = 100, name = "Height (cm)", align = "center"),
     age = colDef(maxWidth = 65, name = "Age", align = "center"),
-    ps = colDef(maxWidth = 82, name = "College/Uni*", align = "center"),
+    ps = colDef(maxWidth = 85, name = "College/Uni*", align = "center"),
     player_head = colDef(
       name = "",
       maxWidth = 55,
@@ -461,7 +461,7 @@ save_reactable_test(rtable_copa3, "rtable_copa3.html")
 
 ## The Coach
 
-Jesse Marsch grew up in Racine, Wisconsin, many hours from the Canadian border by car, but relatively close in North American road trip terms. [The Voyageurs](https://www.thevoyageurs.org/) is the name of the Canadian National Teams supporters group meaning "the travellers" (a name taken from the group of contracted traders who canoed The Great Lakes, including Wisconsin, during the 18th century). Marsch may consider himself a bit of a *Voyageur* too, having developed most of his coaching credentials outside of his homeland. Much has been said about the American abroad, but there is no doubt that Marsch is usually keen to absorb the cultural surroundings that his coaching journey offers.
+Jesse Marsch grew up in Racine, Wisconsin, many hours from the Canadian border by car, but relatively close in some North American road trip terms. [The Voyageurs](https://www.thevoyageurs.org/) is the name of the Canadian National Teams supporters group meaning "the travellers" (a name taken from the group of contracted traders who canoed The Great Lakes, including Wisconsin, during the 18th century). Marsch may consider himself a bit of a *Voyageur* too, having developed most of his coaching credentials outside of his homeland. Much has been said about the American abroad, but there is no doubt that Marsch is usually keen to absorb the cultural surroundings that his coaching journey offers.
 
 Moulded in the philosophy of the "Red Bull style" tactics, Marsch's teams are often characterized by aggressive out-of-possession approaches based in counter pressing, whilst direct and quick transitions make up the focus of the in-possession principles.
 
@@ -661,9 +661,9 @@ Still image screenshots above: OneSoccer
 Going into the Copa America, it's not clear what Canada can achieve. The intensity and demands of competitive matches will be a significant step up from the two friendlies. There are notable concerns regarding the stamina of the team on a bigger stage with limited preparation. The shape may change but the personnel and principles should remain the same. Whether Buchanan drops alongside Johnston as a RWB when they get pushed back or provides a first pressing trigger as a RW, "emptying the tank", as Marsch says, will be the objective. In any case, a look at ELO and FIFA ratings across groups indicates that the challenge will be difficult.
 
 ::: {layout-ncol="2" layout-valign="center"}
-![](images2/elo_png.png){width="500"}
+![](images2/elo_png.png)
 
-![](images2/fifa_png.png){width="\"500"}
+![](images2/fifa_png.png)
 :::
 
 
