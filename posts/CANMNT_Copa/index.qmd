@@ -95,7 +95,7 @@ rtable_copa1 <-reactable(data,
     foot = colDef(maxWidth = 80, name = "Footedness", align = "center"),
     height = colDef(maxWidth = 100, name = "Height (cm)", align = "center"),
     age = colDef(maxWidth = 65, name = "Age", align = "center"),
-    ps = colDef(maxWidth = 85, name = "College/Uni*", align = "center"),
+    ps = colDef(maxWidth = 90, name = "College/Uni*", align = "center"),
     player_head = colDef(
       name = "",
       maxWidth = 55,
@@ -660,7 +660,7 @@ Still image screenshots above: OneSoccer
 
 Going into the Copa America, it's not clear what Canada can achieve. The intensity and demands of competitive matches will be a significant step up from the two friendlies. There are notable concerns regarding the stamina of the team on a bigger stage with limited preparation. The shape may change but the personnel and principles should remain the same. Whether Buchanan drops alongside Johnston as a RWB when they get pushed back or provides a first pressing trigger as a RW, "emptying the tank", as Marsch says, will be the objective. In any case, a look at ELO and FIFA ratings across groups indicates that the challenge will be difficult.
 
-::: {layout-ncol="2" layout-valign="center"}
+::: {layout-ncol="2"}
 ![](images2/elo_png.png)
 
 ![](images2/fifa_png.png)
