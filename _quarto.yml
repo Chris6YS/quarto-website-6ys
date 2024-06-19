@@ -3,7 +3,7 @@ project:
 
 website:
   title: "6YS Blog"
-  site-url: "https://6yardscreamers.netlify.app"
+  site-url: "6yardscreamers.netlify.app"
   favicon: "images/soccer2.png"
   image: "images/soccer2.png"
   open-graph: true
