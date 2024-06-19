@@ -17,6 +17,7 @@ format:
 bibliography: references.bib
 csl: apa.csl
 twitter-card: true
+card-style: summary
 image: "/images/soccer2.png"
 ---
 

@@ -7,8 +7,7 @@ website:
   favicon: "images/soccer2.png"
   image: "/images/soccer2.png"
   open-graph: true
-  twitter-card:
-    creator: "@6yardscreamers"
+  twitter-card: true
   page-footer: 
     center: |
       [Contact Christina](mailto:6ysblog@gmail.com)
