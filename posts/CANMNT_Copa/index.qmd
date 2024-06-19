@@ -16,9 +16,10 @@ format:
     page-layout: full
 bibliography: references.bib
 csl: apa.csl
-twitter-card: true
-card-style: summary
-image: "/images/soccer2.png"
+twitter-card:
+  image: "/images/elo_png.png"
+  card-style: summary
+image: "/images/elo_png.png"
 ---
 
 > "There is no more reason to expect one graph to 'tell all' than to expect one number to do the same."\
