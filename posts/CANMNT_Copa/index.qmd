@@ -17,6 +17,7 @@ format:
 bibliography: references.bib
 csl: apa.csl
 twitter-card: true
+image: "/images/JM1.gif"
 ---
 
 > "There is no more reason to expect one graph to 'tell all' than to expect one number to do the same."\
