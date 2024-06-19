@@ -7,9 +7,9 @@ website:
   favicon: "images/soccer2.png"
   image: "/images/soccer2.png"
   open-graph: 
-    image: "/images/soccer2.png"
+    image: images/soccer2.png
   twitter-card:
-    image: "/images/soccer2.png"
+    image: images/soccer2.png
   page-footer: 
     center: |
       [Contact Christina](mailto:6ysblog@gmail.com)
