@@ -338,7 +338,7 @@ save_reactable_test(rtable_copa2, "rtable_copa2.html")
 
 \
 
-Descriptive statistics regarding the national team involvement of the squad are presented in **Table 2**. Jonathan Osorio has the most appearances in the current squad whilst Tom Mcgill is the only member to have yet to see the pitch for the national team. Larin leads the team with total goals, however David tops the group with overall goal contributions (goals + assists). 42.21% of the team has made fewer than 10 appearances for *Les Rouges*, whilst slightly over a third of players have made their international debut in the last 2 years.
+Descriptive statistics regarding the national team involvement of the squad are presented in **Table 2**. Jonathan Osorio has the most appearances in the current squad whilst Tom McGill is the only member to have yet to see the pitch for the national team. Larin leads the team with total goals, however David tops the group with overall goal contributions (goals + assists). 42.21% of the team has made fewer than 10 appearances for *Les Rouges*, whilst slightly over a third of players have made their international debut in the last 2 years.
 
 **Table 3** shows club level information for the squad. For details regarding FMInside and Opta Club ratings, see [this post](https://6yardscreamers.netlify.app/posts/team_strength_canmnt/) from June 5th 2024. Notably, 53.85% of the squad play their club football in Major League Soccer (MLS).
 

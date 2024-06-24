@@ -3,12 +3,12 @@ project:
 
 website:
   title: "6YS Blog"
-  site-url: "6yardscreamers.netlify.app"
+  site-url: https://6yardscreamers.netlify.app
   favicon: "images/soccer2.png"
-  open-graph: 
-    image: images/soccer2.png
+  open-graph: true
   twitter-card:
     image: images/soccer2.png
+    creator: "@6yardscreamers"
   page-footer: 
     center: |
       [Contact Christina](mailto:6ysblog@gmail.com)
