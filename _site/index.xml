@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>6YS Blog</title>
-<link>https://6yardscreamers.netlify.app/index.html</link>
+<link>https://6yardscreamers.netlify.app/</link>
 <atom:link href="https://6yardscreamers.netlify.app/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.3.450</generator>
+<generator>quarto-1.5.56</generator>
 <lastBuildDate>Tue, 18 Jun 2024 03:00:00 GMT</lastBuildDate>
 <item>
   <title>Four-Triple-Toonie?</title>
   <dc:creator>Christina </dc:creator>
-  <link>https://6yardscreamers.netlify.app/posts/CANMNT_Copa/index.html</link>
+  <link>https://6yardscreamers.netlify.app/posts/CANMNT_Copa/</link>
   <description><![CDATA[ <blockquote class="blockquote">
 <p>“There is no more reason to expect one graph to ‘tell all’ than to expect one number to do the same.”<br><span class="citation" data-cites="tukey1977exploratory">(Tukey et al., 1977)</span></p>
 </blockquote>
@@ -100,10 +100,10 @@ Demographic squad information is presented in <strong>Table 1</strong>. The mean
 <div class="quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-center">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="https://6yardscreamers.netlify.app/posts/CANMNT_Copa/https:/media1.tenor.com/m/R1ouELrjaNYAAAAd/jesse-marsch-ted-lasso.gif" class="img-fluid"></p>
+<p><img src="https://media1.tenor.com/m/R1ouELrjaNYAAAAd/jesse-marsch-ted-lasso.gif" class="img-fluid"></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="https://6yardscreamers.netlify.app/posts/CANMNT_Copa/https:/media1.tenor.com/m/YYOuhuRiQXgAAAAd/jesse-marsch-new-york-red-bulls.gif" class="img-fluid"></p>
+<p><img src="https://media1.tenor.com/m/YYOuhuRiQXgAAAAd/jesse-marsch-new-york-red-bulls.gif" class="img-fluid"></p>
 </div>
 </div>
 </div>
@@ -276,14 +276,14 @@ Yu, G. (2022). <em>Ggimage: Use image in ’ggplot2’</em>. <a href="https://CR
   <category>football</category>
   <category>ggplot2</category>
   <category>Canada Soccer</category>
-  <guid>https://6yardscreamers.netlify.app/posts/CANMNT_Copa/index.html</guid>
+  <guid>https://6yardscreamers.netlify.app/posts/CANMNT_Copa/</guid>
   <pubDate>Tue, 18 Jun 2024 03:00:00 GMT</pubDate>
   <media:content url="https://6yardscreamers.netlify.app/images/elo_png.png" medium="image" type="image/png" height="168" width="144"/>
 </item>
 <item>
   <title>Team Strength: A CanMNT Snapshot</title>
   <dc:creator>Christina </dc:creator>
-  <link>https://6yardscreamers.netlify.app/posts/Team_Strength_CANMNT/index.html</link>
+  <link>https://6yardscreamers.netlify.app/posts/Team_Strength_CANMNT/</link>
   <description><![CDATA[ <blockquote class="blockquote">
 <p>“Failing the possibility of measuring that which you desire, the lust for measurement may, for example, merely result in your measuring something else - and perhaps forgetting the difference - or in your ignoring some things because they cannot be measured.” - George Udny Yule <span class="citation" data-cites="Kendall">(Kendall, 1952)</span></p>
 </blockquote>
@@ -406,13 +406,13 @@ Wilke, C. O., &amp; Wiernik, B. M. (2022). <em>Ggtext: Improved text rendering s
   <category>football</category>
   <category>ggplot2</category>
   <category>Canada Soccer</category>
-  <guid>https://6yardscreamers.netlify.app/posts/Team_Strength_CANMNT/index.html</guid>
+  <guid>https://6yardscreamers.netlify.app/posts/Team_Strength_CANMNT/</guid>
   <pubDate>Wed, 05 Jun 2024 03:00:00 GMT</pubDate>
 </item>
 <item>
   <title>2023 UEFA competitions group stage: Visualizing club ratings</title>
   <dc:creator>Christina </dc:creator>
-  <link>https://6yardscreamers.netlify.app/posts/UEFA_club_ratings/index.html</link>
+  <link>https://6yardscreamers.netlify.app/posts/UEFA_club_ratings/</link>
   <description><![CDATA[ <section id="intro" class="level2 page-columns page-full"><h2 class="anchored" data-anchor-id="intro">Intro</h2>
 <p>The UEFA Champions League, Europa League and Conference League group stages are set to begin so with the help of <em>Opta’s Power Rankings</em> I decided to visualize the competitions from this perspective. This is a limited descriptive exercise and an easy excuse for a simple new post.</p>
 
@@ -525,14 +525,14 @@ Wilke, C. O., &amp; Wiernik, B. M. (2022). <em>Ggtext: Improved text rendering s
   <category>Data Viz</category>
   <category>football</category>
   <category>ggplot2</category>
-  <guid>https://6yardscreamers.netlify.app/posts/UEFA_club_ratings/index.html</guid>
+  <guid>https://6yardscreamers.netlify.app/posts/UEFA_club_ratings/</guid>
   <pubDate>Tue, 19 Sep 2023 03:00:00 GMT</pubDate>
   <media:content url="https://6yardscreamers.netlify.app/images/banner.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 <item>
   <title>Selecting The Selected:</title>
   <dc:creator>Christina </dc:creator>
-  <link>https://6yardscreamers.netlify.app/posts/RAE_CS/index.html</link>
+  <link>https://6yardscreamers.netlify.app/posts/RAE_CS/</link>
   <description><![CDATA[ <section id="introduction" class="level2" data-number="1"><h2 data-number="1" class="anchored" data-anchor-id="introduction">
 <span class="header-section-number">1</span> Introduction</h2>
 <p>The Relative Age Effect (RAE) is a commonly observed phenomenon within different sports whereby individuals born earlier in a selection period are overrepresented within their cohort, whilst those born later relative to their peers are underrepresented <span class="citation" data-cites="cobley2009">(Cobley et al., 2009)</span>. The RAE constitutes a complex selection bias, as a result of confounding sporting ability and potential with a host of chronological age related factors in the physical <span class="citation" data-cites="muller2018">(Müller et al., 2018)</span>, cognitive <span class="citation" data-cites="jakobsson2021">(Jakobsson et al., 2021)</span> and socio-emotional <span class="citation" data-cites="thompson2004">(Thompson et al., 2004)</span> domains of maturation.</p>
@@ -2836,13 +2836,13 @@ Wilke, C. O., &amp; Wiernik, B. M. (2022). <em>Ggtext: Improved text rendering s
   <category>RAE</category>
   <category>ggplot2</category>
   <category>Canada Soccer</category>
-  <guid>https://6yardscreamers.netlify.app/posts/RAE_CS/index.html</guid>
+  <guid>https://6yardscreamers.netlify.app/posts/RAE_CS/</guid>
   <pubDate>Fri, 07 Jul 2023 03:00:00 GMT</pubDate>
 </item>
 <item>
   <title>World Cup National Anthems, Emotions &amp; Audio Features</title>
   <dc:creator>Christina </dc:creator>
-  <link>https://6yardscreamers.netlify.app/posts/wc_anthems_emotions/index.html</link>
+  <link>https://6yardscreamers.netlify.app/posts/wc_anthems_emotions/</link>
   <description><![CDATA[ 
 
 
@@ -2971,14 +2971,14 @@ Wickham, Hadley. 2016. <span>“Ggplot2: Elegant Graphics for Data Analysis.”<
   <category>Data Viz</category>
   <category>World Cup</category>
   <category>ggplot2</category>
-  <guid>https://6yardscreamers.netlify.app/posts/wc_anthems_emotions/index.html</guid>
+  <guid>https://6yardscreamers.netlify.app/posts/wc_anthems_emotions/</guid>
   <pubDate>Tue, 06 Dec 2022 04:00:00 GMT</pubDate>
   <media:content url="https://6yardscreamers.netlify.app/posts/wc_anthems_emotions/plot1_final.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Coming Soon</title>
   <dc:creator>Christina </dc:creator>
-  <link>https://6yardscreamers.netlify.app/posts/welcome/index.html</link>
+  <link>https://6yardscreamers.netlify.app/posts/welcome/</link>
   <description><![CDATA[ 
 
 
@@ -2990,7 +2990,7 @@ Wickham, Hadley. 2016. <span>“Ggplot2: Elegant Graphics for Data Analysis.”<
 
  ]]></description>
   <category>misc</category>
-  <guid>https://6yardscreamers.netlify.app/posts/welcome/index.html</guid>
+  <guid>https://6yardscreamers.netlify.app/posts/welcome/</guid>
   <pubDate>Fri, 18 Nov 2022 04:00:00 GMT</pubDate>
   <media:content url="https://6yardscreamers.netlify.app/images/soccer2.png" medium="image" type="image/png" height="144" width="144"/>
 </item>

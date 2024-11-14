@@ -26,6 +26,8 @@ website:
         href: projects.qmd 
     right:
       - about.qmd
+      - text: "{{< iconify simple-icons bluesky >}}"
+        href: https://bsky.app/profile/christina6YS.bsky.social
       - icon: twitter
         href: https://twitter.com/6yardscreamers
       - icon: mastodon
