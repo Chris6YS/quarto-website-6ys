@@ -1,0 +1,1681 @@
+---
+title: "EPL Pre-season 2025"
+author: Christina
+date: "2025-07-21"
+categories: [Data Viz, football, reactable, EPL, Premier League]
+format: html
+theme: lumen
+editor: visual
+embed-resources: true
+link-external-newwindow: true
+link-external-icon: true
+toc: true
+toc-location: left
+execute:
+  echo: false
+bibliography: references.bib
+csl: apa.csl
+image: "/images/header.png"
+---
+
+# Intro
+
+The English Premier League (EPL) pre-season is underway. Burnley are the earliest to get going whilst Chelsea will be the latest to do their work due to their FIFA Club World Cup exploits. There's no doubt that pre-season matters a lot to managers and clubs. Exactly how it matters is another question. What is clear is that it's vital preparation ahead of a gruelling season to come. It's a time for fitness, opportunities for youth, team bonding, squad building and tactical trials among other things. Match outcomes are largely meaningless but can influence the narrative, tone and group morale heading into the new campaign. So far over 90 pre-season matches are scheduled for EPL clubs.
+<br>
+<br>This post summarizes pre-season schedules for each EPL team ahead of the 2025/2026 campaign that begins on August 15th 2025. Updates will be provided periodically.
+
+::: {.callout-important appearance="default"}
+## Last update:
+
+July 21st 2025
+:::
+
+The following R packages were used:
+
+`tidyverse`\
+`reactable`\
+`reactablefmtr`\
+`htmltools`\
+
+[@Wickham2019; @Lin2025; @Cuilla2022; @Cheng2025]
+
+
+
+## ![](images/arsenal.svg){width="30"} Arsenal
+
+Arsenal began their pre-season preparations on July 9th, followed by a training camp in Spain. They will tour Singapore and Hong Kong. A total of 6 pre-season games are currently scheduled.
+
+```{r message=FALSE, warning=FALSE}
+
+#| warning: false
+#| echo: false
+#| fig-height: 10
+#| fig-width: 15
+#| fig-dpi: 600
+#| column: 600
+
+library(reactablefmtr)
+library(htmltools)
+library(tidyverse)
+library(reactable)
+
+
+### load data
+data <- read.csv(file = "data/arsenal_ps.csv")
+
+arsenal <- reactable(data,
+  theme = fivethirtyeight(),
+  ### add column group header
+  showSortIcon = FALSE,
+  searchable = FALSE,
+  highlight = TRUE,
+  language = reactableLang(
+    searchPlaceholder = "SEARCH FOR A PLAYER OR TEAM..."),
+  columns = list(
+    date = colDef(show = TRUE, align = "center", maxWidth = 75),
+    score = colDef(show = TRUE, align = "center", maxWidth = 75),
+    team = colDef(show = FALSE),
+    opponent = colDef(show = TRUE),
+    team_logo = colDef(show = FALSE),
+    location = colDef(show = TRUE, align = "center"),
+    opta_rating = colDef(show = FALSE, name = "opponent Opta Rating", align = "center"),
+    match_report = colDef(name = "Match Report",
+                          align = "center",
+                          maxWidth = 110,
+                     cell = function(value, index) {
+                     url <- value 
+                     htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
+                     }), # end of Link definition
+    #opponent_logo = colDef(show = TRUE, align = "left", maxWidth = 300,
+                  #style = cell_style(data, font_size = 15, font_color = "gray")),
+    #team_logo = colDef(
+    #  name = "",
+    #  maxWidth = 25,
+    # align = "center",
+    #  cell = embed_img(height = "25", width = "42.5")),
+    opponent_logo = colDef(
+      name = "",
+      maxWidth = 25,
+      align = "center",
+      cell = embed_img(height = "25", width = "42.5")),
+    ### add icons using icon_assign()
+    ### add bars using data_bars_pos_neg()
+    note = colDef(
+      maxWidth = 900,
+      align = "center",
+      cell = data_bars(
+        data,
+        fill_color = c("#fd84a9", "#fee6ed", "#d9f2f4", "#42c2ca"),
+        number_fmt = scales::number_format(accuracy = 0.1)
+      ),
+      style = list(borderLeft = "1px dashed rgba(0, 0, 0, 0.3)")
+    )
+  )
+)%>% 
+  google_font(font_family = "Monda")%>%
+  add_title("Arsenal pre-season schedule", font_size = 22)%>%
+  #add_subtitle("Pre-season schedule")%>%
+  add_source("", font_size = 12)
+
+arsenal
+
+
+```
+
+## ![](images/astonvilla.svg){width="30"} Aston Villa
+
+Aston Villa began their pre-season preparations on July 7th. They will tour the USA, whilst also travelling to Germany, France and Spain ahead of their season opener. A total of 8 pre-season games are currently scheduled.
+
+```{r message=FALSE, warning=FALSE}
+
+#| warning: false
+#| echo: false
+#| fig-height: 10
+#| fig-width: 15
+#| fig-dpi: 600
+#| column: 600
+
+library(reactablefmtr)
+library(htmltools)
+library(tidyverse)
+library(reactable)
+
+
+### load data
+data2 <- read.csv(file = "data/astonvilla_ps.csv")
+
+astonvilla <- reactable(data2,
+  theme = fivethirtyeight(),
+  ### add column group header
+  showSortIcon = FALSE,
+  searchable = FALSE,
+  highlight = TRUE,
+  language = reactableLang(
+    searchPlaceholder = "SEARCH FOR A PLAYER OR TEAM..."),
+  columns = list(
+    date = colDef(show = TRUE, align = "center", maxWidth = 75),
+    score = colDef(show = TRUE, align = "center", maxWidth = 75),
+    team = colDef(show = FALSE),
+    opponent = colDef(show = TRUE),
+    team_logo = colDef(show = FALSE),
+    location = colDef(show = TRUE, align = "center"),
+    opta_rating = colDef(show = FALSE, name = "opponent Opta Rating", align = "center"),
+    match_report = colDef(name = "Match Report",
+                          align = "center",
+                          maxWidth = 110,
+                     cell = function(value, index) {
+                     url <- value 
+                     htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
+                     }), # end of Link definition
+    #opponent_logo = colDef(show = TRUE, align = "left", maxWidth = 300,
+                  #style = cell_style(data, font_size = 15, font_color = "gray")),
+    #team_logo = colDef(
+    #  name = "",
+    #  maxWidth = 25,
+    # align = "center",
+    #  cell = embed_img(height = "25", width = "42.5")),
+    opponent_logo = colDef(
+      name = "",
+      maxWidth = 25,
+      align = "center",
+      cell = embed_img(height = "25", width = "42.5")),
+    ### add icons using icon_assign()
+    ### add bars using data_bars_pos_neg()
+    note = colDef(
+      maxWidth = 900,
+      align = "center",
+      cell = data_bars(
+        data,
+        fill_color = c("#fd84a9", "#fee6ed", "#d9f2f4", "#42c2ca"),
+        number_fmt = scales::number_format(accuracy = 0.1)
+      ),
+      style = list(borderLeft = "1px dashed rgba(0, 0, 0, 0.3)")
+    )
+  )
+)%>% 
+  google_font(font_family = "Monda")%>%
+  add_title("Aston Villa pre-season schedule", font_size = 22)%>%
+  #add_subtitle("Pre-season schedule")%>%
+  add_source("", font_size = 12)
+
+astonvilla
+
+
+```
+
+## ![](images/bournemouth.svg){width="25"} Bournemouth
+
+Bournemouth began their pre-season preparations on July 5th. They will tour the USA. A total of 7 pre-season games are currently scheduled.
+
+```{r message=FALSE, warning=FALSE}
+
+#| warning: false
+#| echo: false
+#| fig-height: 10
+#| fig-width: 15
+#| fig-dpi: 600
+#| column: 600
+
+library(reactablefmtr)
+library(htmltools)
+library(tidyverse)
+library(reactable)
+
+
+### load data
+data3 <- read.csv(file = "data/bournemouth_ps.csv")
+
+bournemouth <- reactable(data3,
+  theme = fivethirtyeight(),
+  ### add column group header
+  showSortIcon = FALSE,
+  searchable = FALSE,
+  highlight = TRUE,
+  language = reactableLang(
+    searchPlaceholder = "SEARCH FOR A PLAYER OR TEAM..."),
+  columns = list(
+    date = colDef(show = TRUE, align = "center", maxWidth = 75),
+    score = colDef(show = TRUE, align = "center", maxWidth = 75),
+    team = colDef(show = FALSE),
+    opponent = colDef(show = TRUE),
+    team_logo = colDef(show = FALSE),
+    location = colDef(show = TRUE, align = "center"),
+    opta_rating = colDef(show = FALSE, name = "opponent Opta Rating", align = "center"),
+    match_report = colDef(name = "Match Report",
+                          align = "center",
+                          maxWidth = 110,
+                     cell = function(value, index) {
+                     url <- value 
+                     htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
+                     }), # end of Link definition
+    #opponent_logo = colDef(show = TRUE, align = "left", maxWidth = 300,
+                  #style = cell_style(data, font_size = 15, font_color = "gray")),
+    #team_logo = colDef(
+    #  name = "",
+    #  maxWidth = 25,
+    # align = "center",
+    #  cell = embed_img(height = "25", width = "42.5")),
+    opponent_logo = colDef(
+      name = "",
+      maxWidth = 25,
+      align = "center",
+      cell = embed_img(height = "25", width = "42.5")),
+    ### add icons using icon_assign()
+    ### add bars using data_bars_pos_neg()
+    note = colDef(
+      maxWidth = 900,
+      align = "center",
+      cell = data_bars(
+        data,
+        fill_color = c("#fd84a9", "#fee6ed", "#d9f2f4", "#42c2ca"),
+        number_fmt = scales::number_format(accuracy = 0.1)
+      ),
+      style = list(borderLeft = "1px dashed rgba(0, 0, 0, 0.3)")
+    )
+  )
+)%>% 
+  google_font(font_family = "Monda")%>%
+  add_title("Bournemouth pre-season schedule", font_size = 22)%>%
+  #add_subtitle("Pre-season schedule")%>%
+  add_source("", font_size = 12)
+
+bournemouth
+
+
+```
+
+## ![](images/brentford.svg){width="30"} Brentford
+
+Brentford began their pre-season preparations on July 7th, followed by a training camp in Portugal. A total of 3 pre-season games are currently scheduled.
+
+```{r message=FALSE, warning=FALSE}
+
+#| warning: false
+#| echo: false
+#| fig-height: 10
+#| fig-width: 15
+#| fig-dpi: 600
+#| column: 600
+
+library(reactablefmtr)
+library(htmltools)
+library(tidyverse)
+library(reactable)
+
+
+### load data
+data4 <- read.csv(file = "data/brentford_ps.csv")
+
+brentford <- reactable(data4,
+  theme = fivethirtyeight(),
+  ### add column group header
+  showSortIcon = FALSE,
+  searchable = FALSE,
+  highlight = TRUE,
+  language = reactableLang(
+    searchPlaceholder = "SEARCH FOR A PLAYER OR TEAM..."),
+  columns = list(
+    date = colDef(show = TRUE, align = "center", maxWidth = 75),
+    score = colDef(show = TRUE, align = "center", maxWidth = 75),
+    team = colDef(show = FALSE),
+    opponent = colDef(show = TRUE),
+    team_logo = colDef(show = FALSE),
+    location = colDef(show = TRUE, align = "center"),
+    opta_rating = colDef(show = FALSE, name = "opponent Opta Rating", align = "center"),
+    match_report = colDef(name = "Match Report",
+                          align = "center",
+                          maxWidth = 110,
+                     cell = function(value, index) {
+                     url <- value 
+                     htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
+                     }), # end of Link definition
+    #opponent_logo = colDef(show = TRUE, align = "left", maxWidth = 300,
+                  #style = cell_style(data, font_size = 15, font_color = "gray")),
+    #team_logo = colDef(
+    #  name = "",
+    #  maxWidth = 25,
+    # align = "center",
+    #  cell = embed_img(height = "25", width = "42.5")),
+    opponent_logo = colDef(
+      name = "",
+      maxWidth = 25,
+      align = "center",
+      cell = embed_img(height = "25", width = "42.5")),
+    ### add icons using icon_assign()
+    ### add bars using data_bars_pos_neg()
+    note = colDef(
+      maxWidth = 900,
+      align = "center",
+      cell = data_bars(
+        data,
+        fill_color = c("#fd84a9", "#fee6ed", "#d9f2f4", "#42c2ca"),
+        number_fmt = scales::number_format(accuracy = 0.1)
+      ),
+      style = list(borderLeft = "1px dashed rgba(0, 0, 0, 0.3)")
+    )
+  )
+)%>% 
+  google_font(font_family = "Monda")%>%
+  add_title("Brentford pre-season schedule", font_size = 22)%>%
+  #add_subtitle("Pre-season schedule")%>%
+  add_source("", font_size = 12)
+
+brentford
+
+
+```
+
+## ![](images/brighton.svg){width="30"} Brighton
+
+Brighton began their pre-season preparations on July 5th followed by a training camp in Spain. A total of 5 pre-season games are currently scheduled.
+
+```{r message=FALSE, warning=FALSE}
+
+#| warning: false
+#| echo: false
+#| fig-height: 10
+#| fig-width: 15
+#| fig-dpi: 600
+#| column: 600
+
+library(reactablefmtr)
+library(htmltools)
+library(tidyverse)
+library(reactable)
+
+
+### load data
+data5 <- read.csv(file = "data/brighton_ps.csv")
+
+brighton <- reactable(data5,
+  theme = fivethirtyeight(),
+  ### add column group header
+  showSortIcon = FALSE,
+  searchable = FALSE,
+  highlight = TRUE,
+  language = reactableLang(
+    searchPlaceholder = "SEARCH FOR A PLAYER OR TEAM..."),
+  columns = list(
+    date = colDef(show = TRUE, align = "center", maxWidth = 75),
+    score = colDef(show = TRUE, align = "center", maxWidth = 75),
+    team = colDef(show = FALSE),
+    opponent = colDef(show = TRUE),
+    team_logo = colDef(show = FALSE),
+    location = colDef(show = TRUE, align = "center"),
+    opta_rating = colDef(show = FALSE, name = "opponent Opta Rating", align = "center"),
+    match_report = colDef(name = "Match Report",
+                          align = "center",
+                          maxWidth = 110,
+                     cell = function(value, index) {
+                     url <- value 
+                     htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
+                     }), # end of Link definition
+    #opponent_logo = colDef(show = TRUE, align = "left", maxWidth = 300,
+                  #style = cell_style(data, font_size = 15, font_color = "gray")),
+    #team_logo = colDef(
+    #  name = "",
+    #  maxWidth = 25,
+    # align = "center",
+    #  cell = embed_img(height = "25", width = "42.5")),
+    opponent_logo = colDef(
+      name = "",
+      maxWidth = 25,
+      align = "center",
+      cell = embed_img(height = "25", width = "42.5")),
+    ### add icons using icon_assign()
+    ### add bars using data_bars_pos_neg()
+    note = colDef(
+      maxWidth = 900,
+      align = "center",
+      cell = data_bars(
+        data,
+        fill_color = c("#fd84a9", "#fee6ed", "#d9f2f4", "#42c2ca"),
+        number_fmt = scales::number_format(accuracy = 0.1)
+      ),
+      style = list(borderLeft = "1px dashed rgba(0, 0, 0, 0.3)")
+    )
+  )
+)%>% 
+  google_font(font_family = "Monda")%>%
+  add_title("Brighton pre-season schedule", font_size = 22)%>%
+  #add_subtitle("Pre-season schedule")%>%
+  add_source("", font_size = 12)
+
+brighton
+
+
+```
+
+## ![](images/burnley.svg){width="30"} Burnley
+
+Burnley began their pre-season preparations on June 30th followed by a training camp in Portugal. A total of 6 pre-season games are currently scheduled.
+
+```{r message=FALSE, warning=FALSE}
+
+#| warning: false
+#| echo: false
+#| fig-height: 10
+#| fig-width: 15
+#| fig-dpi: 600
+#| column: 600
+
+library(reactablefmtr)
+library(htmltools)
+library(tidyverse)
+library(reactable)
+
+
+### load data
+data6 <- read.csv(file = "data/burnley_ps.csv")
+
+burnley <- reactable(data6,
+  theme = fivethirtyeight(),
+  ### add column group header
+  showSortIcon = FALSE,
+  searchable = FALSE,
+  highlight = TRUE,
+  language = reactableLang(
+    searchPlaceholder = "SEARCH FOR A PLAYER OR TEAM..."),
+  columns = list(
+    date = colDef(show = TRUE, align = "center", maxWidth = 75),
+    score = colDef(show = TRUE, align = "center", maxWidth = 75),
+    team = colDef(show = FALSE),
+    opponent = colDef(show = TRUE),
+    team_logo = colDef(show = FALSE),
+    location = colDef(show = TRUE, align = "center"),
+    opta_rating = colDef(show = FALSE, name = "opponent Opta Rating", align = "center"),
+    match_report = colDef(name = "Match Report",
+                          align = "center",
+                          maxWidth = 110,
+                     cell = function(value, index) {
+                     url <- value 
+                     htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
+                     }), # end of Link definition
+    #opponent_logo = colDef(show = TRUE, align = "left", maxWidth = 300,
+                  #style = cell_style(data, font_size = 15, font_color = "gray")),
+    #team_logo = colDef(
+    #  name = "",
+    #  maxWidth = 25,
+    # align = "center",
+    #  cell = embed_img(height = "25", width = "42.5")),
+    opponent_logo = colDef(
+      name = "",
+      maxWidth = 25,
+      align = "center",
+      cell = embed_img(height = "25", width = "42.5")),
+    ### add icons using icon_assign()
+    ### add bars using data_bars_pos_neg()
+    note = colDef(
+      maxWidth = 900,
+      align = "center",
+      cell = data_bars(
+        data,
+        fill_color = c("#fd84a9", "#fee6ed", "#d9f2f4", "#42c2ca"),
+        number_fmt = scales::number_format(accuracy = 0.1)
+      ),
+      style = list(borderLeft = "1px dashed rgba(0, 0, 0, 0.3)")
+    )
+  )
+)%>% 
+  google_font(font_family = "Monda")%>%
+  add_title("Burnley pre-season schedule", font_size = 22)%>%
+  #add_subtitle("Pre-season schedule")%>%
+  add_source("", font_size = 12)
+
+burnley
+
+
+```
+
+## ![](images/chelsea.svg){width="30"} Chelsea
+
+Chelsea’s pre-season preparations are delayed due to their participation in the Club World Cup which ended on July 13th. A total of 2 pre-season games are currently scheduled.
+
+```{r message=FALSE, warning=FALSE}
+
+#| warning: false
+#| echo: false
+#| fig-height: 10
+#| fig-width: 15
+#| fig-dpi: 600
+#| column: 600
+
+library(reactablefmtr)
+library(htmltools)
+library(tidyverse)
+library(reactable)
+
+
+### load data
+data7 <- read.csv(file = "data/chelsea_ps.csv")
+
+chelsea <- reactable(data7,
+  theme = fivethirtyeight(),
+  ### add column group header
+  showSortIcon = FALSE,
+  searchable = FALSE,
+  highlight = TRUE,
+  language = reactableLang(
+    searchPlaceholder = "SEARCH FOR A PLAYER OR TEAM..."),
+  columns = list(
+    date = colDef(show = TRUE, align = "center", maxWidth = 75),
+    score = colDef(show = TRUE, align = "center", maxWidth = 75),
+    team = colDef(show = FALSE),
+    opponent = colDef(show = TRUE),
+    team_logo = colDef(show = FALSE),
+    location = colDef(show = TRUE, align = "center"),
+    opta_rating = colDef(show = FALSE, name = "opponent Opta Rating", align = "center"),
+    match_report = colDef(name = "Match Report",
+                          align = "center",
+                          maxWidth = 110,
+                     cell = function(value, index) {
+                     url <- value 
+                     htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
+                     }), # end of Link definition
+    #opponent_logo = colDef(show = TRUE, align = "left", maxWidth = 300,
+                  #style = cell_style(data, font_size = 15, font_color = "gray")),
+    #team_logo = colDef(
+    #  name = "",
+    #  maxWidth = 25,
+    # align = "center",
+    #  cell = embed_img(height = "25", width = "42.5")),
+    opponent_logo = colDef(
+      name = "",
+      maxWidth = 25,
+      align = "center",
+      cell = embed_img(height = "25", width = "42.5")),
+    ### add icons using icon_assign()
+    ### add bars using data_bars_pos_neg()
+    note = colDef(
+      maxWidth = 900,
+      align = "center",
+      cell = data_bars(
+        data,
+        fill_color = c("#fd84a9", "#fee6ed", "#d9f2f4", "#42c2ca"),
+        number_fmt = scales::number_format(accuracy = 0.1)
+      ),
+      style = list(borderLeft = "1px dashed rgba(0, 0, 0, 0.3)")
+    )
+  )
+)%>% 
+  google_font(font_family = "Monda")%>%
+  add_title("Chelsea pre-season schedule", font_size = 22)%>%
+  #add_subtitle("Pre-season schedule")%>%
+  add_source("", font_size = 12)
+
+chelsea
+
+
+```
+
+## ![](images/crystalpalace.svg){width="30"} Crystal Palace
+
+Crystal Palace began their pre-season preparations on July 9th followed by a training camp in Austria. A total of 5 pre-season games are currently scheduled. They will take part in the Community Shield on August 10th.
+
+```{r message=FALSE, warning=FALSE}
+
+#| warning: false
+#| echo: false
+#| fig-height: 10
+#| fig-width: 15
+#| fig-dpi: 600
+#| column: 600
+
+library(reactablefmtr)
+library(htmltools)
+library(tidyverse)
+library(reactable)
+
+
+### load data
+data8 <- read.csv(file = "data/crystalpalace_ps.csv")
+
+crystalpalace <- reactable(data8,
+  theme = fivethirtyeight(),
+  ### add column group header
+  showSortIcon = FALSE,
+  searchable = FALSE,
+  highlight = TRUE,
+  language = reactableLang(
+    searchPlaceholder = "SEARCH FOR A PLAYER OR TEAM..."),
+  columns = list(
+    date = colDef(show = TRUE, align = "center", maxWidth = 75),
+    score = colDef(show = TRUE, align = "center", maxWidth = 75),
+    team = colDef(show = FALSE),
+    opponent = colDef(show = TRUE),
+    team_logo = colDef(show = FALSE),
+    location = colDef(show = TRUE, align = "center"),
+    opta_rating = colDef(show = FALSE, name = "opponent Opta Rating", align = "center"),
+    match_report = colDef(name = "Match Report",
+                          align = "center",
+                          maxWidth = 110,
+                     cell = function(value, index) {
+                     url <- value 
+                     htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
+                     }), # end of Link definition
+    #opponent_logo = colDef(show = TRUE, align = "left", maxWidth = 300,
+                  #style = cell_style(data, font_size = 15, font_color = "gray")),
+    #team_logo = colDef(
+    #  name = "",
+    #  maxWidth = 25,
+    # align = "center",
+    #  cell = embed_img(height = "25", width = "42.5")),
+    opponent_logo = colDef(
+      name = "",
+      maxWidth = 25,
+      align = "center",
+      cell = embed_img(height = "25", width = "42.5")),
+    ### add icons using icon_assign()
+    ### add bars using data_bars_pos_neg()
+    note = colDef(
+      maxWidth = 900,
+      align = "center",
+      cell = data_bars(
+        data,
+        fill_color = c("#fd84a9", "#fee6ed", "#d9f2f4", "#42c2ca"),
+        number_fmt = scales::number_format(accuracy = 0.1)
+      ),
+      style = list(borderLeft = "1px dashed rgba(0, 0, 0, 0.3)")
+    )
+  )
+)%>% 
+  google_font(font_family = "Monda")%>%
+  add_title("Crystal Palace pre-season schedule", font_size = 22)%>%
+  #add_subtitle("Pre-season schedule")%>%
+  add_source("", font_size = 12)
+
+crystalpalace
+
+
+```
+
+## ![](images/everton.svg){width="30"} Everton
+
+Everton began their pre-season preparations on July 4th followed by a training camp in Scotland. They will tour the USA. A total of 6 pre-season games are currently scheduled.
+
+```{r message=FALSE, warning=FALSE}
+
+#| warning: false
+#| echo: false
+#| fig-height: 10
+#| fig-width: 15
+#| fig-dpi: 600
+#| column: 600
+
+library(reactablefmtr)
+library(htmltools)
+library(tidyverse)
+library(reactable)
+
+
+### load data
+data9 <- read.csv(file = "data/everton_ps.csv")
+
+everton <- reactable(data9,
+  theme = fivethirtyeight(),
+  ### add column group header
+  showSortIcon = FALSE,
+  searchable = FALSE,
+  highlight = TRUE,
+  language = reactableLang(
+    searchPlaceholder = "SEARCH FOR A PLAYER OR TEAM..."),
+  columns = list(
+    date = colDef(show = TRUE, align = "center", maxWidth = 75),
+    score = colDef(show = TRUE, align = "center", maxWidth = 75),
+    team = colDef(show = FALSE),
+    opponent = colDef(show = TRUE),
+    team_logo = colDef(show = FALSE),
+    location = colDef(show = TRUE, align = "center"),
+    opta_rating = colDef(show = FALSE, name = "opponent Opta Rating", align = "center"),
+    match_report = colDef(name = "Match Report",
+                          align = "center",
+                          maxWidth = 110,
+                     cell = function(value, index) {
+                     url <- value 
+                     htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
+                     }), # end of Link definition
+    #opponent_logo = colDef(show = TRUE, align = "left", maxWidth = 300,
+                  #style = cell_style(data, font_size = 15, font_color = "gray")),
+    #team_logo = colDef(
+    #  name = "",
+    #  maxWidth = 25,
+    # align = "center",
+    #  cell = embed_img(height = "25", width = "42.5")),
+    opponent_logo = colDef(
+      name = "",
+      maxWidth = 25,
+      align = "center",
+      cell = embed_img(height = "25", width = "42.5")),
+    ### add icons using icon_assign()
+    ### add bars using data_bars_pos_neg()
+    note = colDef(
+      maxWidth = 900,
+      align = "center",
+      cell = data_bars(
+        data,
+        fill_color = c("#fd84a9", "#fee6ed", "#d9f2f4", "#42c2ca"),
+        number_fmt = scales::number_format(accuracy = 0.1)
+      ),
+      style = list(borderLeft = "1px dashed rgba(0, 0, 0, 0.3)")
+    )
+  )
+)%>% 
+  google_font(font_family = "Monda")%>%
+  add_title("Everton pre-season schedule", font_size = 22)%>%
+  #add_subtitle("Pre-season schedule")%>%
+  add_source("", font_size = 12)
+
+everton
+
+
+```
+
+## ![](images/fulham.svg){width="25"} Fulham
+
+Fulham began their pre-season preparations on July 13th followed by a training camp in Portugal. A total of 3 pre-season games are currently scheduled.
+
+```{r message=FALSE, warning=FALSE}
+
+#| warning: false
+#| echo: false
+#| fig-height: 10
+#| fig-width: 15
+#| fig-dpi: 600
+#| column: 600
+
+library(reactablefmtr)
+library(htmltools)
+library(tidyverse)
+library(reactable)
+
+
+### load data
+data10 <- read.csv(file = "data/fulham_ps.csv")
+
+fulham <- reactable(data10,
+  theme = fivethirtyeight(),
+  ### add column group header
+  showSortIcon = FALSE,
+  searchable = FALSE,
+  highlight = TRUE,
+  language = reactableLang(
+    searchPlaceholder = "SEARCH FOR A PLAYER OR TEAM..."),
+  columns = list(
+    date = colDef(show = TRUE, align = "center", maxWidth = 75),
+    score = colDef(show = TRUE, align = "center", maxWidth = 75),
+    team = colDef(show = FALSE),
+    opponent = colDef(show = TRUE),
+    team_logo = colDef(show = FALSE),
+    location = colDef(show = TRUE, align = "center"),
+    opta_rating = colDef(show = FALSE, name = "opponent Opta Rating", align = "center"),
+    match_report = colDef(name = "Match Report",
+                          align = "center",
+                          maxWidth = 110,
+                     cell = function(value, index) {
+                     url <- value 
+                     htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
+                     }), # end of Link definition
+    #opponent_logo = colDef(show = TRUE, align = "left", maxWidth = 300,
+                  #style = cell_style(data, font_size = 15, font_color = "gray")),
+    #team_logo = colDef(
+    #  name = "",
+    #  maxWidth = 25,
+    # align = "center",
+    #  cell = embed_img(height = "25", width = "42.5")),
+    opponent_logo = colDef(
+      name = "",
+      maxWidth = 25,
+      align = "center",
+      cell = embed_img(height = "25", width = "42.5")),
+    ### add icons using icon_assign()
+    ### add bars using data_bars_pos_neg()
+    note = colDef(
+      maxWidth = 900,
+      align = "center",
+      cell = data_bars(
+        data,
+        fill_color = c("#fd84a9", "#fee6ed", "#d9f2f4", "#42c2ca"),
+        number_fmt = scales::number_format(accuracy = 0.1)
+      ),
+      style = list(borderLeft = "1px dashed rgba(0, 0, 0, 0.3)")
+    )
+  )
+)%>% 
+  google_font(font_family = "Monda")%>%
+  add_title("Fulham pre-season schedule", font_size = 22)%>%
+  #add_subtitle("Pre-season schedule")%>%
+  add_source("", font_size = 12)
+
+fulham
+
+
+```
+
+## ![](images/leeds.svg){width="30"} Leeds
+
+Leeds began their pre-season preparations on July 7th followed by a training camp in Germany. A total of 5 pre-season games are currently scheduled with stops in Sweden, Germany and Ireland included.
+
+```{r message=FALSE, warning=FALSE}
+
+#| warning: false
+#| echo: false
+#| fig-height: 10
+#| fig-width: 15
+#| fig-dpi: 600
+#| column: 600
+
+library(reactablefmtr)
+library(htmltools)
+library(tidyverse)
+library(reactable)
+
+
+### load data
+data11 <- read.csv(file = "data/leeds_ps.csv")
+
+leeds <- reactable(data11,
+  theme = fivethirtyeight(),
+  ### add column group header
+  showSortIcon = FALSE,
+  searchable = FALSE,
+  highlight = TRUE,
+  language = reactableLang(
+    searchPlaceholder = "SEARCH FOR A PLAYER OR TEAM..."),
+  columns = list(
+    date = colDef(show = TRUE, align = "center", maxWidth = 75),
+    score = colDef(show = TRUE, align = "center", maxWidth = 75),
+    team = colDef(show = FALSE),
+    opponent = colDef(show = TRUE),
+    team_logo = colDef(show = FALSE),
+    location = colDef(show = TRUE, align = "center"),
+    opta_rating = colDef(show = FALSE, name = "opponent Opta Rating", align = "center"),
+    match_report = colDef(name = "Match Report",
+                          align = "center",
+                          maxWidth = 110,
+                     cell = function(value, index) {
+                     url <- value 
+                     htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
+                     }), # end of Link definition
+    #opponent_logo = colDef(show = TRUE, align = "left", maxWidth = 300,
+                  #style = cell_style(data, font_size = 15, font_color = "gray")),
+    #team_logo = colDef(
+    #  name = "",
+    #  maxWidth = 25,
+    # align = "center",
+    #  cell = embed_img(height = "25", width = "42.5")),
+    opponent_logo = colDef(
+      name = "",
+      maxWidth = 25,
+      align = "center",
+      cell = embed_img(height = "25", width = "42.5")),
+    ### add icons using icon_assign()
+    ### add bars using data_bars_pos_neg()
+    note = colDef(
+      maxWidth = 900,
+      align = "center",
+      cell = data_bars(
+        data,
+        fill_color = c("#fd84a9", "#fee6ed", "#d9f2f4", "#42c2ca"),
+        number_fmt = scales::number_format(accuracy = 0.1)
+      ),
+      style = list(borderLeft = "1px dashed rgba(0, 0, 0, 0.3)")
+    )
+  )
+)%>% 
+  google_font(font_family = "Monda")%>%
+  add_title("Leeds pre-season schedule", font_size = 22)%>%
+  #add_subtitle("Pre-season schedule")%>%
+  add_source("", font_size = 12)
+
+leeds
+
+
+```
+
+## ![](images/liverpool.png){width="25"} Liverpool
+
+Liverpool began their pre-season preparations on July 8th. They will tour Hong Kong and Japan. A total of 6 pre-season games are currently scheduled. They will take part in the Community Shield on August 10th.
+
+```{r message=FALSE, warning=FALSE}
+
+#| warning: false
+#| echo: false
+#| fig-height: 10
+#| fig-width: 15
+#| fig-dpi: 600
+#| column: 600
+
+library(reactablefmtr)
+library(htmltools)
+library(tidyverse)
+library(reactable)
+
+
+### load data
+data12 <- read.csv(file = "data/liverpool_ps.csv")
+
+liverpool <- reactable(data12,
+  theme = fivethirtyeight(),
+  ### add column group header
+  defaultPageSize = 30,
+  showSortIcon = FALSE,
+  searchable = FALSE,
+  highlight = TRUE,
+  language = reactableLang(
+    searchPlaceholder = "SEARCH FOR A PLAYER OR TEAM..."),
+  columns = list(
+    date = colDef(show = TRUE, align = "center", maxWidth = 75),
+    score = colDef(show = TRUE, align = "center", maxWidth = 75),
+    team = colDef(show = FALSE),
+    opponent = colDef(show = TRUE),
+    team_logo = colDef(show = FALSE),
+    location = colDef(show = TRUE, align = "center"),
+    opta_rating = colDef(show = FALSE, name = "opponent Opta Rating", align = "center"),
+    match_report = colDef(name = "Match Report",
+                          align = "center",
+                          maxWidth = 110,
+                     cell = function(value, index) {
+                     url <- value 
+                     htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
+                     }), # end of Link definition
+    #opponent_logo = colDef(show = TRUE, align = "left", maxWidth = 300,
+                  #style = cell_style(data, font_size = 15, font_color = "gray")),
+    #team_logo = colDef(
+    #  name = "",
+    #  maxWidth = 25,
+    # align = "center",
+    #  cell = embed_img(height = "25", width = "42.5")),
+    opponent_logo = colDef(
+      name = "",
+      maxWidth = 25,
+      align = "center",
+      cell = embed_img(height = "25", width = "42.5")),
+    ### add icons using icon_assign()
+    ### add bars using data_bars_pos_neg()
+    note = colDef(
+      maxWidth = 900,
+      align = "center",
+      cell = data_bars(
+        data,
+        fill_color = c("#fd84a9", "#fee6ed", "#d9f2f4", "#42c2ca"),
+        number_fmt = scales::number_format(accuracy = 0.1)
+      ),
+      style = list(borderLeft = "1px dashed rgba(0, 0, 0, 0.3)")
+    )
+  )
+)%>% 
+  google_font(font_family = "Monda")%>%
+  add_title("Liverpool pre-season schedule", font_size = 22)%>%
+  #add_subtitle("Pre-season schedule")%>%
+  add_source("", font_size = 12)
+
+liverpool
+
+# save_reactable_test(liverpool, "liverpool.html")
+
+
+```
+
+## ![](images/mancity.svg){width="30"} Manchester City
+
+Manchester City’s pre-season preparations are delayed due to their participation in the Club World Cup which ended on June 30th . A total of 1 pre-season game is currently scheduled.
+
+```{r message=FALSE, warning=FALSE}
+
+#| warning: false
+#| echo: false
+#| fig-height: 10
+#| fig-width: 15
+#| fig-dpi: 600
+#| column: 600
+
+library(reactablefmtr)
+library(htmltools)
+library(tidyverse)
+library(reactable)
+
+
+### load data
+data13 <- read.csv(file = "data/mancity_ps.csv")
+
+mancity <- reactable(data13,
+  theme = fivethirtyeight(),
+  ### add column group header
+  showSortIcon = FALSE,
+  searchable = FALSE,
+  highlight = TRUE,
+  language = reactableLang(
+    searchPlaceholder = "SEARCH FOR A PLAYER OR TEAM..."),
+  columns = list(
+    date = colDef(show = TRUE, align = "center", maxWidth = 75),
+    score = colDef(show = TRUE, align = "center", maxWidth = 75),
+    team = colDef(show = FALSE),
+    opponent = colDef(show = TRUE),
+    team_logo = colDef(show = FALSE),
+    location = colDef(show = TRUE, align = "center"),
+    opta_rating = colDef(show = FALSE, name = "opponent Opta Rating", align = "center"),
+    match_report = colDef(name = "Match Report",
+                          align = "center",
+                          maxWidth = 110,
+                     cell = function(value, index) {
+                     url <- value 
+                     htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
+                     }), # end of Link definition
+    #opponent_logo = colDef(show = TRUE, align = "left", maxWidth = 300,
+                  #style = cell_style(data, font_size = 15, font_color = "gray")),
+    #team_logo = colDef(
+    #  name = "",
+    #  maxWidth = 25,
+    # align = "center",
+    #  cell = embed_img(height = "25", width = "42.5")),
+    opponent_logo = colDef(
+      name = "",
+      maxWidth = 25,
+      align = "center",
+      cell = embed_img(height = "25", width = "42.5")),
+    ### add icons using icon_assign()
+    ### add bars using data_bars_pos_neg()
+    note = colDef(
+      maxWidth = 900,
+      align = "center",
+      cell = data_bars(
+        data,
+        fill_color = c("#fd84a9", "#fee6ed", "#d9f2f4", "#42c2ca"),
+        number_fmt = scales::number_format(accuracy = 0.1)
+      ),
+      style = list(borderLeft = "1px dashed rgba(0, 0, 0, 0.3)")
+    )
+  )
+)%>% 
+  google_font(font_family = "Monda")%>%
+  add_title("Man City pre-season schedule", font_size = 22)%>%
+  #add_subtitle("Pre-season schedule")%>%
+  add_source("", font_size = 12)
+
+mancity
+
+# save_reactable_test(mancity, "mancity.html")
+
+
+```
+
+## ![](images/manunited.svg){width="30"} Manchester United
+
+Manchester United began their pre-season preparations on July 7th . Following a game in Sweden, they will tour the USA. A total of 5 pre-season games are currently scheduled.
+
+```{r message=FALSE, warning=FALSE}
+
+#| warning: false
+#| echo: false
+#| fig-height: 10
+#| fig-width: 15
+#| fig-dpi: 600
+#| column: 600
+
+library(reactablefmtr)
+library(htmltools)
+library(tidyverse)
+library(reactable)
+
+
+### load data
+data14 <- read.csv(file = "data/manunited_ps.csv")
+
+manunited <- reactable(data14,
+  theme = fivethirtyeight(),
+  ### add column group header
+  showSortIcon = FALSE,
+  searchable = FALSE,
+  highlight = TRUE,
+  language = reactableLang(
+    searchPlaceholder = "SEARCH FOR A PLAYER OR TEAM..."),
+  columns = list(
+    date = colDef(show = TRUE, align = "center", maxWidth = 75),
+    score = colDef(show = TRUE, align = "center", maxWidth = 75),
+    team = colDef(show = FALSE),
+    opponent = colDef(show = TRUE),
+    team_logo = colDef(show = FALSE),
+    location = colDef(show = TRUE, align = "center"),
+    opta_rating = colDef(show = FALSE, name = "opponent Opta Rating", align = "center"),
+    match_report = colDef(name = "Match Report",
+                          align = "center",
+                          maxWidth = 110,
+                     cell = function(value, index) {
+                     url <- value 
+                     htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
+                     }), # end of Link definition
+    #opponent_logo = colDef(show = TRUE, align = "left", maxWidth = 300,
+                  #style = cell_style(data, font_size = 15, font_color = "gray")),
+    #team_logo = colDef(
+    #  name = "",
+    #  maxWidth = 25,
+    # align = "center",
+    #  cell = embed_img(height = "25", width = "42.5")),
+    opponent_logo = colDef(
+      name = "",
+      maxWidth = 25,
+      align = "center",
+      cell = embed_img(height = "25", width = "42.5")),
+    ### add icons using icon_assign()
+    ### add bars using data_bars_pos_neg()
+    note = colDef(
+      maxWidth = 900,
+      align = "center",
+      cell = data_bars(
+        data,
+        fill_color = c("#fd84a9", "#fee6ed", "#d9f2f4", "#42c2ca"),
+        number_fmt = scales::number_format(accuracy = 0.1)
+      ),
+      style = list(borderLeft = "1px dashed rgba(0, 0, 0, 0.3)")
+    )
+  )
+)%>% 
+  google_font(font_family = "Monda")%>%
+  add_title("Man United pre-season schedule", font_size = 22)%>%
+  #add_subtitle("Pre-season schedule")%>%
+  add_source("", font_size = 12)
+
+manunited
+
+# save_reactable_test(manunited, "manunited.html")
+
+
+```
+
+## ![](images/newcastle.svg){width="30"} Newcastle
+
+Newcastle began their pre-season preparations on July 7th followed by a training camp in Austria. Following a game in Scotland, they will tour Singapore and South Korea. A total of 7 pre-season games are currently scheduled.
+
+```{r message=FALSE, warning=FALSE}
+
+#| warning: false
+#| echo: false
+#| fig-height: 10
+#| fig-width: 15
+#| fig-dpi: 600
+#| column: 600
+
+library(reactablefmtr)
+library(htmltools)
+library(tidyverse)
+library(reactable)
+
+
+### load data
+data15 <- read.csv(file = "data/newcastle_ps.csv")
+
+newcastle <- reactable(data15,
+  theme = fivethirtyeight(),
+  ### add column group header
+  showSortIcon = FALSE,
+  searchable = FALSE,
+  highlight = TRUE,
+  language = reactableLang(
+    searchPlaceholder = "SEARCH FOR A PLAYER OR TEAM..."),
+  columns = list(
+    date = colDef(show = TRUE, align = "center", maxWidth = 75),
+    score = colDef(show = TRUE, align = "center", maxWidth = 75),
+    team = colDef(show = FALSE),
+    opponent = colDef(show = TRUE),
+    team_logo = colDef(show = FALSE),
+    location = colDef(show = TRUE, align = "center"),
+    opta_rating = colDef(show = FALSE, name = "opponent Opta Rating", align = "center"),
+    match_report = colDef(name = "Match Report",
+                          align = "center",
+                          maxWidth = 110,
+                     cell = function(value, index) {
+                     url <- value 
+                     htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
+                     }), # end of Link definition
+    #opponent_logo = colDef(show = TRUE, align = "left", maxWidth = 300,
+                  #style = cell_style(data, font_size = 15, font_color = "gray")),
+    #team_logo = colDef(
+    #  name = "",
+    #  maxWidth = 25,
+    # align = "center",
+    #  cell = embed_img(height = "25", width = "42.5")),
+    opponent_logo = colDef(
+      name = "",
+      maxWidth = 25,
+      align = "center",
+      cell = embed_img(height = "25", width = "42.5")),
+    ### add icons using icon_assign()
+    ### add bars using data_bars_pos_neg()
+    note = colDef(
+      maxWidth = 900,
+      align = "center",
+      cell = data_bars(
+        data,
+        fill_color = c("#fd84a9", "#fee6ed", "#d9f2f4", "#42c2ca"),
+        number_fmt = scales::number_format(accuracy = 0.1)
+      ),
+      style = list(borderLeft = "1px dashed rgba(0, 0, 0, 0.3)")
+    )
+  )
+)%>% 
+  google_font(font_family = "Monda")%>%
+  add_title("Newcastle pre-season schedule", font_size = 22)%>%
+  #add_subtitle("Pre-season schedule")%>%
+  add_source("", font_size = 12)
+
+newcastle
+
+# save_reactable_test(newcastle, "newcastle.html")
+
+
+```
+
+## ![](images/nottinghamforest.svg){width="25"} Nottingham Forest
+
+Nottingham Forest began their pre-season preparations on July 7th followed by a training camp in Portugal. A total of 7 pre-season games are currently scheduled.
+
+```{r message=FALSE, warning=FALSE}
+
+#| warning: false
+#| echo: false
+#| fig-height: 10
+#| fig-width: 15
+#| fig-dpi: 600
+#| column: 600
+
+library(reactablefmtr)
+library(htmltools)
+library(tidyverse)
+library(reactable)
+
+
+### load data
+data16 <- read.csv(file = "data/nottingham_forest_ps.csv")
+
+nottinghamforest <- reactable(data16,
+  theme = fivethirtyeight(),
+  ### add column group header
+  showSortIcon = FALSE,
+  searchable = FALSE,
+  highlight = TRUE,
+  language = reactableLang(
+    searchPlaceholder = "SEARCH FOR A PLAYER OR TEAM..."),
+  columns = list(
+    date = colDef(show = TRUE, align = "center", maxWidth = 75),
+    score = colDef(show = TRUE, align = "center", maxWidth = 75),
+    team = colDef(show = FALSE),
+    opponent = colDef(show = TRUE),
+    team_logo = colDef(show = FALSE),
+    location = colDef(show = TRUE, align = "center"),
+    opta_rating = colDef(show = FALSE, name = "opponent Opta Rating", align = "center"),
+    match_report = colDef(name = "Match Report",
+                          align = "center",
+                          maxWidth = 110,
+                     cell = function(value, index) {
+                     url <- value 
+                     htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
+                     }), # end of Link definition
+    #opponent_logo = colDef(show = TRUE, align = "left", maxWidth = 300,
+                  #style = cell_style(data, font_size = 15, font_color = "gray")),
+    #team_logo = colDef(
+    #  name = "",
+    #  maxWidth = 25,
+    # align = "center",
+    #  cell = embed_img(height = "25", width = "42.5")),
+    opponent_logo = colDef(
+      name = "",
+      maxWidth = 25,
+      align = "center",
+      cell = embed_img(height = "25", width = "42.5")),
+    ### add icons using icon_assign()
+    ### add bars using data_bars_pos_neg()
+    note = colDef(
+      maxWidth = 900,
+      align = "center",
+      cell = data_bars(
+        data,
+        fill_color = c("#fd84a9", "#fee6ed", "#d9f2f4", "#42c2ca"),
+        number_fmt = scales::number_format(accuracy = 0.1)
+      ),
+      style = list(borderLeft = "1px dashed rgba(0, 0, 0, 0.3)")
+    )
+  )
+)%>% 
+  google_font(font_family = "Monda")%>%
+  add_title("Nottingham Forest pre-season schedule", font_size = 22)%>%
+  #add_subtitle("Pre-season schedule")%>%
+  add_source("", font_size = 12)
+
+nottinghamforest
+
+# save_reactable_test(nottinghamforest, "nottinghamforest.html")
+
+
+```
+
+## ![](images/sunderland.svg){width="30"} Sunderland
+
+Sunderland began their pre-season preparations on July 4th followed by a training camp in Portugal. A total of 8 pre-season games are currently scheduled with stops in Portugal, Scotland and Germany included.
+
+```{r message=FALSE, warning=FALSE}
+
+#| warning: false
+#| echo: false
+#| fig-height: 10
+#| fig-width: 15
+#| fig-dpi: 600
+#| column: 600
+
+library(reactablefmtr)
+library(htmltools)
+library(tidyverse)
+library(reactable)
+
+
+### load data
+data17 <- read.csv(file = "data/sunderland_ps.csv")
+
+sunderland <- reactable(data17,
+  theme = fivethirtyeight(),
+  ### add column group header
+  showSortIcon = FALSE,
+  searchable = FALSE,
+  highlight = TRUE,
+  language = reactableLang(
+    searchPlaceholder = "SEARCH FOR A PLAYER OR TEAM..."),
+  columns = list(
+    date = colDef(show = TRUE, align = "center", maxWidth = 75),
+    score = colDef(show = TRUE, align = "center", maxWidth = 75),
+    team = colDef(show = FALSE),
+    opponent = colDef(show = TRUE),
+    team_logo = colDef(show = FALSE),
+    location = colDef(show = TRUE, align = "center"),
+    opta_rating = colDef(show = FALSE, name = "opponent Opta Rating", align = "center"),
+    match_report = colDef(name = "Match Report",
+                          align = "center",
+                          maxWidth = 110,
+                     cell = function(value, index) {
+                     url <- value 
+                     htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
+                     }), # end of Link definition
+    #opponent_logo = colDef(show = TRUE, align = "left", maxWidth = 300,
+                  #style = cell_style(data, font_size = 15, font_color = "gray")),
+    #team_logo = colDef(
+    #  name = "",
+    #  maxWidth = 25,
+    # align = "center",
+    #  cell = embed_img(height = "25", width = "42.5")),
+    opponent_logo = colDef(
+      name = "",
+      maxWidth = 25,
+      align = "center",
+      cell = embed_img(height = "25", width = "42.5")),
+    ### add icons using icon_assign()
+    ### add bars using data_bars_pos_neg()
+    note = colDef(
+      maxWidth = 900,
+      align = "center",
+      cell = data_bars(
+        data,
+        fill_color = c("#fd84a9", "#fee6ed", "#d9f2f4", "#42c2ca"),
+        number_fmt = scales::number_format(accuracy = 0.1)
+      ),
+      style = list(borderLeft = "1px dashed rgba(0, 0, 0, 0.3)")
+    )
+  )
+)%>% 
+  google_font(font_family = "Monda")%>%
+  add_title("Sunderland pre-season schedule", font_size = 22)%>%
+  #add_subtitle("Pre-season schedule")%>%
+  add_source("", font_size = 12)
+
+sunderland
+
+# save_reactable_test(sunderland, "sunderland.html")
+
+
+```
+
+## ![](images/tottenham.svg){width="25"} Tottenham
+
+Tottenham began their pre-season preparations on July 5th . They will tour Hong Kong and South Korea before a stop in Germany. A total of 5 pre-season games are currently scheduled. They will take part in the UEFA Super Cup on August 13th .
+
+```{r message=FALSE, warning=FALSE}
+
+#| warning: false
+#| echo: false
+#| fig-height: 10
+#| fig-width: 15
+#| fig-dpi: 600
+#| column: 600
+
+library(reactablefmtr)
+library(htmltools)
+library(tidyverse)
+library(reactable)
+
+
+### load data
+data18 <- read.csv(file = "data/tottenham_ps.csv")
+
+tottenham <- reactable(data18,
+  theme = fivethirtyeight(),
+  ### add column group header
+  showSortIcon = FALSE,
+  searchable = FALSE,
+  highlight = TRUE,
+  language = reactableLang(
+    searchPlaceholder = "SEARCH FOR A PLAYER OR TEAM..."),
+  columns = list(
+    date = colDef(show = TRUE, align = "center", maxWidth = 75),
+    score = colDef(show = TRUE, align = "center", maxWidth = 75),
+    team = colDef(show = FALSE),
+    opponent = colDef(show = TRUE),
+    team_logo = colDef(show = FALSE),
+    location = colDef(show = TRUE, align = "center"),
+    opta_rating = colDef(show = FALSE, name = "opponent Opta Rating", align = "center"),
+    match_report = colDef(name = "Match Report",
+                          align = "center",
+                          maxWidth = 110,
+                     cell = function(value, index) {
+                     url <- value 
+                     htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
+                     }), # end of Link definition
+    #opponent_logo = colDef(show = TRUE, align = "left", maxWidth = 300,
+                  #style = cell_style(data, font_size = 15, font_color = "gray")),
+    #team_logo = colDef(
+    #  name = "",
+    #  maxWidth = 25,
+    # align = "center",
+    #  cell = embed_img(height = "25", width = "42.5")),
+    opponent_logo = colDef(
+      name = "",
+      maxWidth = 25,
+      align = "center",
+      cell = embed_img(height = "25", width = "42.5")),
+    ### add icons using icon_assign()
+    ### add bars using data_bars_pos_neg()
+    note = colDef(
+      maxWidth = 900,
+      align = "center",
+      cell = data_bars(
+        data,
+        fill_color = c("#fd84a9", "#fee6ed", "#d9f2f4", "#42c2ca"),
+        number_fmt = scales::number_format(accuracy = 0.1)
+      ),
+      style = list(borderLeft = "1px dashed rgba(0, 0, 0, 0.3)")
+    )
+  )
+)%>% 
+  google_font(font_family = "Monda")%>%
+  add_title("Tottenham pre-season schedule", font_size = 22)%>%
+  #add_subtitle("Pre-season schedule")%>%
+  add_source("", font_size = 12)
+
+tottenham
+
+# save_reactable_test(tottenham, "tottenham.html")
+
+
+```
+
+## ![](images/westham.svg){width="30"} West Ham
+
+West Ham began their pre-season preparations on July 7th followed by a training camp in Germany. They will tour the USA, after a game in Switzerland. A total of 5 pre-season games are currently scheduled.
+
+```{r message=FALSE, warning=FALSE}
+
+#| warning: false
+#| echo: false
+#| fig-height: 10
+#| fig-width: 15
+#| fig-dpi: 600
+#| column: 600
+
+library(reactablefmtr)
+library(htmltools)
+library(tidyverse)
+library(reactable)
+
+
+### load data
+data19 <- read.csv(file = "data/westham_ps.csv")
+
+westham <- reactable(data19,
+  theme = fivethirtyeight(),
+  ### add column group header
+  showSortIcon = FALSE,
+  searchable = FALSE,
+  highlight = TRUE,
+  language = reactableLang(
+    searchPlaceholder = "SEARCH FOR A PLAYER OR TEAM..."),
+  columns = list(
+    date = colDef(show = TRUE, align = "center", maxWidth = 75),
+    score = colDef(show = TRUE, align = "center", maxWidth = 75),
+    team = colDef(show = FALSE),
+    opponent = colDef(show = TRUE),
+    team_logo = colDef(show = FALSE),
+    location = colDef(show = TRUE, align = "center"),
+    opta_rating = colDef(show = FALSE, name = "opponent Opta Rating", align = "center"),
+    match_report = colDef(name = "Match Report",
+                          align = "center",
+                          maxWidth = 110,
+                     cell = function(value, index) {
+                     url <- value 
+                     htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
+                     }), # end of Link definition
+    #opponent_logo = colDef(show = TRUE, align = "left", maxWidth = 300,
+                  #style = cell_style(data, font_size = 15, font_color = "gray")),
+    #team_logo = colDef(
+    #  name = "",
+    #  maxWidth = 25,
+    # align = "center",
+    #  cell = embed_img(height = "25", width = "42.5")),
+    opponent_logo = colDef(
+      name = "",
+      maxWidth = 25,
+      align = "center",
+      cell = embed_img(height = "25", width = "42.5")),
+    ### add icons using icon_assign()
+    ### add bars using data_bars_pos_neg()
+    note = colDef(
+      maxWidth = 900,
+      align = "center",
+      cell = data_bars(
+        data,
+        fill_color = c("#fd84a9", "#fee6ed", "#d9f2f4", "#42c2ca"),
+        number_fmt = scales::number_format(accuracy = 0.1)
+      ),
+      style = list(borderLeft = "1px dashed rgba(0, 0, 0, 0.3)")
+    )
+  )
+)%>% 
+  google_font(font_family = "Monda")%>%
+  add_title("West Ham pre-season schedule", font_size = 22)%>%
+  #add_subtitle("Pre-season schedule")%>%
+  add_source("", font_size = 12)
+
+westham
+
+# save_reactable_test(westham, "westham.html")
+
+
+```
+
+## ![](images/wolves.svg){width="30"} Wolves
+
+Wolves began their pre-season preparations on July 7th followed by a training camp in Portugal. A total of 6 pre-season games are currently scheduled with stops in Portugal and Spain included.
+
+```{r message=FALSE, warning=FALSE}
+
+#| warning: false
+#| echo: false
+#| fig-height: 10
+#| fig-width: 15
+#| fig-dpi: 600
+#| column: 600
+
+library(reactablefmtr)
+library(htmltools)
+library(tidyverse)
+library(reactable)
+
+
+### load data
+data20 <- read.csv(file = "data/wolves_ps.csv")
+
+wolves <- reactable(data20,
+  theme = fivethirtyeight(),
+  ### add column group header
+  showSortIcon = FALSE,
+  searchable = FALSE,
+  highlight = TRUE,
+  language = reactableLang(
+    searchPlaceholder = "SEARCH FOR A PLAYER OR TEAM..."),
+  columns = list(
+    date = colDef(show = TRUE, align = "center", maxWidth = 75),
+    score = colDef(show = TRUE, align = "center", maxWidth = 75),
+    team = colDef(show = FALSE),
+    opponent = colDef(show = TRUE),
+    team_logo = colDef(show = FALSE),
+    location = colDef(show = TRUE, align = "center"),
+    opta_rating = colDef(show = FALSE, name = "opponent Opta Rating", align = "center"),
+    match_report = colDef(name = "Match Report",
+                          align = "center",
+                          maxWidth = 110,
+                     cell = function(value, index) {
+                     url <- value 
+                     htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
+                     }), # end of Link definition
+    #opponent_logo = colDef(show = TRUE, align = "left", maxWidth = 300,
+                  #style = cell_style(data, font_size = 15, font_color = "gray")),
+    #team_logo = colDef(
+    #  name = "",
+    #  maxWidth = 25,
+    # align = "center",
+    #  cell = embed_img(height = "25", width = "42.5")),
+    opponent_logo = colDef(
+      name = "",
+      maxWidth = 25,
+      align = "center",
+      cell = embed_img(height = "25", width = "42.5")),
+    ### add icons using icon_assign()
+    ### add bars using data_bars_pos_neg()
+    note = colDef(
+      maxWidth = 900,
+      align = "center",
+      cell = data_bars(
+        data,
+        fill_color = c("#fd84a9", "#fee6ed", "#d9f2f4", "#42c2ca"),
+        number_fmt = scales::number_format(accuracy = 0.1)
+      ),
+      style = list(borderLeft = "1px dashed rgba(0, 0, 0, 0.3)")
+    )
+  )
+)%>% 
+  google_font(font_family = "Monda")%>%
+  add_title("Wolves pre-season schedule", font_size = 22)%>%
+  #add_subtitle("Pre-season schedule")%>%
+  add_source("", font_size = 12)
+
+wolves
+
+# save_reactable_test(wolves, "wolves.html")
+
+
+```
