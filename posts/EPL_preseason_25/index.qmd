@@ -20,9 +20,7 @@ image: "/images/header.png"
 
 # Intro
 
-The English Premier League (EPL) pre-season is underway. Burnley are the earliest to get going whilst Chelsea will be the latest to do their work due to their FIFA Club World Cup exploits. There's no doubt that pre-season matters a lot to managers and clubs. Exactly how it matters is another question. What is clear is that it's vital preparation ahead of a gruelling season to come. It's a time for fitness, opportunities for youth, team bonding, squad building and tactical trials among other things. Match outcomes are largely meaningless but can influence the narrative, tone and group morale heading into the new campaign. So far over 90 pre-season matches are scheduled for EPL clubs.
-<br>
-<br>This post summarizes pre-season schedules for each EPL team ahead of the 2025/2026 campaign that begins on August 15th 2025. Updates will be provided periodically.
+The English Premier League (EPL) pre-season is underway. Burnley are the earliest to get going whilst Chelsea will be the latest to do their work due to their FIFA Club World Cup exploits. There's no doubt that pre-season matters a lot to managers and clubs. Exactly how it matters is another question. What is clear is that it's vital preparation ahead of a gruelling season to come. It's a time for fitness, opportunities for youth, team bonding, squad building and tactical trials among other things. Match outcomes are largely meaningless, but can influence the narrative, tone and group morale heading into the new campaign. So far over 90 pre-season matches are scheduled for EPL clubs. <br> <br>This post summarizes pre-season schedules for each EPL team ahead of the 2025/2026 campaign that begins on August 15th 2025. Updates will be provided periodically.
 
 ::: {.callout-important appearance="default"}
 ## Last update:
@@ -38,8 +36,6 @@ The following R packages were used:
 `htmltools`\
 
 [@Wickham2019; @Lin2025; @Cuilla2022; @Cheng2025]
-
-
 
 ## ![](images/arsenal.svg){width="30"} Arsenal
 
@@ -1679,3 +1675,9 @@ wolves
 
 
 ```
+
+::: {.callout-note appearance="simple"}
+## About the author:
+
+Christina is a football (soccer) {{< iconify ri:football-line >}} data analyst based in Canada {{< iconify circle-flags:ca >}}. You can find her on {{< iconify simple-icons bluesky >}} Bluesky [‪](https://bsky.app/profile/christina6ys.bsky.social)[\@christina6ys.bsky.social‬](https://bsky.app/profile/christina6ys.bsky.social)
+:::
