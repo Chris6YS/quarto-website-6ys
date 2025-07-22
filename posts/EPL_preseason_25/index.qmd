@@ -768,7 +768,7 @@ everton
 
 ## ![](images/fulham.svg){width="25"} Fulham
 
-Fulham began their pre-season preparations on July 13th followed by a training camp in Portugal. A total of 6 pre-season games are currently scheduled.
+Fulham began their pre-season preparations on July 13th followed by a training camp in Portugal. A total of 5 pre-season games are currently scheduled.
 
 ```{r message=FALSE, warning=FALSE}
 
