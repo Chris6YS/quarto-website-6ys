@@ -687,7 +687,7 @@ crystalpalace
 
 ## ![](images/everton.svg){width="30"} Everton
 
-Everton began their pre-season preparations on July 4th followed by a training camp in Scotland. They will tour the USA. A total of 6 pre-season games are currently scheduled.
+Everton began their pre-season preparations on July 4th followed by a training camp in Scotland. They will tour the USA. A total of 7 pre-season games are currently scheduled.
 
 ```{r message=FALSE, warning=FALSE}
 
