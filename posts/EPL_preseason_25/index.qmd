@@ -1429,7 +1429,7 @@ sunderland
 
 ## ![](images/tottenham.svg){width="25"} Tottenham
 
-Tottenham began their pre-season preparations on July 5th . They will tour Hong Kong and South Korea before a stop in Germany. A total of 5 pre-season games are currently scheduled. They will take part in the UEFA Super Cup on August 13th .
+Tottenham began their pre-season preparations on July 5th . They will tour Hong Kong and South Korea before a stop in Germany. A total of 6 pre-season games are currently scheduled. They will take part in the UEFA Super Cup on August 13th .
 
 ```{r message=FALSE, warning=FALSE}
 
