@@ -25,7 +25,7 @@ The English Premier League (EPL) pre-season is underway. Burnley are the earlies
 ::: {.callout-important appearance="default"}
 ## Last update:
 
-July 22nd 2025
+July 23rd 2025
 :::
 
 The following R packages were used:
