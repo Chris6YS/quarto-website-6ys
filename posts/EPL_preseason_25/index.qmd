@@ -16,6 +16,7 @@ execute:
 bibliography: references.bib
 csl: apa.csl
 image: "/images/header.png"
+twitter-card: true
 ---
 
 # Intro
