@@ -28,8 +28,8 @@ The English Premier League (EPL) pre-season is underway. Burnley are the earlies
 ::: {.callout-important appearance="default"}
 ## Last update:
 
-July 24th 2025
-> added new fixture to West Ham - Ipswich Town
+July 25th 2025
+> Man City pre-season start date
 
 :::
 
@@ -1019,7 +1019,7 @@ liverpool
 
 ## ![](images/mancity.svg){width="30"} Manchester City
 
-Manchester City’s pre-season preparations are delayed due to their participation in the Club World Cup which ended on June 30th . A total of 1 pre-season game is currently scheduled.
+Manchester City’s pre-season preparations are delayed due to their participation in the Club World Cup which ended on June 30th. Their pre-season will begin on July 28th. A total of 1 pre-season game is currently scheduled.
 
 ```{r message=FALSE, warning=FALSE}
 
