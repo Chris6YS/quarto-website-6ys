@@ -28,7 +28,9 @@ The English Premier League (EPL) pre-season is underway. Burnley are the earlies
 ::: {.callout-important appearance="default"}
 ## Last update:
 
-July 23rd 2025
+July 24th 2025
+> added new fixture to West Ham - Ipswich Town
+
 :::
 
 The following R packages were used:
@@ -1515,7 +1517,7 @@ tottenham
 
 ## ![](images/westham.svg){width="30"} West Ham
 
-West Ham began their pre-season preparations on July 7th followed by a training camp in Germany. They will tour the USA, after a game in Switzerland. A total of 5 pre-season games are currently scheduled.
+West Ham began their pre-season preparations on July 7th followed by a training camp in Germany. They will tour the USA, after a game in Switzerland. A total of 6 pre-season games are currently scheduled.
 
 ```{r message=FALSE, warning=FALSE}
 
