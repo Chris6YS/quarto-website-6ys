@@ -368,7 +368,7 @@ brentford
 
 ## ![](images/brighton.svg){width="30"} Brighton
 
-Brighton began their pre-season preparations on July 5th followed by a training camp in Spain. A total of 5 pre-season games are currently scheduled.
+Brighton began their pre-season preparations on July 5th followed by a training camp in Spain. A total of 6 pre-season games are currently scheduled.
 
 ```{r message=FALSE, warning=FALSE}
 
