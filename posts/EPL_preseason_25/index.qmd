@@ -28,8 +28,8 @@ The English Premier League (EPL) pre-season is underway. Burnley are the earlies
 ::: {.callout-important appearance="default"}
 ## Last update:
 
-July 29th 2025: 
-> Added July 29th results + new Burnley fixture (Sheffield Wednesday).
+July 30th 2025: 
+> Added latest July 30th results + new Fulham fixture (Sheffield United).
 
 :::
 
@@ -773,7 +773,7 @@ everton
 
 ## ![](images/fulham.svg){width="25"} Fulham
 
-Fulham began their pre-season preparations on July 13th followed by a training camp in Portugal. A total of 5 pre-season games are currently scheduled.
+Fulham began their pre-season preparations on July 13th followed by a training camp in Portugal. A total of 6 pre-season games are currently scheduled.
 
 ```{r message=FALSE, warning=FALSE}
 
