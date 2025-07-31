@@ -15,9 +15,9 @@ execute:
   echo: false
 bibliography: references.bib
 csl: apa.csl
-image: "/images/header.png"
+image: "/images/header2.jpeg"
 twitter-card:
-  image: "/images/header.png"
+  image: "/images/header2.jpeg"
   card-style: summary
 ---
 
@@ -28,8 +28,8 @@ The English Premier League (EPL) pre-season is underway. Burnley are the earlies
 ::: {.callout-important appearance="default"}
 ## Last update:
 
-July 30th 2025: 
-> Added latest July 30th results + new Fulham fixture (Sheffield United).
+July 31st 2025: 
+> Added latest July 31st results.
 
 :::
 
