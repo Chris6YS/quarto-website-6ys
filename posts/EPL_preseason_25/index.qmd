@@ -530,7 +530,7 @@ burnley
 
 ## ![](images/chelsea.svg){width="30"} Chelsea
 
-Chelsea’s pre-season preparations are delayed due to their participation in the Club World Cup which ended on July 13th. A total of 2 pre-season games are currently scheduled.
+Chelsea’s pre-season preparations are delayed due to their participation in the Club World Cup which ended on July 13th. Their pre-season will begin on August 4th. A total of 2 pre-season games are currently scheduled.
 
 ```{r message=FALSE, warning=FALSE}
 
