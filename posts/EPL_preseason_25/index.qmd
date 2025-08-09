@@ -28,8 +28,8 @@ The English Premier League (EPL) pre-season is underway. Burnley are the earlies
 ::: {.callout-important appearance="default"}
 ## Last update:
 
-August 7th 2025: 
-> Added August 7th results: Tottenham.
+August 8th 2025: 
+> Added August 8th results + new Brentford fixture
 
 :::
 
@@ -287,7 +287,7 @@ bournemouth
 
 ## ![](images/brentford.svg){width="30"} Brentford
 
-Brentford began their pre-season preparations on July 7th, followed by a training camp in Portugal. A total of 3 pre-season games are currently scheduled.
+Brentford began their pre-season preparations on July 7th, followed by a training camp in Portugal. A total of 4 pre-season games are currently scheduled.
 
 ```{r message=FALSE, warning=FALSE}
 
