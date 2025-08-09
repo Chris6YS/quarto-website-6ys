@@ -28,8 +28,8 @@ The English Premier League (EPL) pre-season is underway. Burnley are the earlies
 ::: {.callout-important appearance="default"}
 ## Last update:
 
-August 8th 2025: 
-> Added August 8th results + new Brentford fixture
+August 9th 2025: 
+> Added August 9th results + new Fulham, Burnley and Brighton fixtures
 
 :::
 
@@ -368,7 +368,7 @@ brentford
 
 ## ![](images/brighton.svg){width="30"} Brighton
 
-Brighton began their pre-season preparations on July 5th followed by a training camp in Spain. A total of 7 pre-season games are currently scheduled.
+Brighton began their pre-season preparations on July 5th followed by a training camp in Spain. A total of 8 pre-season games are currently scheduled.
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -449,7 +449,7 @@ brighton
 
 ## ![](images/burnley.svg){width="30"} Burnley
 
-Burnley began their pre-season preparations on June 30th followed by a training camp in Portugal. A total of 7 pre-season games are currently scheduled.
+Burnley began their pre-season preparations on June 30th followed by a training camp in Portugal. A total of 8 pre-season games are currently scheduled.
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -773,7 +773,7 @@ everton
 
 ## ![](images/fulham.svg){width="25"} Fulham
 
-Fulham began their pre-season preparations on July 13th followed by a training camp in Portugal. A total of 6 pre-season games are currently scheduled.
+Fulham began their pre-season preparations on July 13th followed by a training camp in Portugal. A total of 7 pre-season games are currently scheduled.
 
 ```{r message=FALSE, warning=FALSE}
 
