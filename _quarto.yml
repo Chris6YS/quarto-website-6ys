@@ -28,10 +28,6 @@ website:
       - about.qmd
       - text: "{{< iconify simple-icons bluesky >}}"
         href: https://bsky.app/profile/christina6YS.bsky.social
-      - icon: twitter
-        href: https://twitter.com/6yardscreamers
-      - icon: mastodon
-        href: https://mastodon.skrimmage.com/@Christina
       - icon: rss
         href: index.xml
 format:

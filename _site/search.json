@@ -11,14 +11,14 @@
     "href": "index.html",
     "title": "6YS Blog",
     "section": "",
-    "text": "EPL Pre-season 2025\n\n\n\n\n\n\n\n\n\n\n\nJul 21, 2025\n\n\nChristina\n\n\n\n\n\n\n\n\n\n\n\n\nFour-Triple-Toonie?\n\n\n\n\n\n\n\n\n\n\n\nJun 18, 2024\n\n\nChristina\n\n\n\n\n\n\n\n\n\n\n\n\nTeam Strength: A CanMNT Snapshot\n\n\n\n\n\n\n\n\n\n\n\nJun 5, 2024\n\n\nChristina\n\n\n\n\n\n\n\n\n\n\n\n\n2023 UEFA competitions group stage: Visualizing club ratings\n\n\n\n\n\n\n\n\n\n\n\nSep 19, 2023\n\n\nChristina\n\n\n\n\n\n\n\n\n\n\n\n\nSelecting The Selected:\n\n\nThe Relative Age Effect within Canada Soccer national teams\n\n\n\n\n\n\n\n\nJul 7, 2023\n\n\nChristina\n\n\n\n\n\n\n\n\n\n\n\n\nWorld Cup National Anthems, Emotions & Audio Features\n\n\n\n\n\n\n\n\n\n\n\nDec 6, 2022\n\n\nChristina\n\n\n\n\n\n\n\n\n\n\n\n\nComing Soon\n\n\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nChristina\n\n\n\n\n\nNo matching items"
+    "text": "EPL Puma Ball 25/26: A Qualitative Report\n\n\n\n\n\n\n\n\n\n\n\nFeb 8, 2026\n\n\nChristina\n\n\n\n\n\n\n\n\n\n\n\n\nEPL Pre-season 2025\n\n\n\n\n\n\n\n\n\n\n\nJul 21, 2025\n\n\nChristina\n\n\n\n\n\n\n\n\n\n\n\n\nFour-Triple-Toonie?\n\n\n\n\n\n\n\n\n\n\n\nJun 18, 2024\n\n\nChristina\n\n\n\n\n\n\n\n\n\n\n\n\nTeam Strength: A CanMNT Snapshot\n\n\n\n\n\n\n\n\n\n\n\nJun 5, 2024\n\n\nChristina\n\n\n\n\n\n\n\n\n\n\n\n\n2023 UEFA competitions group stage: Visualizing club ratings\n\n\n\n\n\n\n\n\n\n\n\nSep 19, 2023\n\n\nChristina\n\n\n\n\n\n\n\n\n\n\n\n\nSelecting The Selected:\n\n\nThe Relative Age Effect within Canada Soccer national teams\n\n\n\n\n\n\n\n\nJul 7, 2023\n\n\nChristina\n\n\n\n\n\n\n\n\n\n\n\n\nWorld Cup National Anthems, Emotions & Audio Features\n\n\n\n\n\n\n\n\n\n\n\nDec 6, 2022\n\n\nChristina\n\n\n\n\n\n\n\n\n\n\n\n\nComing Soon\n\n\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nChristina\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/wc_anthems_emotions/index.html",
     "href": "posts/wc_anthems_emotions/index.html",
     "title": "World Cup National Anthems, Emotions & Audio Features",
     "section": "",
-    "text": "Outbursts of emotions in football are common and can be observed by watching players, managers, supporters, and even referees. The emotions revealed at tournaments such as the FIFA World Cup are visible in many situations. On this international stage, the playing of national anthems prior to kick-off frequently evokes strong expressions of emotions and, for some, may represent a unique affect driven experience.\n\n\n\n\nLA EMOCIÓN DE ALEXIS VEGA EN SU PRIMER MUNDIAL 🇲🇽 ❤#Qatar2022 #FIFAWorldCup pic.twitter.com/FJh64baa8h\n\n— ESPN.com.mx ((ESPNmx?)) November 22, 2022\n\n\n\n\nThe circumplex model of emotion developed by James Russell (Russell 1980) is a commonly cited framework for defining dimensions of affective states (Remington, Fabrigar, and Visser 2000).1 This model suggests that emotional states are processed and represented along the two dimensions of valence (horizontal axis) and arousal/activity (vertical axis) (Scott, Sauter, and McGettigan 2010) (Figure 1).\n\n\n\n\nFigure 1. Russell's 2 dimensional model of emotions. Adapted from Russell (1980)\n\n\n\n\nResearch investigating the interaction of emotions and music is vast (Juslin 2013). Many models have been proposed (Eerola and Vuoskoski 2010) and interest in the study of emotions and music recommendation systems is growing (Schedl et al. 2018). Metrics similar to Russell’s dimensions are found in Spotify’s track audio features 2. Spotify defines their valence and energy (a proxy for arousal) measures as:\n\n\n\n\n\n\nValence:\n\n\n\n“A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).”\n\n\n\n\n\n\n\n\nEnergy:\n\n\n\n“Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy.”\n\n\nUsing the Spotifyr package (Thompson et al. 2021), Spotify audio features of valence and energy for the 32 national anthems of the participating countries at the 2022 FIFA Men’s World Cup were plotted with ggplot2 (Wickham 2016). This descriptive analysis is not without limitations. For example, results can vary depending on each artists’ interpretation of the song. That being said, the current analysis’ results are shown in Figure 2 below. Does Wales’ anthem strike a miserable nerve? Can we explain England’s bore draw tendencies via their low energy score? Conversely, did Costa Rica concede seven to Spain because their anthem is too energetic? To be clear, I don’t actually believe any of this relates to performance on the pitch, these are just some of my silly thoughts.\n\n\n\n\n\n\nFigure 2. National Anthems of The 2022 World Cup: Emotions and Audio Features\n\n\n\n\n\n\n\n\n\nCan’t stop thinking about this woman during the Welsh National Anthem at the World Cup. Go on luv ! pic.twitter.com/VpYn1N4n5C\n\n— Cam All Ye Faithful 🎄 ((camruined?)) November 21, 2022\n\n\n\n\n\n\nCosta Rica’s fans were brilliant and their players belted out the anthem with such passion but it seemed to take all of their intensity out of them. Spain could have won that game wearing slippers #ESPCRC (talkSPORT?) #TSWorldCup pic.twitter.com/6AGtiGP7Dj\n\n— Nigel Adderley ((nadderley?)) November 23, 2022\n\n\n\n\n\n\n\n\n\n\nReferences\n\nEerola, Tuomas, and Jonna K. Vuoskoski. 2010. “A Comparison of the Discrete and Dimensional Models of Emotion in Music.” Psychology of Music 39 (1): 18–49. https://doi.org/10.1177/0305735610362821.\n\n\nJuslin, Patrik N. 2013. “What Does Music Express? Basic Emotions and Beyond.” Frontiers in Psychology 4. https://doi.org/10.3389/fpsyg.2013.00596.\n\n\nRemington, Nancy A., Leandre R. Fabrigar, and Penny S. Visser. 2000. “Reexamining the Circumplex Model of Affect.” Journal of Personality and Social Psychology 79 (2): 286–300. https://doi.org/10.1037/0022-3514.79.2.286.\n\n\nRussell, James A. 1980. “A Circumplex Model of Affect.” Journal of Personality and Social Psychology 39 (6): 1161–78. https://doi.org/10.1037/h0077714.\n\n\nSchedl, Markus, Hamed Zamani, Ching-Wei Chen, Yashar Deldjoo, and Mehdi Elahi. 2018. “Current Challenges and Visions in Music Recommender Systems Research.” International Journal of Multimedia Information Retrieval 7 (2): 95–116. https://doi.org/10.1007/s13735-018-0154-2.\n\n\nScott, Sophie K., Disa Sauter, and Carolyn McGettigan. 2010. “Brain Mechanisms for Processing Perceived Emotional Vocalizations in Humans.” In, 187–97. Elsevier. https://doi.org/10.1016/b978-0-12-374593-4.00019-x.\n\n\nThompson, Charlie, Daniel Antal, Josiah Parry, Donal Phipps, and Tom Wolff. 2021. “Spotifyr: R Wrapper for the ’Spotify’ Web API.” https://CRAN.R-project.org/package=spotifyr.\n\n\nWickham, Hadley. 2016. “Ggplot2: Elegant Graphics for Data Analysis.” https://ggplot2.tidyverse.org.\n\nFootnotes\n\n\nPlease note that there are important limitations and criticisms to this model of emotions that go beyond the scope of this article.↩︎\nThe validity and reliability of these metrics merits further investigation therefore they should be interpreted with caution.↩︎"
+    "text": "Outbursts of emotions in football are common and can be observed by watching players, managers, supporters, and even referees. The emotions revealed at tournaments such as the FIFA World Cup are visible in many situations. On this international stage, the playing of national anthems prior to kick-off frequently evokes strong expressions of emotions and, for some, may represent a unique affect driven experience.\nThe circumplex model of emotion developed by James Russell (Russell 1980) is a commonly cited framework for defining dimensions of affective states (Remington, Fabrigar, and Visser 2000).1 This model suggests that emotional states are processed and represented along the two dimensions of valence (horizontal axis) and arousal/activity (vertical axis) (Scott, Sauter, and McGettigan 2010) (Figure 1).\nResearch investigating the interaction of emotions and music is vast (Juslin 2013). Many models have been proposed (Eerola and Vuoskoski 2010) and interest in the study of emotions and music recommendation systems is growing (Schedl et al. 2018). Metrics similar to Russell’s dimensions are found in Spotify’s track audio features 2. Spotify defines their valence and energy (a proxy for arousal) measures as:\nUsing the Spotifyr package (Thompson et al. 2021), Spotify audio features of valence and energy for the 32 national anthems of the participating countries at the 2022 FIFA Men’s World Cup were plotted with ggplot2 (Wickham 2016). This descriptive analysis is not without limitations. For example, results can vary depending on each artists’ interpretation of the song. That being said, the current analysis’ results are shown in Figure 2 below. Does Wales’ anthem strike a miserable nerve? Can we explain England’s bore draw tendencies via their low energy score? Conversely, did Costa Rica concede seven to Spain because their anthem is too energetic? To be clear, I don’t actually believe any of this relates to performance on the pitch, these are just some of my silly thoughts."
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -32,7 +32,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nEPL Pre-season 2025\n\n\n\nData Viz\n\nfootball\n\nreactable\n\nEPL\n\nPremier League\n\n\n\n\n\n\n\nChristina\n\n\nJul 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nFour-Triple-Toonie?\n\n\n\nData Viz\n\nfootball\n\nggplot2\n\nCanada Soccer\n\n\n\n\n\n\n\nChristina\n\n\nJun 18, 2024\n\n\n\n\n\n\n\n\n\n\n\nTeam Strength: A CanMNT Snapshot\n\n\n\nData Viz\n\nfootball\n\nggplot2\n\nCanada Soccer\n\n\n\n\n\n\n\nChristina\n\n\nJun 5, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n2023 UEFA competitions group stage: Visualizing club ratings\n\n\n\nData Viz\n\nfootball\n\nggplot2\n\n\n\n\n\n\n\nChristina\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\n\n\n\nSelecting The Selected:\n\n\n\nData Viz\n\nRAE\n\nggplot2\n\nCanada Soccer\n\n\n\n\n\n\n\nChristina\n\n\nJul 7, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorld Cup National Anthems, Emotions & Audio Features\n\n\n\nData Viz\n\nWorld Cup\n\nggplot2\n\n\n\n\n\n\n\nChristina\n\n\nDec 6, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nComing Soon\n\n\n\nmisc\n\n\n\n\n\n\n\nChristina\n\n\nNov 18, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nEPL Puma Ball 25/26: A Qualitative Report\n\n\n\nfootball\n\nEPL\n\nPremier League\n\nqualitative\n\n\n\n\n\n\n\nChristina\n\n\nFeb 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEPL Pre-season 2025\n\n\n\nData Viz\n\nfootball\n\nreactable\n\nEPL\n\nPremier League\n\n\n\n\n\n\n\nChristina\n\n\nJul 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nFour-Triple-Toonie?\n\n\n\nData Viz\n\nfootball\n\nggplot2\n\nCanada Soccer\n\n\n\n\n\n\n\nChristina\n\n\nJun 18, 2024\n\n\n\n\n\n\n\n\n\n\n\nTeam Strength: A CanMNT Snapshot\n\n\n\nData Viz\n\nfootball\n\nggplot2\n\nCanada Soccer\n\n\n\n\n\n\n\nChristina\n\n\nJun 5, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n2023 UEFA competitions group stage: Visualizing club ratings\n\n\n\nData Viz\n\nfootball\n\nggplot2\n\n\n\n\n\n\n\nChristina\n\n\nSep 19, 2023\n\n\n\n\n\n\n\n\n\n\n\nSelecting The Selected:\n\n\n\nData Viz\n\nRAE\n\nggplot2\n\nCanada Soccer\n\n\n\n\n\n\n\nChristina\n\n\nJul 7, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorld Cup National Anthems, Emotions & Audio Features\n\n\n\nData Viz\n\nWorld Cup\n\nggplot2\n\n\n\n\n\n\n\nChristina\n\n\nDec 6, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nComing Soon\n\n\n\nmisc\n\n\n\n\n\n\n\nChristina\n\n\nNov 18, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/RAE_CS/quarto_rae.html",
@@ -397,5 +397,75 @@
     "title": "EPL Pre-season 2025",
     "section": "",
     "text": "Wolves began their pre-season preparations on July 7th followed by a training camp in Portugal. A total of 6 pre-season games are currently scheduled with stops in Portugal and Spain included.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout the author:\n\n\n\nChristina is a football (soccer)  data analyst based in Canada . You can find her on  Bluesky ‪@christina6ys.bsky.social‬"
+  },
+  {
+    "objectID": "posts/EPL_Ball/index.html",
+    "href": "posts/EPL_Ball/index.html",
+    "title": "EPL Puma Ball 25/26: A Qualitative Report",
+    "section": "",
+    "text": "The most important thing about the English Premier League (EPL) changed in the 25/26 season. The ball. Puma overtook Nike as the official match ball provider. Nike previously provided the ball for the EPL for 25 years. Does this even matter at all?\nThere may be growing anecdotal evidence that the ball may differ apart from the logo it bears. The purpose of this article is not to assess whether reported differences are significant or impactful relating to player performance or ball behaviour. The following is a qualitative description of publicly reported statements regarding the 25/26 English Premier League match ball."
+  },
+  {
+    "objectID": "posts/EPL_Ball/index.html#august-16th-2025",
+    "href": "posts/EPL_Ball/index.html#august-16th-2025",
+    "title": "EPL Puma Ball 25/26: A Qualitative Report",
+    "section": "August 16th 2025",
+    "text": "August 16th 2025\nFollowing the first game of the season versus Wolves, Pep Guardiola was asked in the post-match press conference about his thoughts on the new ball. He states:\n\n“I didn’t play today. So I don’t know. I don’t know. The people, where I’m concerned, my players didn’t complain. And it’s Puma right? Puma always make a really really good thing always…”1"
+  },
+  {
+    "objectID": "posts/EPL_Ball/index.html#august-31st-2025",
+    "href": "posts/EPL_Ball/index.html#august-31st-2025",
+    "title": "EPL Puma Ball 25/26: A Qualitative Report",
+    "section": "August 31st 2025",
+    "text": "August 31st 2025\nDavid Raya states in a post-match interview following Arsenal’s 1-0 defeat to Liverpool:\n\n“I think it’s a hell of a strike. I remember the ball moving a lot and moving away from me. Hopefully, the next one I can save.” “It’s a very good strike especially with the new balls and everything. We still have to adapt. It’s going away from me so it’s harder to gauge and save it.” “it’s different to the Nike ball, so we have to adapt to it” “The grip is different, the kick is different. We just have to adapt after playing with the Nike ball for many years. It’s the same for everybody.”"
+  },
+  {
+    "objectID": "posts/EPL_Ball/index.html#september-12th-2025",
+    "href": "posts/EPL_Ball/index.html#september-12th-2025",
+    "title": "EPL Puma Ball 25/26: A Qualitative Report",
+    "section": "September 12th 2025",
+    "text": "September 12th 2025\nThen Manchester United manager Ruben Amorim states in a press conference when asked about new goalkeeper Senne Lammens’ need for adaptation:\n\n“…it’s a different league, it’s a different country, different trainings, different ball…”"
+  },
+  {
+    "objectID": "posts/EPL_Ball/index.html#october-22nd-2025",
+    "href": "posts/EPL_Ball/index.html#october-22nd-2025",
+    "title": "EPL Puma Ball 25/26: A Qualitative Report",
+    "section": "October 22nd 2025",
+    "text": "October 22nd 2025\nNewly appointed Nottingham Forest manager Sean Dyche states in his first press conference:\n\n“What’s changed is the detail in the game. You know the analytics. The health and fitness. The mental fitness of players. The support systems. But the game hasn’t radically changed. The pitch is still the same size. Roughly speaking. Do you know what I mean? The ball is still roughly the same. A bit lighter maybe they tell me…”"
+  },
+  {
+    "objectID": "posts/EPL_Ball/index.html#january-15th-2025",
+    "href": "posts/EPL_Ball/index.html#january-15th-2025",
+    "title": "EPL Ball",
+    "section": "January 15th 2025",
+    "text": "January 15th 2025"
+  },
+  {
+    "objectID": "posts/EPL_Ball/index.html#january-13th-2026",
+    "href": "posts/EPL_Ball/index.html#january-13th-2026",
+    "title": "EPL Puma Ball 25/26: A Qualitative Report",
+    "section": "January 13th 2026",
+    "text": "January 13th 2026\nPep Guardiola states in a post-match press conference following his side’s 2-0 Carabao Cup victory over Newcastle:\n\n“…the ball is tricky…”"
+  },
+  {
+    "objectID": "posts/EPL_Ball/index.html#january-25th-2026",
+    "href": "posts/EPL_Ball/index.html#january-25th-2026",
+    "title": "EPL Puma Ball 25/26: A Qualitative Report",
+    "section": "January 25th 2026",
+    "text": "January 25th 2026\nArsenal player Christian Norgaard during the pre-match press conference v Kairat was asked what the main difference was playing in the Champions League:\n\n“Ummm…The ball. Euh no. Not only the ball, of course…”"
+  },
+  {
+    "objectID": "posts/EPL_Ball/index.html#footnotes",
+    "href": "posts/EPL_Ball/index.html#footnotes",
+    "title": "EPL Puma Ball 25/26: A Qualitative Report",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nIt should be noted that Guardiola is not neutral in his assessment as he represents a club who is sponsored by Puma. A conflict of interest may be identified.↩︎\n“This maxim coined by Dr Theodore Woodward in the 1940s is a useful reminder that we should diagnose the common causes rather than search, at exorbitant length (and cost), for low probability causes.”↩︎"
+  },
+  {
+    "objectID": "posts/wc_anthems_emotions/index.html#footnotes",
+    "href": "posts/wc_anthems_emotions/index.html#footnotes",
+    "title": "World Cup National Anthems, Emotions & Audio Features",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nPlease note that there are important limitations and criticisms to this model of emotions that go beyond the scope of this article.↩︎\nThe validity and reliability of these metrics merits further investigation therefore they should be interpreted with caution.↩︎"
   }
 ]

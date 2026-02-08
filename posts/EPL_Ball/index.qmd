@@ -1,0 +1,107 @@
+---
+title: "EPL Puma Ball 25/26: A Qualitative Report"
+author: Christina
+date: "2026-02-08"
+categories: [football, EPL, Premier League, qualitative]
+format: html
+theme: lumen
+editor: visual
+embed-resources: true
+link-external-newwindow: true
+link-external-icon: true
+toc: true
+toc-location: left
+execute:
+  echo: false
+bibliography: references.bib
+csl: apa.csl
+image: "/images/dsfk.png"
+twitter-card:
+  image: "/images/dsfk.png"
+  card-style: summary
+---
+
+# 
+
+The most important thing about the English Premier League (EPL) changed in the 25/26 season. The ball. Puma overtook Nike as the official match ball provider. Nike previously provided the ball for the EPL for 25 years. Does this even matter at all?
+
+There may be growing anecdotal evidence that the ball may differ apart from the logo it bears. The purpose of this article is not to assess whether reported differences are significant or impactful relating to player performance or ball behaviour. The following is a qualitative description of publicly reported statements regarding the 25/26 English Premier League match ball.
+
+# So what’s been said so far?
+
+## August 16th 2025
+
+Following the first game of the season versus Wolves, Pep Guardiola was asked in the post-match press conference about his thoughts on the new ball. He states:
+
+> “I didn’t play today. So I don’t know. I don’t know. The people, where I’m concerned, my players didn’t complain. And it’s Puma right? Puma always make a really really good thing always...”^[It should be noted that Guardiola is not neutral in his assessment as he represents a club who is sponsored by Puma. A conflict of interest may be identified.]
+
+[^1]: It should be noted that Guardiola is not neutral in his assessment as he represents a club who is sponsored by Puma. A conflict of interest may be identified.
+
+{{< video https://www.youtube.com/watch?v=KthWOMuNtQA start="256" >}}
+
+## August 31st 2025
+
+David Raya states in a post-match interview following Arsenal’s 1-0 defeat to Liverpool:
+
+> "I think it's a hell of a strike. I remember the ball moving a lot and moving away from me. Hopefully, the next one I can save." "It's a very good strike especially with the new balls and everything. We still have to adapt. It's going away from me so it's harder to gauge and save it." "it's different to the Nike ball, so we have to adapt to it" "The grip is different, the kick is different. We just have to adapt after playing with the Nike ball for many years. It's the same for everybody."
+
+## September 12th 2025
+
+Then Manchester United manager Ruben Amorim states in a press conference when asked about new goalkeeper Senne Lammens' need for adaptation:
+
+> “...it’s a different league, it’s a different country, different trainings, different ball...”
+
+{{< video https://www.youtube.com/watch?v=NmWE3x2Nqlg start="76" >}}
+
+## October 22nd 2025
+
+Newly appointed Nottingham Forest manager Sean Dyche states in his first press conference:
+
+> "What’s changed is the detail in the game. You know the analytics. The health and fitness. The mental fitness of players. The support systems. But the game hasn’t radically changed. The pitch is still the same size. Roughly speaking. Do you know what I mean? The ball is still roughly the same. A bit lighter maybe they tell me..."
+
+{{< video https://www.youtube.com/watch?v=c2fn1hdeNoY start="1954" >}}
+
+## January 13th 2026
+
+Pep Guardiola states in a post-match press conference following his side’s 2-0 Carabao Cup victory over Newcastle:
+
+> "...the ball is tricky..."
+
+{{< video https://www.youtube.com/watch?v=562CLWfkob4 start="587" >}}
+
+## January 25th 2026
+
+Arsenal player Christian Norgaard during the pre-match press conference v Kairat was asked what the main difference was playing in the Champions League:
+
+> “Ummm...The ball. Euh no. Not only the ball, of course...”
+
+{{< video https://www.youtube.com/watch?v=lTuwx3E6rPI start="109" >}}
+
+# Final thoughts
+
+It's not the first time managers and players have complained about the ball [@Jackson2017; @Cox2025]. Last season, Mikel Arteta stated this about the Carabao Cup Puma ball in January 2025 [@Aarons2025]:
+
+> "We kicked a lot of balls over the bar, and it’s tricky that these balls fly a lot so there’s details that we can do better,” he said. “It’s very different to a Premier League ball, and you have to adapt to that because it flies differently. When you touch it the grip is very different as well, so you adapt to that."
+
+Whether these perceived differences are important in a true practical sense remains to be seen. Robust quantitative analyses are required to further assess the potential for the presence of true meaningful differences. In fact, some have already had a look [@Tharme2025].
+
+In a season where defensive tactics have become more about 'low blocks' and compactness, could a potentially *tricky lighter hot potato ball* interfere with the delicate task of close control dribbling? Are types of goals scored changing?[@Cox2026] Are first touches more volatile? 
+
+!["We’ve had a laugh about it. Estevao said he can’t believe I was a professional footballer" - Liam Rosenior - see @OConnor2026](rosenior1.gif)
+
+
+In clinical settings, it’s important to listen to patient reports and symptom description even when they may not fit the test results and anticipated provisional diagnosis (if any). In this case, it may be important to pay attention to what the most knowledgeable individuals (players and coaches) are saying about the most important part of the game (the ball). However, if parsimony is the way, and these reports are simply descriptions of personal preference that have no real relation to ball mechanics and optimized performance, then we may be best to heed the saying *“when you hear hoof beats, think horses, not zebras”*^["This maxim coined by Dr Theodore Woodward in the 1940s is a useful reminder that we should diagnose the common causes rather than search, at exorbitant length (and cost), for low probability causes."][@dickinson2016]. A sound methodology with appropriate measures may indeed ultimately suggest horses but what if it’s a unicorn? Those are interesting too.
+
+
+::: {.callout-important appearance="default"}
+## Last update:
+
+08/02/26
+:::
+
+::: {.callout-note appearance="simple"}
+
+## About the author:
+
+Christina is a football (soccer) {{< iconify ri:football-line >}} analyst based in Canada {{< iconify circle-flags:ca >}}. You can find her on {{< iconify simple-icons bluesky >}} Bluesky [‪](https://bsky.app/profile/christina6ys.bsky.social)[\@christina6ys.bsky.social‬](https://bsky.app/profile/christina6ys.bsky.social)
+:::
