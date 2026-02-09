@@ -25,7 +25,8 @@ twitter-card:
 
 The most important thing about the English Premier League (EPL) changed in the 25/26 season. The ball. Puma overtook Nike as the official match ball provider. Nike previously provided the ball for the EPL for 25 years. Does this even matter at all?
 
-There may be growing anecdotal evidence that the ball may differ apart from the logo it bears. The purpose of this article is not to assess whether reported differences are significant or impactful relating to player performance or ball behaviour. The following is a qualitative description of publicly reported statements regarding the 25/26 English Premier League match ball.
+There may be growing anecdotal evidence that the ball may differ apart from the logo it bears. The purpose of this article is not to assess whether reported differences are significant or impactful relating to player performance or ball behaviour. The following is a qualitative exploration^[The value of a qualitative approach must not be overlooked. One of the advantages of the qualitative method “is to discover and to generate new conceptualizations of phenomena in the process of bringing special features to light.” and “the constructs and categories that emerge from qualitative analyses can be used to develop new measures, that is, new ways of operationalizing concepts of empirical quantitative research.”(@kazdin2003)] of publicly reported statements regarding the 25/26 English Premier League match ball.
+
 
 # So what’s been said so far?
 
@@ -43,7 +44,7 @@ Following the first game of the season versus Wolves, Pep Guardiola was asked in
 
 David Raya states in a post-match interview following Arsenal’s 1-0 defeat to Liverpool:
 
-> "I think it's a hell of a strike. I remember the ball moving a lot and moving away from me. Hopefully, the next one I can save." "It's a very good strike especially with the new balls and everything. We still have to adapt. It's going away from me so it's harder to gauge and save it." "it's different to the Nike ball, so we have to adapt to it" "The grip is different, the kick is different. We just have to adapt after playing with the Nike ball for many years. It's the same for everybody."
+> "I think it's a hell of a strike. I remember the ball moving a lot and moving away from me. Hopefully, the next one I can save." "It's a very good strike especially with the new balls and everything. We still have to adapt. It's going away from me so it's harder to gauge and save it." "it's different to the Nike ball, so we have to adapt to it" "The grip is different, the kick is different. We just have to adapt after playing with the Nike ball for many years. It's the same for everybody."[@Wilson2025]
 
 ## September 12th 2025
 
@@ -85,7 +86,7 @@ It's not the first time managers and players have complained about the ball [@Ja
 
 Whether these perceived differences are important in a true practical sense remains to be seen. Robust quantitative analyses are required to further assess the potential for the presence of true meaningful differences. In fact, some have already had a look [@Tharme2025].
 
-In a season where defensive tactics have become more about 'low blocks' and compactness, could a potentially *tricky lighter hot potato ball* interfere with the delicate task of close control dribbling? Are types of goals scored changing?[@Cox2026] Are first touches more volatile? 
+In a season where defensive tactics have become more about 'low blocks' and compactness, could a potentially *tricky lighter hot potato ball* interfere with the delicate task of close control dribbling? Are types of goals scored changing [@Cox2026]? Are first touches more volatile? 
 
 !["We’ve had a laugh about it. Estevao said he can’t believe I was a professional footballer" - Liam Rosenior - see @OConnor2026](rosenior0.gif)
 
