@@ -25,7 +25,7 @@ twitter-card:
 
 The most important thing about the English Premier League (EPL) changed in the 25/26 season. The ball. Puma overtook Nike as the official match ball provider. Nike previously provided the ball for the EPL for 25 years. Does this even matter at all?
 
-There may be growing anecdotal evidence that the ball may differ apart from the logo it bears. The purpose of this article is not to assess whether reported differences are significant or impactful relating to player performance or ball behaviour. The following is a qualitative exploration^[The value of a qualitative approach must not be overlooked. One of the advantages of the qualitative method “is to discover and to generate new conceptualizations of phenomena in the process of bringing special features to light.” and “the constructs and categories that emerge from qualitative analyses can be used to develop new measures, that is, new ways of operationalizing concepts of empirical quantitative research.”(@kazdin2003)] of publicly reported statements regarding the 25/26 English Premier League match ball.
+There may be growing anecdotal evidence that the ball may be different apart from the logo it displays. The purpose of this article is not to assess whether reported differences are significant or impactful relating to player performance or ball behaviour. The following is a qualitative exploration^[The value of a qualitative approach must not be overlooked. One of the advantages of the qualitative method “is to discover and to generate new conceptualizations of phenomena in the process of bringing special features to light.” and “the constructs and categories that emerge from qualitative analyses can be used to develop new measures, that is, new ways of operationalizing concepts of empirical quantitative research.”(@kazdin2003)] of publicly reported statements regarding the 25/26 English Premier League match ball.
 
 
 # So what’s been said so far?
@@ -62,6 +62,14 @@ Newly appointed Nottingham Forest manager Sean Dyche states in his first press c
 
 {{< video https://www.youtube.com/watch?v=c2fn1hdeNoY start="1954" >}}
 
+## December 24th 2025
+
+John McGinn on Morgan Rogers' good form this season:
+
+> "It's cheating isn't it? Because he's got a Puma deal. So he got an experience of the ball before we did..."
+
+{{< video https://www.youtube.com/watch?v=_p7M4hEqNOY start="363" >}}
+
 ## January 13th 2026
 
 Pep Guardiola states in a post-match press conference following his side’s 2-0 Carabao Cup victory over Newcastle:
@@ -86,7 +94,7 @@ It's not the first time managers and players have complained about the ball [@Ja
 
 Whether these perceived differences are important in a true practical sense remains to be seen. Robust quantitative analyses are required to further assess the potential for the presence of true meaningful differences. In fact, some have already had a look [@Tharme2025].
 
-In a season where defensive tactics have become more about 'low blocks' and compactness, could a potentially *tricky lighter hot potato ball* interfere with the delicate task of close control dribbling? Are types of goals scored changing [@Cox2026]? Are first touches more volatile? 
+In a season where defensive tactics have become more about 'low blocks' and compactness, could a potentially *tricky lighter hot potato ball* interfere with the delicate task of close control dribbling? Are types of goals scored changing [@Cox2026]? Is Morgan Rogers experiencing the Diego Forlan effect?^[reports suggest that Forlan practiced with the famous Jabulani ball 3 months ahead of the 2010 World Cup which may have given him an advantage in controlling the unique flight of the ball (@kronfeld2020) ] Are first touches more volatile? 
 
 !["We’ve had a laugh about it. Estevao said he can’t believe I was a professional footballer" - Liam Rosenior - see @OConnor2026](rosenior0.gif)
 
@@ -97,7 +105,7 @@ In clinical settings, it’s important to listen to patient reports and symptom 
 ::: {.callout-important appearance="default"}
 ## Last update:
 
-08/02/26
+09/02/26
 :::
 
 ::: {.callout-note appearance="simple"}
