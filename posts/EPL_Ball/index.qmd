@@ -105,6 +105,17 @@ Arsenal player Christian Norgaard during the pre-match press conference v Kairat
 
 {{< video https://www.youtube.com/watch?v=lTuwx3E6rPI start="109" >}}
 
+## April 12th 2026
+
+Manchester City's Rayan Cherki comments on the ball post match versus Chelsea:
+
+> "...it's not my pass, it's him (Guehi) when he controlled the ball he touched very nice the ball because the ball is not good. I don't know why they changed the ball..."
+> "...the first half we don't try a lot because the ball is not good. We don't know why..."
+
+{{< video https://www.youtube.com/watch?v=eAMSjRQIdUM >}}
+
+{{< video cherki1.mp4 >}}
+
 # Final thoughts
 
 It's not the first time managers and players have complained about the ball [@Jackson2017; @Cox2025]. Last season, Mikel Arteta stated this about the Carabao Cup Puma ball in January 2025 [@Aarons2025]:
@@ -140,7 +151,7 @@ In clinical settings, it’s important to listen to patient reports and symptom 
 ::: {.callout-important appearance="default"}
 ## Last update:
 
-18/02/26 - test
+25/06/26
 :::
 
 ::: {.callout-note appearance="simple"}
