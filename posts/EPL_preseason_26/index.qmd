@@ -8,6 +8,9 @@ format:
     theme: custom.scss
     header-includes: |
       <link href="https://fonts.googleapis.com/css2?family=Monda:wght@400..700&display=swap" rel="stylesheet">
+    grid:
+      body-width: 900px
+      margin-width: 100px
 theme: lumen
 editor: visual
 embed-resources: true
@@ -89,11 +92,14 @@ arsenal <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
-                          cell = function(value, index) {
-                            url <- value 
-                            htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
-                          }),
+    video_up = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Highlights', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data$video[index], value)
+    }),
+    video = colDef(show = FALSE),
+    report = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Report', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data$match_report[index], value)
+    }),
+    match_report = colDef(show = FALSE),
     note = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 900, name = "Note"),
     team = colDef(show = FALSE),
     team_logo = colDef(show = FALSE),
@@ -150,11 +156,14 @@ aston_villa <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
-                          cell = function(value, index) {
-                            url <- value 
-                            htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
-                          }),
+    video_up = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Highlights', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data2$video[index], value)
+    }),
+    video = colDef(show = FALSE),
+    report = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Report', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data2$match_report[index], value)
+    }),
+    match_report = colDef(show = FALSE),
     note = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 900, name = "Note"),
     team = colDef(show = FALSE),
     team_logo = colDef(show = FALSE),
@@ -220,11 +229,14 @@ bournemouth <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
-                          cell = function(value, index) {
-                            url <- value 
-                            htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
-                          }),
+    video_up = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Highlights', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data3$video[index], value)
+    }),
+    video = colDef(show = FALSE),
+    report = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Report', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data3$match_report[index], value)
+    }),
+    match_report = colDef(show = FALSE),
     note = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 900, name = "Note"),
     team = colDef(show = FALSE),
     team_logo = colDef(show = FALSE),
@@ -281,11 +293,14 @@ brentford <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
-                          cell = function(value, index) {
-                            url <- value 
-                            htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
-                          }),
+    video_up = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Highlights', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data4$video[index], value)
+    }),
+    video = colDef(show = FALSE),
+    report = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Report', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data4$match_report[index], value)
+    }),
+    match_report = colDef(show = FALSE),
     note = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 900, name = "Note"),
     team = colDef(show = FALSE),
     team_logo = colDef(show = FALSE),
@@ -309,7 +324,7 @@ brentford
 #| warning: false
 #| echo: false
 #| fig-height: 10
-#| fig-width: 15
+#| fig-width: 25
 #| fig-dpi: 600
 #| column: 600
 
@@ -342,7 +357,7 @@ brighton <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    video_up = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Video', cell = function(value, index) {
+    video_up = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Highlights', cell = function(value, index) {
       sprintf('<a href="%s" target="_blank">%s</a>', data5$video[index], value)
     }),
     video = colDef(show = FALSE),
@@ -405,11 +420,14 @@ chelsea <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
-                          cell = function(value, index) {
-                            url <- value 
-                            htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
-                          }),
+    video_up = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Highlights', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data6$video[index], value)
+    }),
+    video = colDef(show = FALSE),
+    report = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Report', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data6$match_report[index], value)
+    }),
+    match_report = colDef(show = FALSE),
     note = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 900, name = "Note"),
     team = colDef(show = FALSE),
     team_logo = colDef(show = FALSE),
@@ -466,11 +484,14 @@ coventry <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
-                          cell = function(value, index) {
-                            url <- value 
-                            htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
-                          }),
+    video_up = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Highlights', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data7$video[index], value)
+    }),
+    video = colDef(show = FALSE),
+    report = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Report', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data7$match_report[index], value)
+    }),
+    match_report = colDef(show = FALSE),
     note = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 900, name = "Note"),
     team = colDef(show = FALSE),
     team_logo = colDef(show = FALSE),
@@ -527,11 +548,14 @@ crystalpalace <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
-                          cell = function(value, index) {
-                            url <- value 
-                            htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
-                          }),
+    video_up = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Highlights', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data8$video[index], value)
+    }),
+    video = colDef(show = FALSE),
+    report = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Report', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data8$match_report[index], value)
+    }),
+    match_report = colDef(show = FALSE),
     note = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 900, name = "Note"),
     team = colDef(show = FALSE),
     team_logo = colDef(show = FALSE),
@@ -588,11 +612,14 @@ everton <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
-                          cell = function(value, index) {
-                            url <- value 
-                            htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
-                          }),
+    video_up = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Highlights', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data9$video[index], value)
+    }),
+    video = colDef(show = FALSE),
+    report = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Report', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data9$match_report[index], value)
+    }),
+    match_report = colDef(show = FALSE),
     note = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 900, name = "Note"),
     team = colDef(show = FALSE),
     team_logo = colDef(show = FALSE),
@@ -649,11 +676,14 @@ fulham <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
-                          cell = function(value, index) {
-                            url <- value 
-                            htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
-                          }),
+    video_up = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Highlights', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data10$video[index], value)
+    }),
+    video = colDef(show = FALSE),
+    report = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Report', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data10$match_report[index], value)
+    }),
+    match_report = colDef(show = FALSE),
     note = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 900, name = "Note"),
     team = colDef(show = FALSE),
     team_logo = colDef(show = FALSE),
@@ -710,11 +740,14 @@ hull <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
-                          cell = function(value, index) {
-                            url <- value 
-                            htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
-                          }),
+    video_up = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Highlights', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data11$video[index], value)
+    }),
+    video = colDef(show = FALSE),
+    report = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Report', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data11$match_report[index], value)
+    }),
+    match_report = colDef(show = FALSE),
     note = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 900, name = "Note"),
     team = colDef(show = FALSE),
     team_logo = colDef(show = FALSE),
@@ -771,11 +804,14 @@ ipswich <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
-                          cell = function(value, index) {
-                            url <- value 
-                            htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
-                          }),
+    video_up = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Highlights', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data12$video[index], value)
+    }),
+    video = colDef(show = FALSE),
+    report = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Report', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data12$match_report[index], value)
+    }),
+    match_report = colDef(show = FALSE),
     note = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 900, name = "Note"),
     team = colDef(show = FALSE),
     team_logo = colDef(show = FALSE),
@@ -832,11 +868,14 @@ leeds <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
-                          cell = function(value, index) {
-                            url <- value 
-                            htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
-                          }),
+    video_up = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Highlights', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data13$video[index], value)
+    }),
+    video = colDef(show = FALSE),
+    report = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Report', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data13$match_report[index], value)
+    }),
+    match_report = colDef(show = FALSE),
     note = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 900, name = "Note"),
     team = colDef(show = FALSE),
     team_logo = colDef(show = FALSE),
@@ -893,11 +932,14 @@ liverpool <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
-                          cell = function(value, index) {
-                            url <- value 
-                            htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
-                          }),
+    video_up = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Highlights', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data14$video[index], value)
+    }),
+    video = colDef(show = FALSE),
+    report = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Report', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data14$match_report[index], value)
+    }),
+    match_report = colDef(show = FALSE),
     note = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 900, name = "Note"),
     team = colDef(show = FALSE),
     team_logo = colDef(show = FALSE),
@@ -954,11 +996,14 @@ manchestercity <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
-                          cell = function(value, index) {
-                            url <- value 
-                            htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
-                          }),
+    video_up = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Highlights', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data15$video[index], value)
+    }),
+    video = colDef(show = FALSE),
+    report = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Report', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data15$match_report[index], value)
+    }),
+    match_report = colDef(show = FALSE),
     note = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 900, name = "Note"),
     team = colDef(show = FALSE),
     team_logo = colDef(show = FALSE),
@@ -1015,11 +1060,14 @@ manchesterunited <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
-                          cell = function(value, index) {
-                            url <- value 
-                            htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
-                          }),
+    video_up = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Highlights', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data16$video[index], value)
+    }),
+    video = colDef(show = FALSE),
+    report = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Report', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data16$match_report[index], value)
+    }),
+    match_report = colDef(show = FALSE),
     note = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 900, name = "Note"),
     team = colDef(show = FALSE),
     team_logo = colDef(show = FALSE),
@@ -1076,11 +1124,14 @@ newcastle <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
-                          cell = function(value, index) {
-                            url <- value 
-                            htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
-                          }),
+    video_up = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Highlights', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data17$video[index], value)
+    }),
+    video = colDef(show = FALSE),
+    report = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Report', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data17$match_report[index], value)
+    }),
+    match_report = colDef(show = FALSE),
     note = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 900, name = "Note"),
     team = colDef(show = FALSE),
     team_logo = colDef(show = FALSE),
@@ -1137,11 +1188,14 @@ nottingham <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
-                          cell = function(value, index) {
-                            url <- value 
-                            htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
-                          }),
+    video_up = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Highlights', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data18$video[index], value)
+    }),
+    video = colDef(show = FALSE),
+    report = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Report', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data18$match_report[index], value)
+    }),
+    match_report = colDef(show = FALSE),
     note = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 900, name = "Note"),
     team = colDef(show = FALSE),
     team_logo = colDef(show = FALSE),
@@ -1198,11 +1252,14 @@ sunderland <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
-                          cell = function(value, index) {
-                            url <- value 
-                            htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
-                          }),
+    video_up = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Highlights', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data19$video[index], value)
+    }),
+    video = colDef(show = FALSE),
+    report = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Report', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data19$match_report[index], value)
+    }),
+    match_report = colDef(show = FALSE),
     note = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 900, name = "Note"),
     team = colDef(show = FALSE),
     team_logo = colDef(show = FALSE),
@@ -1259,11 +1316,14 @@ tottenham <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
-                          cell = function(value, index) {
-                            url <- value 
-                            htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
-                          }),
+    video_up = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Highlights', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data20$video[index], value)
+    }),
+    video = colDef(show = FALSE),
+    report = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Report', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data20$match_report[index], value)
+    }),
+    match_report = colDef(show = FALSE),
     note = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 900, name = "Note"),
     team = colDef(show = FALSE),
     team_logo = colDef(show = FALSE),

@@ -1,6 +1,6 @@
-team_logo,team,opponent_logo,opponent,opponent_name,date,opta_rating,score,location,match_report,note
-,liverpool,,Sunderland,Sunderland,Jul 25,,,Nashville,-,
-,liverpool,,Wrexham,Wrexham,Jul 29,,,New York,-,
-,liverpool,,Leeds,Leeds,Aug 02,,,Chicago,-,
-,liverpool,,Monaco,Monaco,Aug 09,,,Liverpool,-,
-,liverpool,,Como,Como,Aug 16,,,Liverpool,-,
+team_logo,team,opponent_logo,opponent,opponent_name,date,opta_rating,score,location,match_report,report,note,video,video_up
+,liverpool,,Sunderland,Sunderland,Jul 25,,,Nashville,,n/a,,,n/a
+,liverpool,,Wrexham,Wrexham,Jul 29,,,New York,,,,,
+,liverpool,,Leeds,Leeds,Aug 02,,,Chicago,,,,,
+,liverpool,,Monaco,Monaco,Aug 09,,,Liverpool,,,,,
+,liverpool,,Como,Como,Aug 16,,,Liverpool,,,,,

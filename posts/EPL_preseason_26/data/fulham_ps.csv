@@ -1,4 +1,4 @@
-team_logo,team,opponent_logo,opponent,opponent_name,date,opta_rating,score,location,match_report,note
-,fulham,,Watford,Watford,Jul 18,,,?,-,BCD
-,fulham,,Al-Ahli,Al-Ahli,Jul 28,,,Portugal,-,
-,fulham,,Stuttgart,Stuttgart,Aug 15,,,London,-,
+team_logo,team,opponent_logo,opponent,opponent_name,date,opta_rating,score,location,match_report,report,note,video,video_up
+,fulham,,Watford,Watford,Jul 18,,?,?,,n/a,BCD,,n/a
+,fulham,,Al-Ahli,Al-Ahli,Jul 28,,,Portugal,,,,,
+,fulham,,Stuttgart,Stuttgart,Aug 15,,,London,,,,,
