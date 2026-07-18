@@ -3,7 +3,11 @@ title: "EPL Pre-season 2026"
 author: Christina
 date: "2026-07-17"
 categories: [Data Viz, football, reactable, EPL, Premier League]
-format: html
+format: 
+  html:
+    theme: custom.scss
+    header-includes: |
+      <link href="https://fonts.googleapis.com/css2?family=Monda:wght@400..700&display=swap" rel="stylesheet">
 theme: lumen
 editor: visual
 embed-resources: true
@@ -19,6 +23,8 @@ image: "/images/header3.jpeg"
 twitter-card:
   image: "/images/header3.jpeg"
   card-style: summary
+bluesky-comments:
+  profile: christina6ys.bsky.social
 ---
 
 # Intro
@@ -26,9 +32,10 @@ twitter-card:
 The English Premier League (EPL) pre-season is underway. It's a time for fitness, opportunities for youth, team bonding, squad building and tactical trials among other things. Match outcomes are largely meaningless, but can influence the narrative, tone and group morale heading into the new campaign. <br> <br>This post summarizes pre-season schedules for each EPL team ahead of the 2026/2027 campaign that begins on August 21st 2026. Updates will be provided periodically.
 
 ::: {.callout-important appearance="default"}
-## Note:
-BCD: Behind Closed Doors
-Last update: July 17
+## Note
+BCD: Behind Closed Doors\
+Club match report links added post match\
+Last update: July 18
 
 
 :::

@@ -19,6 +19,8 @@ image: "/images/dsfk.png"
 twitter-card:
   image: "/images/dsfk.png"
   card-style: summary
+bluesky-comments:
+  profile: christina6ys.bsky.social
 ---
 
 # 
@@ -161,3 +163,5 @@ In clinical settings, it’s important to listen to patient reports and symptom 
 
 Christina is a football (soccer) {{< iconify ri:football-line >}} analyst based in Canada {{< iconify circle-flags:ca >}}. You can find her on {{< iconify simple-icons bluesky >}} Bluesky [‪\@christina6ys.bsky.social‬](https://bsky.app/profile/christina6ys.bsky.social)
 :::
+
+{{< bluesky-comments 3megp2ebsak2q >}}
