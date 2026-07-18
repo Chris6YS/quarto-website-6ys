@@ -50,7 +50,6 @@ The following R packages were used:
 
 ## ![](images/arsenal.svg){width="30"} Arsenal
 
-Pre-season start: | Camp: 
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -90,7 +89,7 @@ arsenal <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Match Report',
+    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
                           cell = function(value, index) {
                             url <- value 
                             htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
@@ -111,7 +110,7 @@ arsenal
 
 ## ![](images/astonvilla.svg){width="30"} Aston Villa
 
-Aston Villa
+
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -151,7 +150,7 @@ aston_villa <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Match Report',
+    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
                           cell = function(value, index) {
                             url <- value 
                             htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
@@ -181,7 +180,7 @@ aston_villa
 
 ## ![](images/bournemouth.svg){width="25"} Bournemouth
 
-Bournemouth
+
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -221,7 +220,7 @@ bournemouth <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Match Report',
+    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
                           cell = function(value, index) {
                             url <- value 
                             htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
@@ -242,7 +241,7 @@ bournemouth
 
 ## ![](images/brentford.svg){width="25"} Brentford
 
-Brentford
+
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -282,7 +281,7 @@ brentford <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Match Report',
+    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
                           cell = function(value, index) {
                             url <- value 
                             htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
@@ -303,7 +302,7 @@ brentford
 
 ## ![](images/brighton.svg){width="25"} Brighton
 
-Brighton
+
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -343,7 +342,7 @@ brighton <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Match Report',
+    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
                           cell = function(value, index) {
                             url <- value 
                             htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
@@ -363,7 +362,7 @@ brighton
 
 ## ![](images/chelsea.svg){width="25"} Chelsea
 
-Chelsea
+
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -403,7 +402,7 @@ chelsea <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Match Report',
+    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
                           cell = function(value, index) {
                             url <- value 
                             htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
@@ -424,7 +423,7 @@ chelsea
 
 ## ![](images/coventry.svg){width="25"} Coventry
 
-Coventry
+
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -464,7 +463,7 @@ coventry <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Match Report',
+    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
                           cell = function(value, index) {
                             url <- value 
                             htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
@@ -485,7 +484,7 @@ coventry
 
 ## ![](images/crystalpalace.svg){width="25"} Crystal Palace
 
-Crystal Palace
+
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -525,7 +524,7 @@ crystalpalace <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Match Report',
+    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
                           cell = function(value, index) {
                             url <- value 
                             htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
@@ -546,7 +545,7 @@ crystalpalace
 
 ## ![](images/everton.svg){width="25"} Everton
 
-Everton
+
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -586,7 +585,7 @@ everton <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Match Report',
+    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
                           cell = function(value, index) {
                             url <- value 
                             htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
@@ -607,7 +606,7 @@ everton
 
 ## ![](images/fulham.svg){width="25"} Fulham
 
-Fulham
+
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -647,7 +646,7 @@ fulham <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Match Report',
+    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
                           cell = function(value, index) {
                             url <- value 
                             htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
@@ -668,7 +667,7 @@ fulham
 
 ## ![](images/hull.svg){width="25"} Hull City
 
-Hull City
+
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -708,7 +707,7 @@ hull <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Match Report',
+    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
                           cell = function(value, index) {
                             url <- value 
                             htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
@@ -729,7 +728,7 @@ hull
 
 ## ![](images/ipswich.svg){width="25"} Ipswich Town
 
-Ipswich
+
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -769,7 +768,7 @@ ipswich <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Match Report',
+    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
                           cell = function(value, index) {
                             url <- value 
                             htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
@@ -790,7 +789,7 @@ ipswich
 
 ## ![](images/leeds.svg){width="25"} Leeds
 
-Leeds
+
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -830,7 +829,7 @@ leeds <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Match Report',
+    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
                           cell = function(value, index) {
                             url <- value 
                             htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
@@ -851,7 +850,7 @@ leeds
 
 ## ![](images/liverpool.png){width="25"} Liverpool
 
-Liverpool
+
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -891,7 +890,7 @@ liverpool <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Match Report',
+    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
                           cell = function(value, index) {
                             url <- value 
                             htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
@@ -912,7 +911,7 @@ liverpool
 
 ## ![](images/mancity.svg){width="25"} Manchester City
 
-Man City
+
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -952,7 +951,7 @@ manchestercity <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Match Report',
+    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
                           cell = function(value, index) {
                             url <- value 
                             htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
@@ -973,7 +972,7 @@ manchestercity
 
 ## ![](images/manunited.svg){width="25"} Manchester United
 
-Manchester United
+
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -1013,7 +1012,7 @@ manchesterunited <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Match Report',
+    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
                           cell = function(value, index) {
                             url <- value 
                             htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
@@ -1034,7 +1033,7 @@ manchesterunited
 
 ## ![](images/newcastle.svg){width="25"} Newcastle
 
-Newcastle
+
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -1074,7 +1073,7 @@ newcastle <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Match Report',
+    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
                           cell = function(value, index) {
                             url <- value 
                             htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
@@ -1095,7 +1094,7 @@ newcastle
 
 ## ![](images/nottinghamforest.svg){width="25"} Nottingham Forest
 
-Nottingham Forest
+
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -1135,7 +1134,7 @@ nottingham <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Match Report',
+    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
                           cell = function(value, index) {
                             url <- value 
                             htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
@@ -1156,7 +1155,7 @@ nottingham
 
 ## ![](images/sunderland.svg){width="25"} Sunderland
 
-Sunderland
+
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -1196,7 +1195,7 @@ sunderland <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Match Report',
+    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
                           cell = function(value, index) {
                             url <- value 
                             htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
@@ -1217,7 +1216,7 @@ sunderland
 
 ## ![](images/tottenham.svg){width="25"} Tottenham
 
-Tottenham
+
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -1257,7 +1256,7 @@ tottenham <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Match Report',
+    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
                           cell = function(value, index) {
                             url <- value 
                             htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
