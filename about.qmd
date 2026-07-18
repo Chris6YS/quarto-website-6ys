@@ -5,6 +5,7 @@ about:
   template: jolla
   image-width: 10em
   image-shape: round
+  image: profile_1.png
   links:
     - icon: bluesky
       text: Bluesky

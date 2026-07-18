@@ -1,42 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://6yardscreamersnew.netlify.app/index.html</loc>
-    <lastmod>2023-07-03T21:43:29.119Z</lastmod>
-  </url>
-  <url>
-    <loc>https://6yardscreamersnew.netlify.app/projects.html</loc>
-    <lastmod>2023-07-03T22:49:18.539Z</lastmod>
-  </url>
-  <url>
-    <loc>https://6yardscreamersnew.netlify.app/posts/wc_anthems_emotions/index.html</loc>
-    <lastmod>2023-07-03T20:38:40.089Z</lastmod>
-  </url>
-  <url>
-    <loc>https://6yardscreamersnew.netlify.app/about.html</loc>
-    <lastmod>2023-07-04T16:36:47.621Z</lastmod>
-  </url>
-  <url>
-    <loc>https://6yardscreamersnew.netlify.app/posts/welcome/index.html</loc>
-    <lastmod>2023-06-11T19:44:22.036Z</lastmod>
-  </url>
-  <url>
-    <loc>https://6yardscreamersnew.netlify.app/posts/RAE_CS/quarto_rae.html</loc>
-    <lastmod>2023-07-03T20:34:54.935Z</lastmod>
-  </url>
-  <url>
-    <loc>https://6yardscreamersnew.netlify.app/posts/RAE_CS/index.html</loc>
-    <lastmod>2023-07-04T16:34:27.290Z</lastmod>
-  </url>
-  <url>
-    <loc>https://6yardscreamers.netlify.app/posts/RAE_CS/index.html</loc>
-    <lastmod>2023-09-19T13:01:41.692Z</lastmod>
-  </url>
-  <url>
-    <loc>https://6yardscreamers.netlify.app/index.html</loc>
-    <lastmod>2023-06-11T19:29:10.950Z</lastmod>
-  </url>
-  <url>
     <loc>https://6yardscreamers.netlify.app/projects.html</loc>
     <lastmod>2023-07-03T20:24:59.906Z</lastmod>
   </url>
@@ -45,47 +9,43 @@
     <lastmod>2026-02-08T16:56:12.904Z</lastmod>
   </url>
   <url>
-    <loc>https://6yardscreamers.netlify.app/about.html</loc>
-    <lastmod>2026-07-18T00:21:30.999Z</lastmod>
-  </url>
-  <url>
-    <loc>https://6yardscreamers.netlify.app/posts/UEFA_club_ratings/europe_tutorial.html</loc>
-    <lastmod>2023-09-19T00:35:12.188Z</lastmod>
-  </url>
-  <url>
-    <loc>https://6yardscreamers.netlify.app/posts/UEFA_club_ratings/index.html</loc>
-    <lastmod>2024-06-05T16:16:53.064Z</lastmod>
-  </url>
-  <url>
     <loc>https://6yardscreamers.netlify.app/posts/Team_Strength_CANMNT/index.html</loc>
     <lastmod>2024-06-06T15:35:23.092Z</lastmod>
   </url>
   <url>
-    <loc>https://6yardscreamers.netlify.app/posts/CANMNT_Copa/index.html</loc>
-    <lastmod>2024-06-24T17:26:48.902Z</lastmod>
-  </url>
-  <url>
-    <loc>6yardscreamers.netlify.app/index.html</loc>
-    <lastmod>2024-06-20T16:37:55.973Z</lastmod>
-  </url>
-  <url>
-    <loc>6yardscreamers.netlify.app/posts/CANMNT_Copa/index.html</loc>
-    <lastmod>2024-06-20T16:38:12.495Z</lastmod>
-  </url>
-  <url>
-    <loc>6yardscreamers.netlify.app/projects.html</loc>
-    <lastmod>2024-06-20T16:37:57.467Z</lastmod>
-  </url>
-  <url>
-    <loc>https://6yardscreamers.netlify.app/posts/EPL_preseason_25/index.html</loc>
-    <lastmod>2025-08-10T23:43:57.195Z</lastmod>
+    <loc>https://6yardscreamers.netlify.app/posts/EPL_preseason_26/index.html</loc>
+    <lastmod>2026-07-18T00:28:35.914Z</lastmod>
   </url>
   <url>
     <loc>https://6yardscreamers.netlify.app/posts/EPL_Ball/index.html</loc>
     <lastmod>2026-06-25T17:59:55.401Z</lastmod>
   </url>
   <url>
-    <loc>https://6yardscreamers.netlify.app/posts/EPL_preseason_26/index.html</loc>
-    <lastmod>2026-07-18T00:28:35.914Z</lastmod>
+    <loc>https://6yardscreamers.netlify.app/index.html</loc>
+    <lastmod>2023-06-11T19:29:10.950Z</lastmod>
+  </url>
+  <url>
+    <loc>https://6yardscreamers.netlify.app/about.html</loc>
+    <lastmod>2026-07-18T00:47:57.724Z</lastmod>
+  </url>
+  <url>
+    <loc>https://6yardscreamers.netlify.app/posts/CANMNT_Copa/index.html</loc>
+    <lastmod>2024-06-24T17:26:48.902Z</lastmod>
+  </url>
+  <url>
+    <loc>https://6yardscreamers.netlify.app/posts/EPL_preseason_25/index.html</loc>
+    <lastmod>2025-08-10T23:43:57.195Z</lastmod>
+  </url>
+  <url>
+    <loc>https://6yardscreamers.netlify.app/posts/RAE_CS/index.html</loc>
+    <lastmod>2023-09-19T02:44:29.382Z</lastmod>
+  </url>
+  <url>
+    <loc>https://6yardscreamers.netlify.app/posts/UEFA_club_ratings/index.html</loc>
+    <lastmod>2024-06-05T16:16:41.530Z</lastmod>
+  </url>
+  <url>
+    <loc>https://6yardscreamers.netlify.app/posts/welcome/index.html</loc>
+    <lastmod>2023-06-11T19:36:30.118Z</lastmod>
   </url>
 </urlset>
