@@ -1,7 +1,6 @@
 ---
 title: "About"
 subtitle: "- Christina"
-image: /images/profile_1.png
 about:
   template: jolla
   image-width: 10em
@@ -10,9 +9,6 @@ about:
     - icon: bluesky
       text: Bluesky
       href: https://bsky.app/profile/christina6YS.bsky.social
-    - icon: envelope
-      text: Contact me
-      href: mailto:6ysblog@gmail.com
 comments: false
 ---
 
