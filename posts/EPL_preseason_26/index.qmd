@@ -342,11 +342,14 @@ brighton <-reactable(
     date = colDef(style = list(color = "gray20", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 100, name = "Date"),
     score = colDef(show = TRUE, align = "center", maxWidth = 75, name = 'Score'),
     opponent_name = colDef(style = list(color = "black", fontWeight = "bold", fontSize = "15px"), show = TRUE, align = "left", maxWidth = 250, name = "Opponent"),
-    match_report = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 125, name = 'Report',
-                          cell = function(value, index) {
-                            url <- value 
-                            htmltools::tags$a(href = url, target = "_blank", as.character("Report"))
-                          }),
+    video_up = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Video', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data5$video[index], value)
+    }),
+    video = colDef(show = FALSE),
+    report = colDef(html = TRUE, align = "center", maxWidth = 100, name = 'Report', cell = function(value, index) {
+      sprintf('<a href="%s" target="_blank">%s</a>', data5$match_report[index], value)
+    }),
+    match_report = colDef(show = FALSE),
     note = colDef(style = list(color = "black", fontSize = "15px"), show = TRUE, align = "center", maxWidth = 900, name = "Note"),
     team = colDef(show = FALSE),
     team_logo = colDef(show = FALSE),
