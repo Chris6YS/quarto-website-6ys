@@ -1,8 +1,8 @@
-team_logo,team,opponent_logo,opponent,opponent_name,date,opta_rating,score,location,match_report,report,note,video,video_up
-,ipswich,,?,?,Jul 24?,,,Spain,,n/a,BCD,,n/a
-,ipswich,,Osasuna,Osasuna,Jul 29,,,Colchester,,,,,
-,ipswich,,Oxford United,Oxford United,Aug 01,,,Oxford,,,split XI double header,,
-,ipswich,,Wycombe Wanderers,Wycombe Wanderers,Aug 01,,,Wycombe,,,split XI double header,,
-,ipswich,,Le Havre,Le Havre,Aug 04,,,Ipswich,,,,,
-,ipswich,,Rayo Vallecano,Rayo Vallecano,Aug 08,,,Ipswich,,,,,
-,ipswich,,Union Berlin,Union Berlin,Aug 15,,,Berlin,,,,,
+team_logo,team,opponent_logo,opponent,opponent_name,date,opta_rating,score,location,match_report,report,note,video,video_up,manager,manager_up
+,ipswich,,?,?,Jul 24?,,,Spain,,.,BCD,,.,,.
+,ipswich,,Osasuna,Osasuna,Jul 29,,,Colchester,,,,,,,
+,ipswich,,Oxford United,Oxford United,Aug 01,,,Oxford,,,split XI double header,,,,
+,ipswich,,Wycombe Wanderers,Wycombe Wanderers,Aug 01,,,Wycombe,,,split XI double header,,,,
+,ipswich,,Le Havre,Le Havre,Aug 04,,,Ipswich,,,,,,,
+,ipswich,,Rayo Vallecano,Rayo Vallecano,Aug 08,,,Ipswich,,,,,,,
+,ipswich,,Union Berlin,Union Berlin,Aug 15,,,Berlin,,,,,,,
