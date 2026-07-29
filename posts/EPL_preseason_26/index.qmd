@@ -37,7 +37,7 @@ The English Premier League (EPL) pre-season is underway. It's a time for fitness
 ::: {.callout-important appearance="default"}
 ## Note
 BCD: Behind Closed Doors\
-Last update: July 26
+Last update: July 28
 :::
 
 The following R packages were used:
